@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontSize": 12,
+		"editor.tabSize": 2,
+		// Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+		"editor.renderWhitespace": "boundary",
+		// Insert spaces when pressing Tab. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": true,
+		"editor.smoothScrolling": true,
+		"editor.mouseWheelZoom": false,
+		"editor.rulers": [80],
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true
+		},
+		"files.trimTrailingWhitespace": true,
+		"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+		"terminal.integrated.fontSize": 12,
+		"window.zoomLevel": 0,
+		"window.autoDetectHighContrast": true,
+		"window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+		"workbench.colorTheme": "Visual Studio Dark",
+		"workbench.iconTheme": "vscode-icons",
+		"workbench.sideBar.location": "left",
+		"workbench.colorCustomizations": {
+			"statusBar.background": "#005f5f",
+			"statusBar.noFolderBackground": "#005f5f",
+			"statusBar.debuggingBackground": "#005f5f"
+		},
+		"vim.useSystemClipboard": true,
+		"vim.hlsearch": true,
+		"vim.searchHighlightColor": "rgba(255,0,0,0)",
+		"terminal.integrated.rendererType": "dom",
+		"explorer.confirmDragAndDrop": false,
+		"git.autofetch": true
+	}
+}
