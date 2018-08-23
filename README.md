@@ -11,5 +11,5 @@ This is the source code from the 2018-19 Mountain View High School AP Computer S
   - `extensions.json`: Local repo extensions list
   - `launch.json`: Local repo debugger configurations
   - `settings.json`: Local repo settings for vscode
-- `APCS.code-workspace`: vscode woekspace for this repo
+- `APCS.code-workspace`: vscode workspace for this repo
 - `README.md`: Hey, You're here!
