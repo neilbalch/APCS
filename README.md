@@ -7,6 +7,7 @@ This is the source code from the 2018-19 Mountain View High School AP Computer S
 ## Repository Structure
 
 - `[MM][DD][YYYY]`: Class lessons with Java files inside
+- `.idea`: Intellij Idea configs
 - `.vscode`
   - `extensions.json`: Local repo extensions list
   - `launch.json`: Local repo debugger configurations
