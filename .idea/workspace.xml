@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/08312018" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Sept 20, 2018 and Formulas Lab" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Sept 20, 2018 and Formulas Lab">
+      <change afterPath="$PROJECT_DIR$/09212018/09212018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09212018/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09212018/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,21 +33,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="34" />
+          <entry key="JAVA" value="36" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="34" />
+          <entry key="java" value="36" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17287" />
+          <entry key="JAVA" value="17727" />
           <entry key="PLAIN_TEXT" value="103" />
           <entry key="XML" value="6" />
         </counts>
@@ -49,7 +55,7 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="17287" />
+          <entry key="java" value="17727" />
           <entry key="txt" value="103" />
           <entry key="xml" value="6" />
         </counts>
@@ -59,11 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Formulas Lab/Formulas.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="505">
-              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+              <caret line="197" selection-start-line="197" selection-end-line="197" />
               <folding>
                 <element signature="method#coneVolume#0;class#Formulas#0" />
                 <element signature="method#spherVolume#0;class#Formulas#0" />
@@ -86,10 +92,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09212018/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09212018/TestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Formulas Lab/FormulasRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
-              <caret line="78" column="51" lean-forward="true" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -157,6 +181,8 @@
         <option value="$PROJECT_DIR$/09202018/FormulasRunner.java" />
         <option value="$PROJECT_DIR$/Formulas Lab/Formulas.java" />
         <option value="$PROJECT_DIR$/Formulas Lab/FormulasRunner.java" />
+        <option value="$PROJECT_DIR$/09212018/TestRunner.java" />
+        <option value="$PROJECT_DIR$/09212018/Test.java" />
       </list>
     </option>
   </component>
@@ -166,7 +192,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="583" />
     <option name="width" value="1283" />
     <option name="height" value="1087" />
@@ -203,11 +229,6 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="Formulas Lab" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,8 +238,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537493457609" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Formulas Lab" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537543025849" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09212018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -247,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FormulasRunner (1)">
+  <component name="RunManager" selected="Application.TestRunner">
     <configuration name="CircleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircleRunner" />
       <module name="09202018" />
@@ -280,9 +301,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="09172018" />
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <module name="09212018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -340,19 +361,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Runner (1)" />
       <item itemvalue="Application.CircleRunner" />
       <item itemvalue="Application.FormulasRunner" />
       <item itemvalue="Application.FormulasRunner (1)" />
+      <item itemvalue="Application.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRunner" />
         <item itemvalue="Application.FormulasRunner (1)" />
         <item itemvalue="Application.FormulasRunner" />
         <item itemvalue="Application.CircleRunner" />
         <item itemvalue="Application.Runner (1)" />
-        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +393,7 @@
       <workItem from="1535577767725" duration="31058000" />
       <workItem from="1536851325670" duration="78000" />
       <workItem from="1536851469344" duration="11128000" />
-      <workItem from="1537216082651" duration="10391000" />
+      <workItem from="1537216082651" duration="11687000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -512,7 +533,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65182000" />
+    <option name="totallyTimeSpent" value="66478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,7 +546,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12789416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -536,12 +556,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" visible="true" weight="0.3191268" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" weight="0.3191268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.26819128" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.26819128" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005513" side_tool="true" weight="0.32952183" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
@@ -918,14 +938,14 @@
     <entry file="file://$PROJECT_DIR$/Formulas Lab/FormulasRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
-          <caret line="78" column="51" lean-forward="true" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Formulas Lab/Formulas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
-          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
           <folding>
             <element signature="method#coneVolume#0;class#Formulas#0" />
             <element signature="method#spherVolume#0;class#Formulas#0" />
@@ -943,6 +963,20 @@
             <element signature="method#&lt;unnamed&gt;#0;class#Formulas#0" />
             <element signature="method#&lt;unnamed&gt;#0;class#Formulas#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09212018/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09212018/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
