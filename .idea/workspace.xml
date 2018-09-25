@@ -4,11 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/08312018" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Sept 21, 2018">
-      <change afterPath="$PROJECT_DIR$/09242018/09242018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09242018/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09242018/Radius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09242018/Runner.java" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Sept 24, 2018">
+      <change afterPath="$PROJECT_DIR$/09252018/09252018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09252018/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09252018/AnimalRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09252018/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09252018/RectangleRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -35,30 +36,30 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="43" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="39" />
+          <entry key="java" value="43" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18609" />
-          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="JAVA" value="19738" />
+          <entry key="PLAIN_TEXT" value="105" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="18609" />
-          <entry key="txt" value="104" />
+          <entry key="java" value="19738" />
+          <entry key="txt" value="105" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
@@ -68,50 +69,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Formulas Lab/Formulas.java">
+        <entry file="file://$PROJECT_DIR$/09252018/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2924">
-              <caret line="197" selection-start-line="197" selection-end-line="197" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="method#coneVolume#0;class#Formulas#0" />
-                <element signature="method#rectangularPrisimVolume#0;class#Formulas#0" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Formulas Lab/FormulasRunner.java">
+        <entry file="file://$PROJECT_DIR$/09252018/AnimalRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09242018/Animal.java">
+        <entry file="file://$PROJECT_DIR$/09252018/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/09242018/Runner.java">
+        <entry file="file://$PROJECT_DIR$/09252018/RectangleRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09242018/Radius.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="238">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -136,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Output Lab/Lab01a.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/08242018/Warmup.java" />
@@ -184,6 +179,10 @@
         <option value="$PROJECT_DIR$/09242018/Animal.java" />
         <option value="$PROJECT_DIR$/09242018/Radius.java" />
         <option value="$PROJECT_DIR$/09242018/Runner.java" />
+        <option value="$PROJECT_DIR$/09252018/AnimalRunner.java" />
+        <option value="$PROJECT_DIR$/09252018/Animal.java" />
+        <option value="$PROJECT_DIR$/09252018/Rectangle.java" />
+        <option value="$PROJECT_DIR$/09252018/RectangleRunner.java" />
       </list>
     </option>
   </component>
@@ -233,7 +232,7 @@
             <path>
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="09242018" type="462c0819:PsiDirectoryNode" />
+              <item name="09252018" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,8 +243,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537802936025" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09242018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537889015736" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09252018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -274,10 +273,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="CircleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CircleRunner" />
-      <module name="09202018" />
+  <component name="RunManager" selected="Application.RectangleRunner">
+    <configuration name="AnimalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnimalRunner" />
+      <module name="09252018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -291,9 +290,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormulasRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FormulasRunner" />
-      <module name="09202018" />
+    <configuration name="RectangleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RectangleRunner" />
+      <module name="09252018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -367,19 +366,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.CircleRunner" />
-      <item itemvalue="Application.FormulasRunner" />
       <item itemvalue="Application.FormulasRunner (1)" />
       <item itemvalue="Application.TestRunner" />
       <item itemvalue="Application.Runner" />
+      <item itemvalue="Application.AnimalRunner" />
+      <item itemvalue="Application.RectangleRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RectangleRunner" />
+        <item itemvalue="Application.AnimalRunner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.FormulasRunner (1)" />
         <item itemvalue="Application.TestRunner" />
-        <item itemvalue="Application.FormulasRunner" />
-        <item itemvalue="Application.CircleRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +399,7 @@
       <workItem from="1536851325670" duration="78000" />
       <workItem from="1536851469344" duration="11128000" />
       <workItem from="1537216082651" duration="13000000" />
-      <workItem from="1537556694080" duration="2908000" />
+      <workItem from="1537556694080" duration="5501000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -535,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537543361434</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Classwork for Sept 24, 2018">
+      <created>1537803605538</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1537803605538</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -547,7 +553,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70699000" />
+    <option name="totallyTimeSpent" value="73292000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -642,44 +648,10 @@
     <MESSAGE value="Classwork for Sept 18, 2018" />
     <MESSAGE value="Classwork for Sept 20, 2018 and Formulas Lab" />
     <MESSAGE value="Classwork for Sept 21, 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork for Sept 21, 2018" />
+    <MESSAGE value="Classwork for Sept 24, 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork for Sept 24, 2018" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08242018/Warmup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <element signature="e#65#66#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08272018/Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08272018/Identifiers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08282018/08282018.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -983,16 +955,44 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/09242018/Radius.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09242018/Runner.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09252018/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09242018/Runner.java">
+    <entry file="file://$PROJECT_DIR$/09252018/AnimalRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09252018/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09252018/RectangleRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
