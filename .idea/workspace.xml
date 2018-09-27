@@ -4,12 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/08312018" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Sept 24, 2018">
-      <change afterPath="$PROJECT_DIR$/09252018/09252018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09252018/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09252018/AnimalRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09252018/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09252018/RectangleRunner.java" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Sept 25, 2018">
+      <change afterPath="$PROJECT_DIR$/09272018/09272018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09272018/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09272018/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Career Lab/Career Lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Career Lab/Career.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Career Lab/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -36,30 +37,30 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="47" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="43" />
+          <entry key="java" value="47" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19738" />
-          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="JAVA" value="23730" />
+          <entry key="PLAIN_TEXT" value="106" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="19738" />
-          <entry key="txt" value="105" />
+          <entry key="java" value="23730" />
+          <entry key="txt" value="106" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
@@ -69,45 +70,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09252018/Animal.java">
+        <entry file="file://$PROJECT_DIR$/Career Lab/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09252018/AnimalRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09252018/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="12">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/09252018/RectangleRunner.java">
+        <entry file="file://$PROJECT_DIR$/Career Lab/Career.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="469">
+              <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+              <folding>
+                <element signature="method#Career#0;class#Career#0" />
+                <element signature="method#printInfo#0;class#Career#0" />
+                <element signature="method#updateProfile#0;class#Career#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,10 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Output Lab/Lab01a.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/08242018/Warmup.java" />
-        <option value="$PROJECT_DIR$/08272018/Output.java" />
         <option value="$PROJECT_DIR$/08272018/Identifiers.java" />
         <option value="$PROJECT_DIR$/08272018/VariableTest.java" />
         <option value="$PROJECT_DIR$/08282018/Warmup.java" />
@@ -183,6 +159,10 @@
         <option value="$PROJECT_DIR$/09252018/Animal.java" />
         <option value="$PROJECT_DIR$/09252018/Rectangle.java" />
         <option value="$PROJECT_DIR$/09252018/RectangleRunner.java" />
+        <option value="$PROJECT_DIR$/09272018/Animal.java" />
+        <option value="$PROJECT_DIR$/09272018/Runner.java" />
+        <option value="$PROJECT_DIR$/Career Lab/Career.java" />
+        <option value="$PROJECT_DIR$/Career Lab/Runner.java" />
       </list>
     </option>
   </component>
@@ -232,7 +212,7 @@
             <path>
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="09252018" type="462c0819:PsiDirectoryNode" />
+              <item name="Career Lab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,8 +223,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537889015736" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09252018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538067051158" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Career Lab" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -273,18 +253,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RectangleRunner">
+  <component name="RunManager" selected="Application.Runner (2)">
     <configuration name="AnimalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalRunner" />
       <module name="09252018" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormulasRunner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FormulasRunner" />
-      <module name="Formulas Lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -298,17 +270,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="09242018" />
+      <module name="09272018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestRunner" />
-      <module name="09212018" />
+    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="Career Lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="09242018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -366,19 +346,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.FormulasRunner (1)" />
-      <item itemvalue="Application.TestRunner" />
       <item itemvalue="Application.Runner" />
       <item itemvalue="Application.AnimalRunner" />
       <item itemvalue="Application.RectangleRunner" />
+      <item itemvalue="Application.Runner (1)" />
+      <item itemvalue="Application.Runner (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (2)" />
+        <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.RectangleRunner" />
         <item itemvalue="Application.AnimalRunner" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.FormulasRunner (1)" />
-        <item itemvalue="Application.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +379,7 @@
       <workItem from="1536851325670" duration="78000" />
       <workItem from="1536851469344" duration="11128000" />
       <workItem from="1537216082651" duration="13000000" />
-      <workItem from="1537556694080" duration="5501000" />
+      <workItem from="1537556694080" duration="13957000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -541,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537803605538</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Classwork for Sept 25, 2018">
+      <created>1537890131493</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1537890131493</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -553,7 +540,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73292000" />
+    <option name="totallyTimeSpent" value="81748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,36 +636,10 @@
     <MESSAGE value="Classwork for Sept 20, 2018 and Formulas Lab" />
     <MESSAGE value="Classwork for Sept 21, 2018" />
     <MESSAGE value="Classwork for Sept 24, 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork for Sept 24, 2018" />
+    <MESSAGE value="Classwork for Sept 25, 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork for Sept 25, 2018" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/08282018/08282018.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08212018/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#62#63#0" expanded="true" />
-            <element signature="e#106#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Output Lab/Lab01a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08272018/VariableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08282018/DataTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -993,6 +954,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09272018/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09272018/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Career Lab/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Career Lab/Career.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+          <folding>
+            <element signature="method#Career#0;class#Career#0" />
+            <element signature="method#printInfo#0;class#Career#0" />
+            <element signature="method#updateProfile#0;class#Career#0" />
+          </folding>
         </state>
       </provider>
     </entry>
