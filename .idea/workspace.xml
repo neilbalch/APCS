@@ -4,13 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/08312018" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Sept 27, 2018 and Career Lab">
-      <change afterPath="$PROJECT_DIR$/09282018/09282018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09282018/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09282018/TriangleRunner.java" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Sept 28, 2018">
+      <change afterPath="$PROJECT_DIR$/10012018/10012018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10012018/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10012018/Circle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10012018/CircleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10012018/Runner2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Career Lab/Career.java" beforeDir="false" afterPath="$PROJECT_DIR$/Career Lab/Career.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="49" />
+          <entry key="JAVA" value="54" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -44,23 +45,23 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="49" />
+          <entry key="java" value="54" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="24279" />
-          <entry key="PLAIN_TEXT" value="124" />
+          <entry key="JAVA" value="25109" />
+          <entry key="PLAIN_TEXT" value="128" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="24279" />
-          <entry key="txt" value="124" />
+          <entry key="java" value="25109" />
+          <entry key="txt" value="128" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
@@ -70,48 +71,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Career Lab/Runner.java">
+        <entry file="file://$PROJECT_DIR$/10012018/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Career Lab/Career.java">
+        <entry file="file://$PROJECT_DIR$/10012018/CircleRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-              <folding>
-                <element signature="method#Career#0;class#Career#0" />
-                <element signature="method#printInfo#0;class#Career#0" />
-                <element signature="method#updateProfile#0;class#Career#0" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09282018/Triangle.java">
+        <entry file="file://$PROJECT_DIR$/09282018/TriangleRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10012018/Circle2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/09282018/TriangleRunner.java">
+        <entry file="file://$PROJECT_DIR$/10012018/Runner2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -136,10 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/08282018/Warmup.java" />
-        <option value="$PROJECT_DIR$/08282018/DataTypes.java" />
-        <option value="$PROJECT_DIR$/08282018/Variables.java" />
-        <option value="$PROJECT_DIR$/08282018/Mess.java" />
         <option value="$PROJECT_DIR$/08302018/Warmup.java" />
         <option value="$PROJECT_DIR$/Variable Lab/VariableTest.java" />
         <option value="$PROJECT_DIR$/08312018/Warmup.java" />
@@ -187,6 +188,10 @@
         <option value="$PROJECT_DIR$/Career Lab/Career.java" />
         <option value="$PROJECT_DIR$/09282018/Triangle.java" />
         <option value="$PROJECT_DIR$/09282018/TriangleRunner.java" />
+        <option value="$PROJECT_DIR$/10012018/CircleRunner.java" />
+        <option value="$PROJECT_DIR$/10012018/Circle.java" />
+        <option value="$PROJECT_DIR$/10012018/Circle2.java" />
+        <option value="$PROJECT_DIR$/10012018/Runner2.java" />
       </list>
     </option>
   </component>
@@ -233,11 +238,6 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="09282018" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -247,8 +247,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538147904320" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09282018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538408871885" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10012018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -277,18 +277,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TriangleRunner">
-    <configuration name="AnimalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnimalRunner" />
-      <module name="09252018" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RectangleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RectangleRunner" />
-      <module name="09252018" />
+  <component name="RunManager" selected="Application.Runner2">
+    <configuration name="CircleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CircleRunner" />
+      <module name="10012018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,6 +297,14 @@
     <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="Career Lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner2" />
+      <module name="10012018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -370,19 +370,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.AnimalRunner" />
-      <item itemvalue="Application.RectangleRunner" />
       <item itemvalue="Application.Runner (1)" />
       <item itemvalue="Application.Runner (2)" />
       <item itemvalue="Application.TriangleRunner" />
+      <item itemvalue="Application.CircleRunner" />
+      <item itemvalue="Application.Runner2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner2" />
+        <item itemvalue="Application.CircleRunner" />
         <item itemvalue="Application.TriangleRunner" />
         <item itemvalue="Application.Runner (2)" />
         <item itemvalue="Application.Runner (1)" />
-        <item itemvalue="Application.RectangleRunner" />
-        <item itemvalue="Application.AnimalRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +403,7 @@
       <workItem from="1536851325670" duration="78000" />
       <workItem from="1536851469344" duration="11128000" />
       <workItem from="1537216082651" duration="13000000" />
-      <workItem from="1537556694080" duration="16128000" />
+      <workItem from="1537556694080" duration="22234000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -566,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538067101265</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Classwork for Sept 28, 2018">
+      <created>1538147955377</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1538147955377</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -578,7 +585,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83919000" />
+    <option name="totallyTimeSpent" value="90025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,7 +598,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12844543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -602,12 +608,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" visible="true" weight="0.3191268" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" weight="0.3191268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.26819128" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.26819128" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005513" side_tool="true" weight="0.32952183" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
@@ -677,33 +683,10 @@
     <MESSAGE value="Classwork for Sept 24, 2018" />
     <MESSAGE value="Classwork for Sept 25, 2018" />
     <MESSAGE value="Classwork for Sept 27, 2018 and Career Lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork for Sept 27, 2018 and Career Lab" />
+    <MESSAGE value="Classwork for Sept 28, 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork for Sept 28, 2018" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/APCS.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08282018/WarmupVar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08302018/Warmup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08312018/Warmup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08312018/08312018.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -990,17 +973,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/09282018/Triangle.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Career Lab/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Career Lab/Career.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        <state relative-caret-position="867">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
           <folding>
             <element signature="method#Career#0;class#Career#0" />
             <element signature="method#printInfo#0;class#Career#0" />
@@ -1008,9 +994,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09282018/Triangle.class">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/09282018/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1025,10 +1008,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/10012018/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10012018/CircleRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/09282018/TriangleRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10012018/Circle2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10012018/Runner2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
