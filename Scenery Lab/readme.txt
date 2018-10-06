@@ -1,0 +1,1 @@
+Challenge: Use g.drawPolygon. Used twice in mountain and house.

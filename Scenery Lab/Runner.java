@@ -6,7 +6,6 @@ public class Runner {
         JFrame fr = new JFrame("Scenery");
         Scanner sc = new Scanner(System.in);
 
-        /*
         System.out.print("Day or night? ");
         String night_s = sc.next().toLowerCase();
         boolean night;
@@ -23,12 +22,6 @@ public class Runner {
         } else {
             clouds = true;
         }
-        */
-
-        //DEBUG
-        boolean night = false;
-        boolean clouds = true;
-        //DEBUG
 
         Scenery scene = new Scenery(night, clouds);
         fr.add(scene);
