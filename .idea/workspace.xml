@@ -2,14 +2,18 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/08312018" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java" line="132" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Completed Scenery Lab">
-      <change afterPath="$PROJECT_DIR$/10082018/10082018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10082018/ModEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10082018/ModExRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10082018/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10082018/Runner.java" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Oct. 8 2018">
+      <change afterPath="$PROJECT_DIR$/10112018/10112018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10112018/MathLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10112018/MathLibraryRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10112018/ModEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10112018/ModExRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphical Formulas Lab/Graphical Formulas Lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphical Formulas Lab/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -27,11 +31,12 @@
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -39,7 +44,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="73" />
+          <entry key="JAVA" value="82" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="6" />
         </counts>
@@ -48,7 +53,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="73" />
+          <entry key="java" value="82" />
           <entry key="txt" value="1" />
           <entry key="xml" value="6" />
         </counts>
@@ -56,16 +61,16 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30429" />
-          <entry key="PLAIN_TEXT" value="197" />
+          <entry key="JAVA" value="36696" />
+          <entry key="PLAIN_TEXT" value="226" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="30429" />
-          <entry key="txt" value="197" />
+          <entry key="java" value="36696" />
+          <entry key="txt" value="226" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
@@ -73,14 +78,19 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.48872182">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/10082018/ModEx.java">
+            <entry file="file://$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="6">
+                  <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#4605#4606#0" expanded="true" />
+                    <element signature="e#4651#4652#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -88,12 +98,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/10082018/ModExRunner.java">
+            <entry file="file://$PROJECT_DIR$/Graphical Formulas Lab/Runner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+                <state relative-caret-position="187">
+                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -120,12 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/09102018/TriangleArea.java" />
-        <option value="$PROJECT_DIR$/09112018/Area.java" />
-        <option value="$PROJECT_DIR$/09112018/ScannerStrings.java" />
-        <option value="$PROJECT_DIR$/09112018/Trivia.java" />
-        <option value="$PROJECT_DIR$/09132018/AsciiGuess.java" />
-        <option value="$PROJECT_DIR$/09132018/Compare2.java" />
         <option value="$PROJECT_DIR$/Trivia Lab/TriviaLab.java" />
         <option value="$PROJECT_DIR$/09142018/Cylinder.java" />
         <option value="$PROJECT_DIR$/09172018/Warmup.java" />
@@ -171,6 +175,12 @@
         <option value="$PROJECT_DIR$/10082018/Runner.java" />
         <option value="$PROJECT_DIR$/10082018/ModEx.java" />
         <option value="$PROJECT_DIR$/10082018/ModExRunner.java" />
+        <option value="$PROJECT_DIR$/10112018/ModEx.java" />
+        <option value="$PROJECT_DIR$/10112018/ModExRunner.java" />
+        <option value="$PROJECT_DIR$/10112018/MathLibraryRunner.java" />
+        <option value="$PROJECT_DIR$/10112018/MathLibrary.java" />
+        <option value="$PROJECT_DIR$/Graphical Formulas Lab/Runner.java" />
+        <option value="$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java" />
       </list>
     </option>
   </component>
@@ -219,7 +229,7 @@
             <path>
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="10082018" type="462c0819:PsiDirectoryNode" />
+              <item name="Graphical Formulas Lab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,8 +241,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539013663442" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10082018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539359094816" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Graphical Formulas Lab" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -261,18 +271,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ModExRunner">
-    <configuration name="ModExRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModExRunner" />
-      <module name="10082018" />
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="MathLibraryRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MathLibraryRunner" />
+      <module name="10112018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="10042018" />
+    <configuration name="ModExRunner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ModExRunner" />
+      <module name="10112018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModExRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ModExRunner" />
+      <module name="10082018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,10 +304,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="10082018" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="Graphical Formulas Lab" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -317,23 +335,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All Features in: 10022018" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/10022018" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="10022018" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: 10022018" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -350,19 +351,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.Runner (1)" />
       <item itemvalue="Application.Runner (2)" />
-      <item itemvalue="Cucumber java.All Features in: 10022018" />
-      <item itemvalue="Application.Runner (3)" />
       <item itemvalue="Application.ModExRunner" />
+      <item itemvalue="Application.ModExRunner (1)" />
+      <item itemvalue="Application.MathLibraryRunner" />
+      <item itemvalue="Application.Runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.MathLibraryRunner" />
+        <item itemvalue="Application.ModExRunner (1)" />
         <item itemvalue="Application.ModExRunner" />
         <item itemvalue="Application.Runner (2)" />
-        <item itemvalue="Application.Runner (3)" />
-        <item itemvalue="Cucumber java.All Features in: 10022018" />
-        <item itemvalue="Application.Runner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +386,8 @@
       <workItem from="1537216082651" duration="13000000" />
       <workItem from="1537556694080" duration="38041000" />
       <workItem from="1539011302858" duration="27000" />
-      <workItem from="1539011402750" duration="1869000" />
+      <workItem from="1539011402750" duration="3410000" />
+      <workItem from="1539200368553" duration="16126000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -583,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538798441352</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Classwork for Oct. 8 2018">
+      <created>1539013760839</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1539013760839</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -598,7 +607,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107728000" />
+    <option name="totallyTimeSpent" value="125395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,7 +621,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13065049" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120176405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -621,12 +630,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" weight="0.3191268" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" weight="0.28066528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3170478" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.26819128" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.26091477" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005513" side_tool="true" weight="0.32952183" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
@@ -675,7 +684,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Classwork for Aug 27, 2018" />
     <MESSAGE value="Classwork for Aug 28, 2018" />
     <MESSAGE value="Fix iml filename" />
     <MESSAGE value="Fix iml orders and stuff" />
@@ -700,54 +708,10 @@
     <MESSAGE value="Classwork for Oct 2, 2018" />
     <MESSAGE value="Classwork for Oct 4, 2018 and Classwork part of Scenery Lab" />
     <MESSAGE value="Completed Scenery Lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Scenery Lab" />
+    <MESSAGE value="Classwork for Oct. 8 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork for Oct. 8 2018" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/09112018/ScannerStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09132018/Compare2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09112018/Area.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09112018/Trivia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09132018/AsciiGuess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trivia Lab/TriviaLab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09142018/Cylinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09172018/Warmup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1079,17 +1043,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10082018/ModEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10082018/ModExRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10082018/ModEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10112018/ModEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#75#76#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10112018/ModExRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10112018/MathLibraryRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10112018/MathLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="1673" column="21" selection-start-line="1673" selection-start-column="21" selection-end-line="1673" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphical Formulas Lab/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4605#4606#0" expanded="true" />
+            <element signature="e#4651#4652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
