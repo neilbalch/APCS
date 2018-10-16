@@ -5,12 +5,10 @@
     <bookmark url="file://$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java" line="132" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Oct. 11 2018 and Graphic Formulas Lab">
-      <change afterPath="$PROJECT_DIR$/10152018/10152018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10152018/MathLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10152018/MathLibraryRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10152018/MiniBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10152018/Runner.java" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork for Oct. 15 2018">
+      <change afterPath="$PROJECT_DIR$/10162018/10162018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10162018/Pythagorean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10162018/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -24,7 +22,7 @@
     <session id="939473785">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -32,8 +30,9 @@
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -41,7 +40,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="89" />
+          <entry key="JAVA" value="92" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="6" />
         </counts>
@@ -50,7 +49,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="89" />
+          <entry key="java" value="92" />
           <entry key="txt" value="1" />
           <entry key="xml" value="6" />
         </counts>
@@ -58,16 +57,16 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37831" />
-          <entry key="PLAIN_TEXT" value="254" />
+          <entry key="JAVA" value="38198" />
+          <entry key="PLAIN_TEXT" value="259" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="37831" />
-          <entry key="txt" value="254" />
+          <entry key="java" value="38198" />
+          <entry key="txt" value="259" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
@@ -75,7 +74,38 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/10162018/Pythagorean.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
+                  <folding>
+                    <element signature="e#71#72#0" expanded="true" />
+                    <element signature="e#136#137#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/10162018/Runner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,8 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/09172018/Dog.java" />
-        <option value="$PROJECT_DIR$/09172018/Runner.java" />
         <option value="$PROJECT_DIR$/09182018/Runner.java" />
         <option value="$PROJECT_DIR$/09182018/Triangle.java" />
         <option value="$PROJECT_DIR$/09202018/CircleRunner.java" />
@@ -146,6 +174,8 @@
         <option value="$PROJECT_DIR$/10152018/MiniBank.java" />
         <option value="$PROJECT_DIR$/10152018/MathLibrary.java" />
         <option value="$PROJECT_DIR$/10152018/MathLibraryRunner.java" />
+        <option value="$PROJECT_DIR$/10162018/Runner.java" />
+        <option value="$PROJECT_DIR$/10162018/Pythagorean.java" />
       </list>
     </option>
   </component>
@@ -183,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -192,17 +221,23 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APCS" type="462c0819:PsiDirectoryNode" />
+              <item name="10162018" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539622709679" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10152018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539703886157" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10162018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -231,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MathLibraryRunner (1)">
+  <component name="RunManager" selected="Application.Runner (2)">
     <configuration name="MathLibraryRunner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MathLibraryRunner" />
       <module name="10152018" />
@@ -248,17 +283,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModExRunner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModExRunner" />
-      <module name="10112018" />
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="10152018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="10152018" />
+      <module name="10162018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -311,19 +346,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.ModExRunner (1)" />
       <item itemvalue="Application.MathLibraryRunner" />
       <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Runner (1)" />
       <item itemvalue="Application.MathLibraryRunner (1)" />
+      <item itemvalue="Application.Runner (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (2)" />
         <item itemvalue="Application.MathLibraryRunner (1)" />
         <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.MathLibraryRunner" />
-        <item itemvalue="Application.ModExRunner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +383,9 @@
       <workItem from="1539011302858" duration="27000" />
       <workItem from="1539011402750" duration="3410000" />
       <workItem from="1539200368553" duration="17642000" />
-      <workItem from="1539616079721" duration="2371000" />
+      <workItem from="1539616079721" duration="2509000" />
+      <workItem from="1539702506750" duration="1907000" />
+      <workItem from="1539714669144" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -560,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539373630237</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Classwork for Oct. 15 2018">
+      <created>1539631192279</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1539631192279</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -575,7 +619,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129282000" />
+    <option name="totallyTimeSpent" value="131929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,7 +633,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12127894" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123484015" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -652,7 +696,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix iml filename" />
     <MESSAGE value="Fix iml orders and stuff" />
     <MESSAGE value="Classwork for Aug 30, 2018 and Variable Lab" />
     <MESSAGE value="Classwork for Aug 31, 2018" />
@@ -677,23 +720,10 @@
     <MESSAGE value="Completed Scenery Lab" />
     <MESSAGE value="Classwork for Oct. 8 2018" />
     <MESSAGE value="Classwork for Oct. 11 2018 and Graphic Formulas Lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork for Oct. 11 2018 and Graphic Formulas Lab" />
+    <MESSAGE value="Classwork for Oct. 15 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork for Oct. 15 2018" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/09182018/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09182018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09202018/CircleRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -733,10 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2924">
           <caret line="197" selection-start-line="197" selection-end-line="197" />
-          <folding>
-            <element signature="method#coneVolume#0;class#Formulas#0" />
-            <element signature="method#rectangularPrisimVolume#0;class#Formulas#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,10 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,10 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,11 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding>
-            <element signature="method#Career#0;class#Career#0" />
-            <element signature="method#printInfo#0;class#Career#0" />
-            <element signature="method#updateProfile#0;class#Career#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,12 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,12 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,12 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,12 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#drawCloud#0;class#Scenery#0" />
-            <element signature="method#drawTree#0;class#Scenery#0" />
-            <element signature="method#Scenery#0;class#Scenery#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,9 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,10 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,10 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#75#76#0" expanded="true" />
-            <element signature="e#101#102#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,12 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,16 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#76#77#0" expanded="true" />
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,6 +1049,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10162018/Pythagorean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10162018/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
