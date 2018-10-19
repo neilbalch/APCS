@@ -3,11 +3,10 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.imageio.ImageIO;
 
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
 import java.awt.event.ActionEvent;
@@ -112,6 +111,12 @@ public class Screen extends JPanel implements ActionListener {
         // Paint BG image onto JPanel
         double scaleFactor = 1.0;
         g.drawImage(bg, 100,0, (int)(bg.getWidth() * scaleFactor), (int)(bg.getHeight() * scaleFactor), null);
+
+        // Better text readability
+        Color col = new Color(255, 255, 255, 200);
+        g.setColor(col);
+        g.fillRect(root.width - 10, root.height - 10, 550, 175);
+        g.setColor(Color.black);
 
         // Persistent text, always printed with the Logon/Logoff UI
         g.drawString("Enter account PIN", root.width, root.height + 45);
