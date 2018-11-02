@@ -5,19 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java" line="132" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Animation Lab">
-      <change afterPath="$PROJECT_DIR$/10302018/10302018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10302018/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10302018/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10302018/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11012018/11012018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11012018/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11012018/Warmup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number Slots Lab/Number Slots Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number Slots Lab/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number Slots Lab/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number Slots Lab/SlotMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Number Slots Lab">
+      <change afterPath="$PROJECT_DIR$/Number Slots Lab/BalchNeil.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Number Slots Lab/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,16 +56,16 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="55699" />
-          <entry key="PLAIN_TEXT" value="328" />
+          <entry key="JAVA" value="55700" />
+          <entry key="PLAIN_TEXT" value="414" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="55699" />
-          <entry key="txt" value="328" />
+          <entry key="java" value="55700" />
+          <entry key="txt" value="414" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
@@ -89,7 +79,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Number Slots Lab/SlotMachine.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
+                <state relative-caret-position="221">
                   <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -256,7 +246,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541171767770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541171837284" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Number Slots Lab" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -410,7 +400,7 @@
       <workItem from="1539875642036" duration="8859000" />
       <workItem from="1539961486994" duration="2187000" />
       <workItem from="1540307059158" duration="2692000" />
-      <workItem from="1540479529929" duration="25612000" />
+      <workItem from="1540479529929" duration="25947000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -678,7 +668,28 @@
       <option name="project" value="LOCAL" />
       <updated>1540834598867</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Classwork from 10/30/2018">
+      <created>1541171733267</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1541171733268</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Classwork from 11/01/2018">
+      <created>1541171757386</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1541171757386</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Number Slots Lab">
+      <created>1541171819704</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1541171819704</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -693,7 +704,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171716000" />
+    <option name="totallyTimeSpent" value="172051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,12 +728,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.28066528" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.28066528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3170478" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26091477" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.26091477" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
@@ -802,9 +813,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork for Sept 10, 2018" />
-    <MESSAGE value="Classwork for Sept 11, 2018" />
-    <MESSAGE value="Classwork for Sept 13, 2018 and Trivia Lab" />
     <MESSAGE value="Classwork for Sept 14, 2018" />
     <MESSAGE value="Classwork for Sept 17, 2018" />
     <MESSAGE value="Classwork for Sept 18, 2018" />
@@ -827,7 +835,10 @@
     <MESSAGE value="Classwork for Oct. 23 2018" />
     <MESSAGE value="Classwork for Oct. 29 2018" />
     <MESSAGE value="Animation Lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Animation Lab" />
+    <MESSAGE value="Classwork from 10/30/2018" />
+    <MESSAGE value="Classwork from 11/01/2018" />
+    <MESSAGE value="Number Slots Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number Slots Lab" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/10012018/Runner2.java">
@@ -1187,7 +1198,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Number Slots Lab/SlotMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
+        <state relative-caret-position="221">
           <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
