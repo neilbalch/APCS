@@ -6,9 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/11082018/11082018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11082018/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11082018/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sim City Lab/Commercial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sim City Lab/Foliage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sim City Lab/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sim City Lab/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sim City Lab/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sim City Lab/Sim City Lab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -77,21 +80,25 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11082018/Runner.java">
+        <entry file="file://$PROJECT_DIR$/Sim City Lab/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Table.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11082018/Table.java">
+      <file leaf-file-name="Scene.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sim City Lab/Scene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="493">
+              <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Scene#0;class#Scene#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,11 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10022018/GraphicsRunner.java" />
-        <option value="$PROJECT_DIR$/10022018/Circles.java" />
-        <option value="$PROJECT_DIR$/10042018/One.java" />
-        <option value="$PROJECT_DIR$/10042018/Runner.java" />
-        <option value="$PROJECT_DIR$/Scenery Lab/Scenery.java" />
         <option value="$PROJECT_DIR$/Scenery Lab/Runner.java" />
         <option value="$PROJECT_DIR$/10082018/Profile.java" />
         <option value="$PROJECT_DIR$/10082018/Runner.java" />
@@ -167,6 +169,11 @@
         <option value="$PROJECT_DIR$/11062018/NestedLoops.java" />
         <option value="$PROJECT_DIR$/11082018/Runner.java" />
         <option value="$PROJECT_DIR$/11082018/Table.java" />
+        <option value="$PROJECT_DIR$/Sim City Lab/Runner.java" />
+        <option value="$PROJECT_DIR$/Sim City Lab/Commercial.java" />
+        <option value="$PROJECT_DIR$/Sim City Lab/House.java" />
+        <option value="$PROJECT_DIR$/Sim City Lab/Foliage.java" />
+        <option value="$PROJECT_DIR$/Sim City Lab/Scene.java" />
       </list>
     </option>
   </component>
@@ -208,7 +215,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,13 +226,13 @@
             <path>
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="11082018" type="462c0819:PsiDirectoryNode" />
+              <item name="Sim City Lab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +240,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541436368656" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/11082018" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sim City Lab" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -262,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (1)">
+  <component name="RunManager" selected="Application.Runner (3)">
     <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="11082018" />
@@ -273,9 +280,9 @@
       <module name="11062018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Runner (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="11012018" />
+      <module name="Sim City Lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Runner (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -353,19 +360,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.Runner (4)" />
       <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Runner (5)" />
       <item itemvalue="Application.Runner (2)" />
       <item itemvalue="Application.Runner (1)" />
+      <item itemvalue="Application.Runner (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (3)" />
         <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.Runner (2)" />
         <item itemvalue="Application.Runner (5)" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.Runner (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +407,8 @@
       <workItem from="1540479529929" duration="28157000" />
       <workItem from="1541306068038" duration="235000" />
       <workItem from="1541433957841" duration="1261000" />
-      <workItem from="1541693548346" duration="259000" />
+      <workItem from="1541693548346" duration="5431000" />
+      <workItem from="1541779594083" duration="2665000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -703,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541522889798</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Classwork for November 8, 2018">
+      <created>1541693886648</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1541693886648</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -718,7 +733,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179676000" />
+    <option name="totallyTimeSpent" value="187513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -742,7 +757,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26091477" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.25993884" />
       <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.2803262" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
       <window_info id="Capture Tool" order="5" />
@@ -754,7 +769,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3170478" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31702346" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -764,17 +779,17 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26091477" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.28066528" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12899669" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.28066528" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -784,10 +799,10 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3170478" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26091477" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32848233" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -827,7 +842,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork for Sept 18, 2018" />
     <MESSAGE value="Classwork for Sept 20, 2018 and Formulas Lab" />
     <MESSAGE value="Classwork for Sept 21, 2018" />
     <MESSAGE value="Classwork for Sept 24, 2018" />
@@ -852,44 +866,15 @@
     <MESSAGE value="Number Slots Lab" />
     <MESSAGE value="Number Slots Lab -- zip and README" />
     <MESSAGE value="Classwork for November 6, 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork for November 6, 2018" />
+    <MESSAGE value="Classwork for November 8, 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork for November 8, 2018" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10082018/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10082018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10082018/ModExRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10082018/ModEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10112018/ModEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10112018/ModExRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1099,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scenery Lab/Scenery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
@@ -1121,20 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2073">
           <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Animation Lab/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Number Slots Lab/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1180,13 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Number Slots Lab/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Number Slots Lab/SlotMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1194,17 +1151,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11082018/Runner.java">
+    <entry file="file://$PROJECT_DIR$/11082018/Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11082018/Table.java">
+    <entry file="file://$PROJECT_DIR$/11082018/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="17">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Number Slots Lab/Runner.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Number Slots Lab/Screen.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scenery Lab/Scenery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/Commercial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/Foliage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animation Lab/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Scene#0;class#Scene#0" />
+          </folding>
         </state>
       </provider>
     </entry>
