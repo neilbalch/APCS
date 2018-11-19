@@ -6,12 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/11152018/11152018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11152018/Game2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11152018/Runner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/11192018/11192018.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/11192018/ArrayTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/11192018/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/BalchNeil.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Four Seasons Lab.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Mountain.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Four Seasons Lab/README.md" afterDir="false" />
@@ -20,7 +18,6 @@
       <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Scenery.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Snow.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,11 +88,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Scenery.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Scenery.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Scenery.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1802">
-                  <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+                <state relative-caret-position="289">
+                  <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -103,14 +100,26 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Four Seasons Lab/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor>
-                    <caret column="37" selection-start-column="37" selection-end-column="37" />
-                  </first_editor>
-                  <second_editor />
+          <file leaf-file-name="Rain.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Rain.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="403">
+                  <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Snow.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Snow.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="403">
+                  <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -193,15 +202,15 @@
         <option value="$PROJECT_DIR$/11152018/Runner.java" />
         <option value="$PROJECT_DIR$/11152018/Game2.java" />
         <option value="$PROJECT_DIR$/Four Seasons Lab/Runner.java" />
-        <option value="$PROJECT_DIR$/Four Seasons Lab/Rain.java" />
-        <option value="$PROJECT_DIR$/Four Seasons Lab/Snow.java" />
         <option value="$PROJECT_DIR$/11192018/Runner.java" />
         <option value="$PROJECT_DIR$/11192018/ArrayTest.java" />
         <option value="$PROJECT_DIR$/Animation Lab/Screen.java" />
         <option value="$PROJECT_DIR$/Four Seasons Lab/Mountain.java" />
-        <option value="$PROJECT_DIR$/Four Seasons Lab/Scenery.java" />
         <option value="$PROJECT_DIR$/Four Seasons Lab/Tree.java" />
         <option value="$PROJECT_DIR$/Four Seasons Lab/README.md" />
+        <option value="$PROJECT_DIR$/Four Seasons Lab/Rain.java" />
+        <option value="$PROJECT_DIR$/Four Seasons Lab/Snow.java" />
+        <option value="$PROJECT_DIR$/Four Seasons Lab/Scenery.java" />
       </list>
     </option>
   </component>
@@ -253,11 +262,6 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
               <item name="Four Seasons Lab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="Scenery Lab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,7 +449,7 @@
       <workItem from="1542124906108" duration="150000" />
       <workItem from="1542125117941" duration="1524000" />
       <workItem from="1542297680293" duration="8524000" />
-      <workItem from="1542448099564" duration="3987000" />
+      <workItem from="1542448099564" duration="4252000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -769,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541782647871</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Classwork for November 15, 2018">
+      <created>1542646323157</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1542646323157</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -784,7 +795,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202216000" />
+    <option name="totallyTimeSpent" value="202481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -797,7 +808,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
@@ -808,8 +818,8 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.25993884" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.2803262" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.25993884" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.2803262" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
@@ -893,7 +903,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork for Sept 24, 2018" />
     <MESSAGE value="Classwork for Sept 25, 2018" />
     <MESSAGE value="Classwork for Sept 27, 2018 and Career Lab" />
     <MESSAGE value="Classwork for Sept 28, 2018" />
@@ -918,7 +927,8 @@
     <MESSAGE value="Classwork for November 8, 2018" />
     <MESSAGE value="Sim City Lab" />
     <MESSAGE value="Sim City Lab -- final bits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sim City Lab -- final bits" />
+    <MESSAGE value="Classwork for November 15, 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork for November 15, 2018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1158,6 +1168,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#65#66#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,28 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Snow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Rain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,23 +1253,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Scenery.java">
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="36" selection-start-column="36" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Snow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+        <state relative-caret-position="403">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="37" selection-start-column="37" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Rain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Scenery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
