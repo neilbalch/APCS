@@ -6,18 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/11192018/11192018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11192018/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11192018/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/BalchNeil.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Four Seasons Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Mountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Rain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Scenery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Snow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Four Seasons Lab/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11202018/11202018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11202018/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11202018/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,61 +77,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Scenery.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Scenery.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Rain.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Rain.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Snow.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Snow.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Runner.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -160,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10152018/MathLibrary.java" />
-        <option value="$PROJECT_DIR$/10152018/MathLibraryRunner.java" />
         <option value="$PROJECT_DIR$/10162018/Runner.java" />
         <option value="$PROJECT_DIR$/10162018/Pythagorean.java" />
         <option value="$PROJECT_DIR$/10182018/Runner.java" />
@@ -211,6 +147,8 @@
         <option value="$PROJECT_DIR$/Four Seasons Lab/Rain.java" />
         <option value="$PROJECT_DIR$/Four Seasons Lab/Snow.java" />
         <option value="$PROJECT_DIR$/Four Seasons Lab/Scenery.java" />
+        <option value="$PROJECT_DIR$/11202018/Runner.java" />
+        <option value="$PROJECT_DIR$/11202018/ArrayTest.java" />
       </list>
     </option>
   </component>
@@ -258,18 +196,13 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="Four Seasons Lab" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +210,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541436368656" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/11192018" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/11202018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -286,6 +219,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\neilb\Documents\GitHub\APCS" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -306,10 +242,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Runner (2)">
+    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="11082018" />
+      <module name="11202018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Runner (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -397,19 +333,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.Runner (1)" />
       <item itemvalue="Application.Runner (3)" />
       <item itemvalue="Application.Runner (4)" />
       <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Runner (5)" />
+      <item itemvalue="Application.Runner (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (2)" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Runner (5)" />
         <item itemvalue="Application.Runner (3)" />
         <item itemvalue="Application.Runner (4)" />
-        <item itemvalue="Application.Runner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +385,8 @@
       <workItem from="1542124906108" duration="150000" />
       <workItem from="1542125117941" duration="1524000" />
       <workItem from="1542297680293" duration="8524000" />
-      <workItem from="1542448099564" duration="4252000" />
+      <workItem from="1542448099564" duration="4298000" />
+      <workItem from="1542730150873" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij Idea info and config">
       <created>1535052467917</created>
@@ -780,7 +717,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542646323157</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Classwork for November 19, 2018">
+      <created>1542646338590</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1542646338590</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Full Four-Seasons Lab">
+      <created>1542646356132</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1542646356132</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -795,7 +746,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202481000" />
+    <option name="totallyTimeSpent" value="202790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,12 +769,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.25993884" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.2803262" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.25993884" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.2803262" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1189451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13186222" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -840,17 +791,17 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26091477" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.28066528" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12899669" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.28066528" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -860,10 +811,10 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3170478" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26091477" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32848233" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -903,8 +854,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork for Sept 25, 2018" />
-    <MESSAGE value="Classwork for Sept 27, 2018 and Career Lab" />
     <MESSAGE value="Classwork for Sept 28, 2018" />
     <MESSAGE value="Classwork for Oct 1, 2018" />
     <MESSAGE value="Classwork for Oct 2, 2018" />
@@ -928,7 +877,9 @@
     <MESSAGE value="Sim City Lab" />
     <MESSAGE value="Sim City Lab -- final bits" />
     <MESSAGE value="Classwork for November 15, 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork for November 15, 2018" />
+    <MESSAGE value="Classwork for November 19, 2018" />
+    <MESSAGE value="Full Four-Seasons Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full Four-Seasons Lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -936,20 +887,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10192018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bank Lab/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bank Lab/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1168,12 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="e#65#66#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1212,13 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Animation Lab/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
@@ -1237,9 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,9 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,9 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,9 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,9 +1199,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11202018/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11202018/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
