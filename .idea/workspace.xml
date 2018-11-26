@@ -2,229 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Q2/11202018/11202018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q2/11202018/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q2/11202018/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q2/11262018/11262018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q2/11262018/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q2/11262018/Projectile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q2/11262018/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q2/11262018/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q2/11262018/Ship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08212018/08212018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08212018/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08212018/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08212018/Hello2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08212018/Hello2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08212018/Hello3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08212018/Hello3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08212018/Hello4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08212018/Hello4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08232018/08232018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08232018/One.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08232018/One.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08232018/Three.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08232018/Three.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08232018/Two.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08232018/Two.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08232018/Warmup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08232018/Warmup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08242018/08242018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08242018/Warmup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08272018/08272018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08272018/Identifiers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08272018/Output.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08272018/VariableTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08282018/08282018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08282018/DataTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08282018/Mess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08282018/Variables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08282018/WarmupVar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08302018/08302018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08302018/Warmup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08312018/08312018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08312018/Quadratic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08312018/Warmup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09042018/09042018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09042018/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09062018/09062018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09062018/Cylinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09072018/09072018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09072018/BinaryToDecimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09102018/09102018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09102018/Birthyear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09102018/Cone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09102018/Inputs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09102018/TriangleArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09112018/09112018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09112018/Area.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09112018/ScannerStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09112018/Trivia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09132018/09132018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09132018/AsciiGuess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09132018/Compare2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09142018/09142018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09142018/Cylinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09172018/09172018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09172018/Chicken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09172018/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09172018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09172018/Warmup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09182018/09182018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09182018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09182018/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09202018/09202018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09202018/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09202018/CircleRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09212018/09212018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09212018/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09212018/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09242018/09242018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09242018/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09242018/Radius.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09242018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09252018/09252018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09252018/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09252018/AnimalRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09252018/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09252018/RectangleRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09272018/09272018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09272018/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09272018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09282018/09282018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09282018/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09282018/TriangleRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10012018/10012018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10012018/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10012018/Circle2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10012018/CircleRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10012018/Runner2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10022018/10022018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10022018/Circles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10022018/GraphicsRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10022018/Profile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10022018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10042018/10042018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10042018/One.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10042018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10082018/10082018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10082018/ModEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10082018/ModExRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10082018/Profile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10082018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10112018/10112018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10112018/MathLibrary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10112018/MathLibraryRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10112018/ModEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10112018/ModExRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10152018/10152018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10152018/MathLibrary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10152018/MathLibraryRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10152018/MiniBank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10152018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10162018/10162018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10162018/Pythagorean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10162018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10182018/10182018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10182018/Pythagorean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10182018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10192018/10192018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10192018/Distance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10192018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10232018/10232018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10232018/WhileDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10292018/10292018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10292018/Loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10292018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10292018/Selection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10302018/10302018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10302018/Grade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10302018/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10302018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11012018/11012018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11012018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11012018/Warmup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11052018/11052018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11052018/Count.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11052018/ForTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11052018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11062018/11062018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11062018/ForTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11062018/NestedLoops.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11062018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11082018/11082018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11082018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11082018/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11152018/11152018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11152018/Game2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11152018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11192018/11192018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11192018/ArrayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11192018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11202018/11202018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11202018/ArrayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11202018/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animation Lab/Animation Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animation Lab/BalchNeil.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animation Lab/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animation Lab/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animation Lab/Screen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank Lab/ATM-BG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank Lab/BalchNeil.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank Lab/Bank Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank Lab/Bank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank Lab/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank Lab/Screen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Career Lab/BalchNeil.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Career Lab/Career Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Career Lab/Career.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Career Lab/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulas Lab/Formulas Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulas Lab/Formulas Lab.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulas Lab/Formulas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulas Lab/FormulasRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Seasons Lab/BalchNeil.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Seasons Lab/Four Seasons Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Seasons Lab/Mountain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Seasons Lab/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Seasons Lab/Rain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Seasons Lab/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Seasons Lab/Scenery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Seasons Lab/Snow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Seasons Lab/Tree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphical Formulas Lab/BalchNeil.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphical Formulas Lab/Graphical Formulas Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphical Formulas Lab/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphical Formulas Lab/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Slots Lab/BalchNeil.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Slots Lab/Number Slots Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Slots Lab/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Slots Lab/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Slots Lab/Screen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Slots Lab/SlotMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Slots Lab/lose.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Slots Lab/spin.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Slots Lab/win.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output Lab/BalchNeil_Lab01a.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output Lab/Lab01a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output Lab/Lab01a.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output Lab/Output Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenery Lab/BalchNeil.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenery Lab/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenery Lab/Scenery Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenery Lab/Scenery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenery Lab/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sim City Lab/BalchNeil.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sim City Lab/Commercial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sim City Lab/Foliage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sim City Lab/House.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sim City Lab/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sim City Lab/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sim City Lab/Scene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sim City Lab/Sim City Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trivia Lab/BalchNeil.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trivia Lab/Trivia Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trivia Lab/TriviaLab.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Variable Lab/BalchNeil_VariableTest.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Variable Lab/Variable Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Variable Lab/VariableTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -291,49 +76,79 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Q2/11202018/Screen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VariableTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Labs/Variable Lab/VariableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Q2/11202018/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Q2/11202018/Runner.java">
+        <entry file="file://$PROJECT_DIR$/Q2/11262018/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Q2/11262018/Screen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
-                <element signature="e#0#569#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#getPreferredSize#0;class#Screen#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ship.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Q2/11262018/Ship.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Q2/11262018/Enemy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projectile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Q2/11262018/Projectile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -360,12 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bank Lab/Runner.java" />
-        <option value="$PROJECT_DIR$/Bank Lab/Bank.java" />
-        <option value="$PROJECT_DIR$/10192018/Distance.java" />
-        <option value="$PROJECT_DIR$/10192018/Runner.java" />
-        <option value="$PROJECT_DIR$/Bank Lab/Screen.java" />
-        <option value="$PROJECT_DIR$/10232018/WhileDemo.java" />
         <option value="$PROJECT_DIR$/Animation Lab/Runner.java" />
         <option value="$PROJECT_DIR$/10292018/Loop.java" />
         <option value="$PROJECT_DIR$/10292018/Selection.java" />
@@ -411,6 +220,12 @@
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/Q2/11202018/Player.java" />
         <option value="$PROJECT_DIR$/Q2/11202018/Screen.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Q2/11262018/Runner.java" />
+        <option value="$PROJECT_DIR$/Q2/11262018/Ship.java" />
+        <option value="$PROJECT_DIR$/Q2/11262018/Projectile.java" />
+        <option value="$PROJECT_DIR$/Q2/11262018/Enemy.java" />
+        <option value="$PROJECT_DIR$/Q2/11262018/Screen.java" />
       </list>
     </option>
   </component>
@@ -467,14 +282,14 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
               <item name="Q2" type="462c0819:PsiDirectoryNode" />
-              <item name="11202018" type="462c0819:PsiDirectoryNode" />
+              <item name="11262018" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -483,7 +298,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541436368656" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q2/11202018" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q2/11262018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -515,7 +330,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VariableTest">
+  <component name="RunManager" selected="Application.Runner (1)">
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="11262018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="11202018" />
@@ -524,11 +344,6 @@
     <configuration name="Runner (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="11192018" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="Four Seasons Lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="TriangleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -616,19 +431,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Runner (5)" />
       <item itemvalue="Application.Runner (2)" />
       <item itemvalue="Application.TriangleArea" />
       <item itemvalue="Application.VariableTest" />
+      <item itemvalue="Application.Runner (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.VariableTest" />
         <item itemvalue="Application.Runner (2)" />
         <item itemvalue="Application.Runner (5)" />
         <item itemvalue="Application.TriangleArea" />
-        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -669,21 +484,8 @@
       <workItem from="1542125117941" duration="1524000" />
       <workItem from="1542297680293" duration="8524000" />
       <workItem from="1542448099564" duration="4298000" />
-      <workItem from="1542730150873" duration="2444000" />
-    </task>
-    <task id="LOCAL-00002" summary="Add Intellij Idea info and config">
-      <created>1535132262360</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1535132262360</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Classwork for Aug 27, 2018">
-      <created>1535385593482</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1535385593482</updated>
+      <workItem from="1542730150873" duration="2766000" />
+      <workItem from="1543248383633" duration="2973000" />
     </task>
     <task id="LOCAL-00004" summary="Classwork for Aug 28, 2018">
       <created>1535471593506</created>
@@ -1014,7 +816,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542730612718</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Repo reorganisation">
+      <created>1542732750776</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1542732750776</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Update README">
+      <created>1542732911229</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1542732911229</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1029,7 +845,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204971000" />
+    <option name="totallyTimeSpent" value="208266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1052,12 +868,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.25993884" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.27217126" />
       <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.2803262" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13186222" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13186222" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1074,33 +890,33 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.28066528" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12899669" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26091477" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3170478" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26091477" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32848233" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1137,8 +953,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork for Oct 1, 2018" />
-    <MESSAGE value="Classwork for Oct 2, 2018" />
     <MESSAGE value="Classwork for Oct 4, 2018 and Classwork part of Scenery Lab" />
     <MESSAGE value="Completed Scenery Lab" />
     <MESSAGE value="Classwork for Oct. 8 2018" />
@@ -1162,7 +976,9 @@
     <MESSAGE value="Classwork for November 19, 2018" />
     <MESSAGE value="Full Four-Seasons Lab" />
     <MESSAGE value="VSCode stuffs..." />
-    <option name="LAST_COMMIT_MESSAGE" value="VSCode stuffs..." />
+    <MESSAGE value="Repo reorganisation" />
+    <MESSAGE value="Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1170,302 +986,39 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10302018/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10302018/Grade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10302018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11012018/Warmup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11012018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scenery Lab/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphical Formulas Lab/FormulasGraphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="160" column="26" selection-start-line="160" selection-start-column="26" selection-end-line="160" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#FormulasGraphics#0;class#FormulasGraphics#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/concurrent/Semaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2073">
-          <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11052018/Count.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11052018/ForTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11052018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11062018/ForTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11062018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11062018/NestedLoops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Number Slots Lab/SlotMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11082018/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11082018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Number Slots Lab/Runner.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Number Slots Lab/Screen.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sim City Lab/Commercial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sim City Lab/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sim City Lab/Foliage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/11052018/ForTest.java" />
+    <entry file="file://$PROJECT_DIR$/11052018/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/11062018/ForTest2.java" />
+    <entry file="file://$PROJECT_DIR$/11062018/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/11062018/NestedLoops.java" />
+    <entry file="file://$PROJECT_DIR$/Number Slots Lab/SlotMachine.java" />
+    <entry file="file://$PROJECT_DIR$/11082018/Table.java" />
+    <entry file="file://$PROJECT_DIR$/11082018/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/Number Slots Lab/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/Number Slots Lab/Screen.java" />
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/Commercial.java" />
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/House.java" />
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/Foliage.java" />
     <entry file="file://$PROJECT_DIR$/11132018/ArrayTest.java" />
     <entry file="file://$PROJECT_DIR$/11132018/Runner.java" />
-    <entry file="file://$PROJECT_DIR$/11152018/Game2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11152018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sim City Lab/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sim City Lab/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11192018/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11192018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Animation Lab/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scenery Lab/Scenery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Mountain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="36" selection-start-column="36" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Snow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Rain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Scenery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11202018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11202018/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/+Q2/11202018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/11152018/Game2.java" />
+    <entry file="file://$PROJECT_DIR$/11152018/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/Scene.java" />
+    <entry file="file://$PROJECT_DIR$/Sim City Lab/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/11192018/ArrayTest.java" />
+    <entry file="file://$PROJECT_DIR$/11192018/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/Animation Lab/Screen.java" />
+    <entry file="file://$PROJECT_DIR$/Scenery Lab/Scenery.java" />
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Mountain.java" />
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Tree.java" />
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/README.md" />
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Snow.java" />
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Rain.java" />
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Scenery.java" />
+    <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/11202018/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/11202018/ArrayTest.java" />
+    <entry file="file://$PROJECT_DIR$/+Q2/11202018/Runner.java" />
     <entry file="file://$PROJECT_DIR$/Q1/09102018/TriangleArea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1497,19 +1050,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q2/11202018/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q2/11202018/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="493">
           <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1519,12 +1062,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Q2/11202018/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
+        <state relative-caret-position="374">
           <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1533,6 +1074,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q2/11202018/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q2/11262018/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q2/11262018/Projectile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q2/11262018/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q2/11262018/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Four Seasons Lab/Scenery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Four Seasons Lab/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Four Seasons Lab/Snow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q2/11262018/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getPreferredSize#0;class#Screen#0" />
+          </folding>
         </state>
       </provider>
     </entry>
