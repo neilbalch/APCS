@@ -9,16 +9,21 @@ import java.util.ArrayList;
 public class Screen extends JPanel implements KeyListener {
     private Projectile p1;
     private Ship s1;
-    private ArrayList enemies;
+    private Enemy[] enemies;
 
     public Screen() {
         s1 = new Ship(50,300);
-        p1 = new Projectile(50,300);
+        p1 = new Projectile(75,350);
 
-        enemies = new ArrayList();
-        enemies.add(new Enemy(400, 50, new Color(247, 54, 33)));
-        enemies.add(new Enemy(400, 200, new Color(7, 255, 0)));
-        enemies.add(new Enemy(400, 400, new Color(148, 35, 255)));
+        enemies = new Enemy[10];
+        for(int i = 0; i < enemies.length; i++) {
+            if(i%3 == 0)
+                enemies[i] = new Enemy((int)(400 * Math.random() + 300), (int)(500 * Math.random()), new Color(247, 54, 33));
+            if(i%3 == 1)
+                enemies[i] = new Enemy((int)(400 * Math.random() + 300), (int)(500 * Math.random()), new Color(7, 255, 0));
+            if(i%3 == 2)
+                enemies[i] = new Enemy((int)(400 * Math.random() + 300), (int)(500 * Math.random()), new Color(148, 35, 255));
+        }
 
         //sets keylistener
         setFocusable(true);
@@ -40,8 +45,8 @@ public class Screen extends JPanel implements KeyListener {
         //Draw ship
         s1.drawMe(g);
 
-        for(int i = 0; i < enemies.size(); i++) {
-            ((Enemy)enemies.get(i)).drawMe(g);
+        for(int i = 0; i < enemies.length; i++) {
+            enemies[i].drawMe(g);
         }
 
         //Draw Projectile
@@ -58,7 +63,9 @@ public class Screen extends JPanel implements KeyListener {
                 Thread.currentThread().interrupt();
             }
 
-            p1.move(1, 0);
+            p1.move(3, 0);
+            for(int i = 0; i < enemies.length; i++)
+                enemies[i].checkCollision(p1);
 
             //repaint the graphics drawn
             repaint();

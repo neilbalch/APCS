@@ -56,6 +56,14 @@ public class Projectile {
         return y;
     }
 
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
     public boolean getVisibility() {
         return visible;
     }
