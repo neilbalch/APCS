@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Labs/Projectile Lab/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Projectile Lab/Projectile Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Projectile Lab/Projectile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Projectile Lab/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Projectile Lab/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Projectile Lab/Sound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Projectile Lab/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Projectile Lab/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Space Shooter Final.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Projectile Lab/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Projectile Lab/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Projectile Lab/Sound.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,84 +84,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sound.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Sound.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Projectile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Projectile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
-                <element signature="e#1128#1129#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1474#1475#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Target.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Target.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-                <element signature="e#1373#1374#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="102" selection-start-line="23" selection-start-column="102" selection-end-line="23" selection-end-column="102" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1684#1685#0" expanded="true" />
-                <element signature="e#1721#1722#0" expanded="true" />
-                <element signature="e#1745#1746#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/11012018/Runner.java" />
         <option value="$PROJECT_DIR$/11012018/Warmup.java" />
         <option value="$PROJECT_DIR$/Number Slots Lab/Runner.java" />
         <option value="$PROJECT_DIR$/Number Slots Lab/Screen.java" />
@@ -240,8 +165,9 @@
         <option value="$PROJECT_DIR$/Labs/Projectile Lab/Projectile.java" />
         <option value="$PROJECT_DIR$/Labs/Projectile Lab/Target.java" />
         <option value="$PROJECT_DIR$/Labs/Number Slots Lab/SlotMachine.java" />
-        <option value="$PROJECT_DIR$/Labs/Projectile Lab/Screen.java" />
         <option value="$PROJECT_DIR$/Labs/Projectile Lab/Sound.java" />
+        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" />
+        <option value="$PROJECT_DIR$/Labs/Projectile Lab/Screen.java" />
       </list>
     </option>
   </component>
@@ -300,6 +226,12 @@
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="Projectile Lab" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APCS" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Space Shooter Final" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -314,7 +246,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541436368656" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labs/Projectile Lab" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labs/Space Shooter Final" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -502,14 +434,7 @@
       <workItem from="1542448099564" duration="4298000" />
       <workItem from="1542730150873" duration="2766000" />
       <workItem from="1543248383633" duration="6847000" />
-      <workItem from="1543430426336" duration="12784000" />
-    </task>
-    <task id="LOCAL-00006" summary="Fix iml orders and stuff">
-      <created>1535576050961</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1535576050961</updated>
+      <workItem from="1543430426336" duration="15126000" />
     </task>
     <task id="LOCAL-00007" summary="Classwork for Aug 30, 2018 and Variable Lab">
       <created>1535646912998</created>
@@ -847,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543346488336</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Projectile Lab">
+      <created>1543706471516</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1543706471518</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -862,7 +794,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224924000" />
+    <option name="totallyTimeSpent" value="227266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -887,18 +819,18 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.27217126" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.2803262" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.2803262" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13186222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13186222" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31702346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31702346" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -971,7 +903,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork for Oct. 8 2018" />
     <MESSAGE value="Classwork for Oct. 11 2018 and Graphic Formulas Lab" />
     <MESSAGE value="Classwork for Oct. 15 2018" />
     <MESSAGE value="Classwork for Oct. 16 2018" />
@@ -996,7 +927,8 @@
     <MESSAGE value="Update README" />
     <MESSAGE value="Classwork for November 26, 2018" />
     <MESSAGE value="Classwork for November 27, 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork for November 27, 2018" />
+    <MESSAGE value="Projectile Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projectile Lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1004,7 +936,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Number Slots Lab/Runner.java" />
     <entry file="file://$PROJECT_DIR$/Number Slots Lab/Screen.java" />
     <entry file="file://$PROJECT_DIR$/Sim City Lab/Commercial.java" />
     <entry file="file://$PROJECT_DIR$/Sim City Lab/House.java" />
@@ -1157,17 +1088,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Player.java">
+    <entry file="file://$PROJECT_DIR$/Labs/Four Seasons Lab/Scenery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="102" selection-start-line="23" selection-start-column="102" selection-end-line="23" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-680">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Number Slots Lab/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Number Slots Lab/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -1210,6 +1148,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="102" selection-start-line="23" selection-start-column="102" selection-end-line="23" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1217,41 +1169,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Four Seasons Lab/Scenery.java">
+    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Sound.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Number Slots Lab/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Number Slots Lab/SlotMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="513">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Sound.java">
+    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-153">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

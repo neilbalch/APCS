@@ -5,13 +5,25 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
+import java.net.URL;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
 
 public class Screen extends JPanel implements KeyListener {
     private Player player;
     private Target[] targets;
     private Projectile[] projectiles;
-    private Sound soundGenerator;
     private int previousNumHit;
+
+    private void playSound(String url) {
+        try {
+            Clip clip = AudioSystem.getClip();
+            clip.open(AudioSystem.getAudioInputStream(this.getClass().getClassLoader().getResource(url)));
+            clip.start();
+        } catch (Exception exc) {
+            exc.printStackTrace(System.out);
+        }
+    }
 
     public Screen() {
         player = new Player(50, 300);
@@ -31,7 +43,6 @@ public class Screen extends JPanel implements KeyListener {
             projectiles[i] = new Projectile(75, 350);
         }
 
-        soundGenerator = new Sound();
         previousNumHit = 0;
 
         //sets keylistener
@@ -63,7 +74,7 @@ public class Screen extends JPanel implements KeyListener {
             }
         }
         for(int i = 0; i < numHit - previousNumHit; i++) {
-            soundGenerator.queueSound("hit.wav");
+            playSound("hit.wav");
         }
         previousNumHit = numHit;
 
@@ -112,7 +123,7 @@ public class Screen extends JPanel implements KeyListener {
                     projectiles[i].reset(75, /* Garbage value, overwritten in next statement */400);
                     projectiles[i].move(0, player.getY() - projectiles[i].getY() + 50);
 
-                    soundGenerator.queueSound("cannon.wav");
+                    playSound("cannon.wav");
 
                     return; // We've just set off a projectile, don't set them all off!
                 }
