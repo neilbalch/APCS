@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Projectile Lab final parts">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Projectile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Space Shooter Final.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/cannon.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/hit.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q2/12072018/12072018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q2/12072018/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q2/12072018/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/AsteroidField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Space Shooter Final/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,22 +78,22 @@
         <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <first_editor relative-caret-position="170">
+                <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="146" column="49" selection-start-line="146" selection-start-column="49" selection-end-line="146" selection-end-column="49" />
+            <state relative-caret-position="-305">
+              <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
               <folding>
                 <element signature="method#playSound#0;class#Screen#0" />
-                <element signature="class#1542:1963" />
+                <element signature="method#resetFrame#0;class#Screen#0" />
                 <element signature="method#getPreferredSize#0;class#Screen#0" />
                 <element signature="method#keyPressed#0;class#Screen#0" />
                 <element signature="method#actionPerformed#0;class#Screen#0" />
@@ -134,12 +124,26 @@
       <file leaf-file-name="Target.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Target.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            <state relative-caret-position="1513">
+              <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1646#1647#0" expanded="true" />
                 <element signature="e#1738#1739#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsteroidField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/AsteroidField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="83" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,24 +154,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Q2/12072018/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Q2/12072018/ArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -193,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/11062018/ForTest2.java" />
         <option value="$PROJECT_DIR$/11062018/Runner.java" />
         <option value="$PROJECT_DIR$/11062018/NestedLoops.java" />
         <option value="$PROJECT_DIR$/11082018/Runner.java" />
@@ -238,12 +223,13 @@
         <option value="$PROJECT_DIR$/Labs/Projectile Lab/Screen.java" />
         <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Runner.java" />
         <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Projectile.java" />
-        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/README.md" />
-        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" />
         <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Player.java" />
-        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" />
-        <option value="$PROJECT_DIR$/Q2/12072018/ArrayTest.java" />
         <option value="$PROJECT_DIR$/Q2/12072018/Runner.java" />
+        <option value="$PROJECT_DIR$/Q2/12072018/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/AsteroidField.java" />
+        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" />
+        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/README.md" />
+        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" />
       </list>
     </option>
   </component>
@@ -287,17 +273,6 @@
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="Space Shooter Final" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="Q2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="Q2" type="462c0819:PsiDirectoryNode" />
-              <item name="12072018" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (3)">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="11262018" />
@@ -459,8 +434,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner (3)" />
         <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Runner (3)" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.VariableTest" />
@@ -506,21 +481,7 @@
       <workItem from="1542448099564" duration="4298000" />
       <workItem from="1542730150873" duration="2766000" />
       <workItem from="1543248383633" duration="6847000" />
-      <workItem from="1543430426336" duration="24372000" />
-    </task>
-    <task id="LOCAL-00008" summary="Classwork for Aug 31, 2018">
-      <created>1535729870137</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1535729870137</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Classwork for Sept 4, 2018">
-      <created>1536076373747</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1536076373747</updated>
+      <workItem from="1543430426336" duration="29708000" />
     </task>
     <task id="LOCAL-00010" summary="Classwork for Sept 6, 2018">
       <created>1536251310643</created>
@@ -851,7 +812,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543855370890</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Classwork for December 7, 2018 and first parts of Final Project">
+      <created>1544199216010</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1544199216010</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Classwork for December 7, 2018 and first parts of Final Project -- image files">
+      <created>1544199269942</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1544199269942</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -866,7 +841,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236512000" />
+    <option name="totallyTimeSpent" value="241848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -975,8 +950,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork for Oct. 15 2018" />
-    <MESSAGE value="Classwork for Oct. 16 2018" />
     <MESSAGE value="Classwork for Oct. 18 2018 and Bank Lab" />
     <MESSAGE value="Classwork for Oct. 19 2018 and rest of Bank Lab comments" />
     <MESSAGE value="Classwork for Oct. 23 2018" />
@@ -1000,7 +973,9 @@
     <MESSAGE value="Classwork for November 27, 2018" />
     <MESSAGE value="Projectile Lab" />
     <MESSAGE value="Projectile Lab final parts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projectile Lab final parts" />
+    <MESSAGE value="Classwork for December 7, 2018 and first parts of Final Project" />
+    <MESSAGE value="Classwork for December 7, 2018 and first parts of Final Project -- image files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork for December 7, 2018 and first parts of Final Project -- image files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1008,8 +983,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sim City Lab/Scene.java" />
-    <entry file="file://$PROJECT_DIR$/Sim City Lab/Runner.java" />
     <entry file="file://$PROJECT_DIR$/11192018/ArrayTest.java" />
     <entry file="file://$PROJECT_DIR$/11192018/Runner.java" />
     <entry file="file://$PROJECT_DIR$/Animation Lab/Screen.java" />
@@ -1260,13 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Projectile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1274,20 +1240,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Q2/12072018/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q2/12072018/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Four Seasons Lab/Rain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Target.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+        <state relative-caret-position="1513">
+          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1646#1647#0" expanded="true" />
@@ -1296,17 +1275,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java">
+    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/AsteroidField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="146" column="49" selection-start-line="146" selection-start-column="49" selection-end-line="146" selection-end-column="49" />
+        <state relative-caret-position="884">
+          <caret line="52" column="83" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
           <folding>
-            <element signature="method#playSound#0;class#Screen#0" />
-            <element signature="class#1542:1963" />
-            <element signature="method#getPreferredSize#0;class#Screen#0" />
-            <element signature="method#keyPressed#0;class#Screen#0" />
-            <element signature="method#actionPerformed#0;class#Screen#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -1327,17 +1311,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q2/12072018/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q2/12072018/Runner.java">
+    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="-305">
+          <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+          <folding>
+            <element signature="method#playSound#0;class#Screen#0" />
+            <element signature="method#resetFrame#0;class#Screen#0" />
+            <element signature="method#getPreferredSize#0;class#Screen#0" />
+            <element signature="method#keyPressed#0;class#Screen#0" />
+            <element signature="method#actionPerformed#0;class#Screen#0" />
+          </folding>
         </state>
       </provider>
     </entry>

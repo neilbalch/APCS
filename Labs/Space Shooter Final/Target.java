@@ -12,6 +12,7 @@ public class Target {
     private Dimension size;
 
     private boolean hit;
+    private boolean triggeredLossOfLife;
     private BufferedImage image;
 
     public Target(int x, int y, Color color) {
@@ -19,6 +20,7 @@ public class Target {
         this.size = new Dimension(50, 50);
 
         this.hit = false;
+        this.triggeredLossOfLife = false;
 
         try {
             image = ImageIO.read(new File("asteroid.png"));
@@ -88,4 +90,8 @@ public class Target {
     public int getY(){
         return location.height;
     }
+
+    public void setTriggeredLossOfLife() { triggeredLossOfLife = true; }
+
+    public boolean hasTriggeredLossOfLife() { return triggeredLossOfLife; }
 }
