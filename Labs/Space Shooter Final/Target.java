@@ -15,7 +15,7 @@ public class Target {
     private boolean triggeredLossOfLife;
     private BufferedImage image;
 
-    public Target(int x, int y, Color color) {
+    public Target(int x, int y) {
         this.location = new Dimension(x, y);
         this.size = new Dimension(50, 50);
 
