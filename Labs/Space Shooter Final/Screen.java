@@ -31,10 +31,11 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     private boolean gameLost;
     private boolean gameWon;
     private boolean deathSoundPlayed;
+    private boolean resetInProgress;
     private Runnable animationContents;
     private Thread animationThread;
 
-    private double simTimeScalar = 10;
+    private double simTimeScalar = 1;
 
     private void playSound(String url) {
         try {
@@ -49,6 +50,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
     public Screen() {
         setLayout(null);
+        System.out.println("Hi! Why are you looking at the console output? You should be grading!");
 
         // Organize the reset button
         reset = new Button("Reset");
@@ -68,7 +70,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                     //wait for .01 second
                     try {
                         Thread.sleep((int)(10 / simTimeScalar));
-                        animate();
+                        if(!resetInProgress) animate();
                     } catch (InterruptedException ex) {
                         Thread.currentThread().interrupt();
                     }
@@ -94,6 +96,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         // Stop Animation so it doesn't interfere
         animationThread.interrupt();
         animationThread = null;
+        resetInProgress = true;
 
         // Do the level change, if called for
         this.level = level;
@@ -122,6 +125,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         animationThread = new Thread(animationContents);
         animationThread.start();
         addKeyListener(this);
+        resetInProgress = false;
     }
 
     public Dimension getPreferredSize() {
@@ -223,14 +227,14 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
             // If current asteroid reached the end...
             if(asteroids[i].getX() <= 0 && !asteroids[i].hasTriggeredLossOfLife()) {
-                lives--;
+                if(lives != 0) lives--;
                 livesTaken++;
                 asteroids[i].setTriggeredLossOfLife();
             }
 
             // If current asteroid has collided with the player...
             if(asteroids[i].checkPlayerCollision(player) && !asteroids[i].hasTriggeredLossOfLife()) {
-                lives--;
+                if(lives != 0) lives--;
                 livesTaken++;
                 asteroids[i].setTriggeredLossOfLife();
             }
@@ -287,16 +291,17 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             repaint();
         }
     }
-    public void keyReleased(KeyEvent e) { // Cheat key handled here because we don't want to repeat the keypress accidentally
-        if(e.getKeyChar() == 'p') resetLevel(Level.LEVEL2); // Move to level 2 if commanded to
+    public void keyTyped(KeyEvent e) { // Cheat key handled here because we don't want to repeat the keypress accidentally
+        if(e.getKeyChar() == 'p' && level != Level.LEVEL2) resetLevel(Level.LEVEL2); // Move to level 2 if commanded to
     }
-    public void keyTyped(KeyEvent e) {}
+    public void keyReleased(KeyEvent e) {}
     public void actionPerformed(ActionEvent e) { // Handle reset button presses
         if(e.getSource().equals(reset)) {
-            resetLevel(Level.LEVEL1);
-
+            System.out.println("reset");
             // Remove focus from button
             reset.transferFocus();
+
+            resetLevel(Level.LEVEL1);
         }
     }
 }
