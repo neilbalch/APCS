@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/death.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/jupiter.jpg" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="More work on final project... I think it is mostly done">
+      <change afterPath="$PROJECT_DIR$/Q2/12142018/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q2/12142018/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Space Shooter Final/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+            <state relative-caret-position="217">
+              <caret line="240" column="34" lean-forward="true" selection-start-line="240" selection-start-column="34" selection-end-line="240" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#playSound#0;class#Screen#0" />
@@ -45,9 +42,25 @@
                 <element signature="e#8454#8755#1" />
                 <element signature="method#keyPressed#0;class#Screen#0" />
                 <element signature="e#9918#9952#1" />
-                <element signature="method#keyReleased#0;class#Screen#0" />
-                <element signature="method#actionPerformed#0;class#Screen#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Q2/12142018/ArrayTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Q2/12142018/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -109,8 +122,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Neil Balch &lt;neilbalch@gmail.com&gt;" />
         <option value="Neil &lt;neilbalch@gmail.com&gt;" />
+        <option value="Neil Balch &lt;neilbalch@gmail.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/11062018/Runner.java" />
-        <option value="$PROJECT_DIR$/11062018/NestedLoops.java" />
         <option value="$PROJECT_DIR$/11082018/Runner.java" />
         <option value="$PROJECT_DIR$/11082018/Table.java" />
         <option value="$PROJECT_DIR$/Sim City Lab/Runner.java" />
@@ -169,6 +180,8 @@
         <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" />
         <option value="$PROJECT_DIR$/Labs/Space Shooter Final/README.md" />
         <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" />
+        <option value="$PROJECT_DIR$/Q2/12142018/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/Q2/12142018/Runner.java" />
       </list>
     </option>
   </component>
@@ -206,6 +219,17 @@
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="Space Shooter Final" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APCS" type="462c0819:PsiDirectoryNode" />
+              <item name="Q2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APCS" type="462c0819:PsiDirectoryNode" />
+              <item name="Q2" type="462c0819:PsiDirectoryNode" />
+              <item name="12142018" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -216,8 +240,8 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544721705983" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q2/12072018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544804250348" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q2/12142018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -249,7 +273,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.Runner (1)">
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="12142018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="Projectile Lab" />
@@ -334,9 +366,11 @@
       <item itemvalue="Application.VariableTest" />
       <item itemvalue="Application.Runner" />
       <item itemvalue="Cucumber java.All Features in: 09062018" />
+      <item itemvalue="Application.Runner (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Runner" />
@@ -385,14 +419,7 @@
       <workItem from="1543430426336" duration="36318000" />
       <workItem from="1544688987058" duration="40000" />
       <workItem from="1544689132789" duration="613000" />
-      <workItem from="1544715521258" duration="3783000" />
-    </task>
-    <task id="LOCAL-00011" summary="Classwork for Sept 7, 2018">
-      <created>1536335306377</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1536335306377</updated>
+      <workItem from="1544715521258" duration="6218000" />
     </task>
     <task id="LOCAL-00012" summary="Classwork for Sept 10, 2018">
       <created>1536608457185</created>
@@ -730,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544460429986</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="More work on final project... I think it is mostly done">
+      <created>1544721738756</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1544721738757</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -745,7 +779,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252894000" />
+    <option name="totallyTimeSpent" value="255329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,8 +792,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12127894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12127894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -769,16 +804,16 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.2793354" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.2793354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31671858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.2689512" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.2689512" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3282365" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281412" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -866,7 +901,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork for Oct. 19 2018 and rest of Bank Lab comments" />
     <MESSAGE value="Classwork for Oct. 23 2018" />
     <MESSAGE value="Classwork for Oct. 29 2018" />
     <MESSAGE value="Animation Lab" />
@@ -891,11 +925,10 @@
     <MESSAGE value="Classwork for December 7, 2018 and first parts of Final Project" />
     <MESSAGE value="Classwork for December 7, 2018 and first parts of Final Project -- image files" />
     <MESSAGE value="More work on final project... not completely done yet, but functional." />
-    <option name="LAST_COMMIT_MESSAGE" value="More work on final project... not completely done yet, but functional." />
+    <MESSAGE value="More work on final project... I think it is mostly done" />
+    <option name="LAST_COMMIT_MESSAGE" value="More work on final project... I think it is mostly done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11192018/ArrayTest.java" />
-    <entry file="file://$PROJECT_DIR$/11192018/Runner.java" />
     <entry file="file://$PROJECT_DIR$/Animation Lab/Screen.java" />
     <entry file="file://$PROJECT_DIR$/Scenery Lab/Scenery.java" />
     <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Mountain.java" />
@@ -1151,8 +1184,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+        <state relative-caret-position="217">
+          <caret line="240" column="34" lean-forward="true" selection-start-line="240" selection-start-column="34" selection-end-line="240" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#playSound#0;class#Screen#0" />
@@ -1163,9 +1196,21 @@
             <element signature="e#8454#8755#1" />
             <element signature="method#keyPressed#0;class#Screen#0" />
             <element signature="e#9918#9952#1" />
-            <element signature="method#keyReleased#0;class#Screen#0" />
-            <element signature="method#actionPerformed#0;class#Screen#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q2/12142018/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q2/12142018/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
