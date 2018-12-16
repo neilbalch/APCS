@@ -28,7 +28,7 @@ class Asteroid {
         g.drawImage(image, last_x_position, y_position, 10, 10, i);
 
         // Move asteroid for next draw call
-        last_x_position -= 10;
+        last_x_position -= 2;
     }
 
     public boolean isPastScreenEdge() {
@@ -45,12 +45,12 @@ public class AsteroidField {
     }
 
     public void drawAsteroids(Graphics g, ImageObserver img) {
-        if(Math.random() > 0.30) { // Give random chance for droplet creation
+        if(Math.random() < 0.10) { // Give random chance for droplet creation
             asteroids.add(new Asteroid((int)(Math.random() * 800)));
         }
 
         for(int i = 0; i < asteroids.size(); i++) {
-            if(((Asteroid)asteroids.get(i)).isPastScreenEdge()) asteroids.remove(i);
+            if(((Asteroid)asteroids.get(i)).isPastScreenEdge()) asteroids.remove(i); // Garbage collection, and to prevent using ALL of the RAM! JAVA is TERRIBLE at resource management, we wouldn't need to do this in C++ or anything else. Maybe in JavaScript.
             else ((Asteroid) asteroids.get(i)).animateAsteroid(g, img);
         }
     }

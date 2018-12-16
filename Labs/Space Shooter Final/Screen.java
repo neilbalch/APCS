@@ -35,7 +35,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     private Runnable animationContents;
     private Thread animationThread;
 
-    private double simTimeScalar = 1;
+    private double simTimeScalar = 1; // Makes the game run faster for testing purposes. Ludicrously unplayable if >5.
 
     private void playSound(String url) {
         try {
@@ -270,9 +270,9 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
     public void keyPressed(KeyEvent e) {
         if (e.getKeyCode() == 38){ //Up Arrow
-            player.move(0, -5);
+            if(player.getY() > 0) player.move(0, -5);
         } else if (e.getKeyCode() == 40){ //Down Arrow
-            player.move(0, 5);
+            if(player.getY() < (600 - player.getHeight())) player.move(0, 5);
         } else if(e.getKeyCode() == 32) { // Spacebar
             for (int i = 0; i < projectiles.length; i++) {
                 if (!projectiles[i].inMotion()) {
@@ -297,7 +297,6 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     public void keyReleased(KeyEvent e) {}
     public void actionPerformed(ActionEvent e) { // Handle reset button presses
         if(e.getSource().equals(reset)) {
-            System.out.println("reset");
             // Remove focus from button
             reset.transferFocus();
 
