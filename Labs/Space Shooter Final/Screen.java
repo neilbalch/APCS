@@ -19,22 +19,25 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     private Player player;
     private Target[] asteroids;
     private Projectile[] projectiles;
-    private int previousNumHit;
-    private BufferedImage bgL1;
-    private BufferedImage bgL2;
     private AsteroidField asteroidField;
-    private enum Level {LEVEL1, LEVEL2}
-    private Level level;
-    private int lives;
-    private Button reset;
-    private enum GameState {InProgress, WON, LOST}
-    private GameState gameState;
-    private boolean deathSoundPlayed;
-    private boolean resetInProgress;
     private Runnable animationContents;
     private Thread animationThread;
+    private Button reset;
+    private BufferedImage bgL1;
+    private BufferedImage bgL2;
 
-    private double simTimeScalar = 1; // Makes the game run faster for testing purposes. Ludicrously unplayable if >5.
+    // Game State enum Types
+    private enum Level {LEVEL1, LEVEL2}
+    private Level level;
+    private enum GameState {InProgress, WON, LOST}
+    private GameState gameState;
+
+    // State variables
+    private int lastNumHit;
+    private int lives;
+    private boolean deathSoundPlayed;
+    private boolean resetting;
+    private double timeScalar = 1; // Makes the game run faster for testing purposes. Ludicrously unplayable if >5.
 
     private void playSound(String url) {
         try {
@@ -68,8 +71,8 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 while(true) {
                     //wait for .01 second
                     try {
-                        Thread.sleep((int)(10 / simTimeScalar));
-                        if(!resetInProgress) animate();
+                        Thread.sleep((int)(10 / timeScalar));
+                        if(!resetting) animate();
                     } catch (InterruptedException ex) {
                         Thread.currentThread().interrupt();
                     }
@@ -93,7 +96,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         // Stop Animation so it doesn't interfere
         animationThread.interrupt();
         animationThread = null;
-        resetInProgress = true;
+        resetting = true;
 
         // Do the level change, if called for
         this.level = level;
@@ -108,10 +111,8 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         else if(lives <= 3 && lives > 0) {} // Don't touch the lives, must keep the value
 
         projectiles = new Projectile[3];
-        for(int i = 0; i < projectiles.length; i++) {
-            projectiles[i] = new Projectile(75, 350);
-        }
-        previousNumHit = 0;
+        for(int i = 0; i < projectiles.length; i++) projectiles[i] = new Projectile(75, 350);
+        lastNumHit = 0;
         gameState = GameState.InProgress;
         deathSoundPlayed = false;
 
@@ -119,11 +120,11 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         animationThread = new Thread(animationContents);
         animationThread.start();
         addKeyListener(this);
-        resetInProgress = false;
+        resetting = false;
     }
 
+    //Sets the size of the panel
     public Dimension getPreferredSize() {
-        //Sets the size of the panel
         return new Dimension(800, 600);
     }
 
@@ -132,16 +133,10 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
         switch(gameState) { // Draw loop
             case LOST:
-                g.setColor(Color.BLACK);
-                g.setFont(new Font("Calibri", Font.BOLD, 72));
-                g.drawString("You Lose!", 250, 300);
-                g.setFont(new Font("Calibri", Font.PLAIN, 24));
-                g.drawString("Tap \"Reset\" to start anew.", 250, 350);
-                break;
             case WON:
                 g.setColor(Color.BLACK);
                 g.setFont(new Font("Calibri", Font.BOLD, 72));
-                g.drawString("You Win, Nice Job!", 225, 300);
+                g.drawString(gameState == GameState.WON ? "You Win, Nice Job!" : "You Lose!", 250, 300);
                 g.setFont(new Font("Calibri", Font.PLAIN, 24));
                 g.drawString("Tap \"Reset\" to start anew.", 250, 350);
                 break;
@@ -168,8 +163,8 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 }
 
                 // Play a sound per new target hit
-                for(int i = 0; i < numHit - previousNumHit; i++) playSound("hit.wav");
-                previousNumHit = numHit; // reset the variable for the next iteration
+                for(int i = 0; i < numHit - lastNumHit; i++) playSound("hit.wav");
+                lastNumHit = numHit; // reset the variable for the next iteration
 
                 // Draw stats and progress @ top
                 g.setColor(Color.WHITE);
@@ -177,7 +172,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 g.drawString(numHit == asteroids.length ? "All asteroids are hit!" : "Number of Targets Hit: " + numHit, 10, 25);
                 g.drawString("Level: " + (level.equals(Level.LEVEL1) ? "1" : "2"), 700, 25);
                 g.drawString("Lives: " + lives, 700, 50);
-            break;
+                break;
         }
     }
 
@@ -230,7 +225,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             if(livesTakenThisIteration > 0) resetLevel(level);
 
             // If all asteroids in given level are hit...
-            if(previousNumHit == asteroids.length) {
+            if(lastNumHit == asteroids.length) {
                 if(level == Level.LEVEL1) resetLevel(Level.LEVEL2); // Move to Level 2 if all asteroids are gone
                 else { // Game is won, player got past 2nd level
                     animationThread.interrupt(); // Kill the animation thread
