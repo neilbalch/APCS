@@ -23,13 +23,12 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     private BufferedImage bgL1;
     private BufferedImage bgL2;
     private AsteroidField asteroidField;
-
-    private enum Level {LEVEL1, LEVEL2};
+    private enum Level {LEVEL1, LEVEL2}
     private Level level;
     private int lives;
     private Button reset;
-    private boolean gameLost;
-    private boolean gameWon;
+    private enum GameState {InProgress, WON, LOST}
+    private GameState gameState;
     private boolean deathSoundPlayed;
     private boolean resetInProgress;
     private Runnable animationContents;
@@ -84,9 +83,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         try {
             bgL1 = ImageIO.read(new File("sun.jpg"));
             bgL2 = ImageIO.read(new File("jupiter.jpg"));
-        } catch (IOException ex) {
-            // handle exception...
-        }
+        } catch (IOException ex) {} // handle exception...
 
         // Start off with the first level
         resetLevel(Level.LEVEL1);
@@ -105,20 +102,17 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
         // Level 1 gets 10 targets, Level 2 gets 20
         asteroids = new Target[level == Level.LEVEL1 ? 10 : 20];
-        for(int i = 0; i < asteroids.length; i++) {
-            asteroids[i] = new Target((int)(400 * Math.random() + 400), (int)(500 * Math.random()));
-        }
+        for(int i = 0; i < asteroids.length; i++) asteroids[i] = new Target((int)(400 * Math.random() + 400), (int)(500 * Math.random()));
 
         if(lives == 0) lives = 3;
-        else if(lives <= 3 && lives > 0) { /*Don't touch the lives, must keep the value*/ }
+        else if(lives <= 3 && lives > 0) {} // Don't touch the lives, must keep the value
 
         projectiles = new Projectile[3];
         for(int i = 0; i < projectiles.length; i++) {
             projectiles[i] = new Projectile(75, 350);
         }
         previousNumHit = 0;
-        gameLost = false;
-        gameWon = false;
+        gameState = GameState.InProgress;
         deathSoundPlayed = false;
 
         // Restart animation
@@ -136,71 +130,66 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
-        if(gameLost) {                                                         // Game restart screen
-            g.setColor(Color.BLACK);
-            g.setFont(new Font("Calibri", Font.BOLD, 72));
-            g.drawString("You Lose!", 250, 300);
+        switch(gameState) { // Draw loop
+            case LOST:
+                g.setColor(Color.BLACK);
+                g.setFont(new Font("Calibri", Font.BOLD, 72));
+                g.drawString("You Lose!", 250, 300);
+                g.setFont(new Font("Calibri", Font.PLAIN, 24));
+                g.drawString("Tap \"Reset\" to start anew.", 250, 350);
+                break;
+            case WON:
+                g.setColor(Color.BLACK);
+                g.setFont(new Font("Calibri", Font.BOLD, 72));
+                g.drawString("You Win, Nice Job!", 225, 300);
+                g.setFont(new Font("Calibri", Font.PLAIN, 24));
+                g.drawString("Tap \"Reset\" to start anew.", 250, 350);
+                break;
+            default:
+                // Draw BG
+                g.setColor(Color.BLACK);
+                g.fillRect(0, 0, 800, 600);
+                g.drawImage(level == Level.LEVEL1 ? bgL1 : bgL2, 0, 0, 400, 600, this);
 
-            g.setFont(new Font("Calibri", Font.PLAIN, 24));
-            g.drawString("Tap \"Reset\" to start anew.", 250, 350);
-        } else if(gameWon) {                                                   // Other game restart screen
-            g.setColor(Color.BLACK);
-            g.setFont(new Font("Calibri", Font.BOLD, 72));
-            g.drawString("You Win, Nice Job!", 225, 300);
+                // Draw asteroid field and player
+                asteroidField.drawAsteroids(g, this);
+                player.drawMe(g, this);
 
-            g.setFont(new Font("Calibri", Font.PLAIN, 24));
-            g.drawString("Tap \"Reset\" to start anew.", 250, 350);
-        } else {                                                               // Normal game screen
-            // Draw BG
-            g.setColor(Color.BLACK);
-            g.fillRect(0, 0, 800, 600);
-            g.drawImage(level == Level.LEVEL1 ? bgL1 : bgL2, 0, 0, 400, 600, this);
+                //Draw Projectile
+                for(int i = 0; i < projectiles.length; i++) projectiles[i].drawMe(g);
 
-            // Draw asteroid field and player
-            asteroidField.drawAsteroids(g, this);
-            player.drawMe(g, this);
-
-            //Draw Projectile
-            for(int i = 0; i < projectiles.length; i++) {
-                projectiles[i].drawMe(g);
-            }
-
-            // Display num targets hit
-            int numHit = 0;
-            for(int i = 0; i < asteroids.length; i++) {
-                if(asteroids[i] != null) { // Avoids possible nullpointer exceptions
-                    asteroids[i].drawMe(g, null);
-                    if (asteroids[i].isHit()) {
-                        numHit++;
+                // Display num targets hit
+                int numHit = 0;
+                for(int i = 0; i < asteroids.length; i++) {
+                    if(asteroids[i] != null) { // Avoids possible nullpointer exceptions
+                        asteroids[i].drawMe(g, null);
+                        if (asteroids[i].isHit()) numHit++;
                     }
                 }
-            }
 
-            // Play a sound per new target hit
-            for (int i = 0; i < numHit - previousNumHit; i++) {
-                playSound("hit.wav");
-            }
-            previousNumHit = numHit; // reset the variable for the next iteration
+                // Play a sound per new target hit
+                for(int i = 0; i < numHit - previousNumHit; i++) playSound("hit.wav");
+                previousNumHit = numHit; // reset the variable for the next iteration
 
-            // Draw stats and progress @ top
-            g.setColor(Color.WHITE);
-            g.setFont(new Font("Arial", Font.PLAIN, 18));
-            g.drawString(numHit == asteroids.length ? "All asteroids are hit!" : "Number of Targets Hit: " + numHit, 10, 25);
-            g.drawString("Level: " + (level.equals(Level.LEVEL1) ? "1" : "2"), 700, 25);
-            g.drawString("Lives: " + lives, 700, 50);
+                // Draw stats and progress @ top
+                g.setColor(Color.WHITE);
+                g.setFont(new Font("Arial", Font.PLAIN, 18));
+                g.drawString(numHit == asteroids.length ? "All asteroids are hit!" : "Number of Targets Hit: " + numHit, 10, 25);
+                g.drawString("Level: " + (level.equals(Level.LEVEL1) ? "1" : "2"), 700, 25);
+                g.drawString("Lives: " + lives, 700, 50);
+            break;
         }
     }
 
-    public void animate() {
+    private void animate() {
         // Projectile motion and collision detection
         for(int i = 0; i < projectiles.length; i++) {
             projectiles[i].move(3, 0);
-            for (int j = 0; j < asteroids.length; j++)
-                asteroids[j].checkProjectileCollision(projectiles[i]);
+            for(int j = 0; j < asteroids.length; j++) asteroids[j].checkProjectileCollision(projectiles[i]);
         }
 
         // Asteroid motion and collision detection
-        int livesTaken = 0;
+        int livesTakenThisIteration = 0;
         for(int i = 0; i < asteroids.length; i++) {
             // Select random motion of asteroids
             switch((int)(50 * Math.random())) {
@@ -208,16 +197,11 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                     // Asteroids move 4px/move faster in level 2
                     asteroids[i].transpose(level == Level.LEVEL1 ? -6 : -10, 0);
                     break;
-                case 2: // Move Right
-                    if(asteroids[i].getX() <= 750) { // Don't let it transpose if it's near the right edge
-                        asteroids[i].transpose(2, 0);
-                    }
-                    break;
-                case 3: // Move Up
+                case 2: // Move Up
                     if(asteroids[i].getY() >= 25)// Jump it if it's near the top edge
                         asteroids[i].transpose(0, -2);
                     break;
-                case 4: // Move Down
+                case 3: // Move Down
                     if(asteroids[i].getY() <= 550) // Jump it if it's near the bottom edge
                         asteroids[i].transpose(0, 2);
                     break;
@@ -225,20 +209,13 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                     break;
             }
 
-            // If current asteroid reached the end...
-            if(asteroids[i].getX() <= 0 && !asteroids[i].hasTriggeredLossOfLife()) {
+            // If current asteroid reached the end or if current asteroid has collided with the player...
+            if(asteroids[i].getX() <= 0 && !asteroids[i].hasTriggeredLossOfLife() ||
+               asteroids[i].checkPlayerCollision(player) && !asteroids[i].hasTriggeredLossOfLife()) {
                 if(lives != 0) lives--;
-                livesTaken++;
+                livesTakenThisIteration++;
                 asteroids[i].setTriggeredLossOfLife();
             }
-
-            // If current asteroid has collided with the player...
-            if(asteroids[i].checkPlayerCollision(player) && !asteroids[i].hasTriggeredLossOfLife()) {
-                if(lives != 0) lives--;
-                livesTaken++;
-                asteroids[i].setTriggeredLossOfLife();
-            }
-
         }
 
         // End the game if 0 life is reached
@@ -247,19 +224,17 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 playSound("death.wav");
                 deathSoundPlayed = true;
             }
-            gameLost = true;
-         } else {
+            gameState = GameState.LOST;
+        } else {
             // Restart the level if a life is lost
-            if (livesTaken > 0) {
-                resetLevel(level);
-            }
+            if(livesTakenThisIteration > 0) resetLevel(level);
 
             // If all asteroids in given level are hit...
-            if (previousNumHit == asteroids.length) {
-                if (level == Level.LEVEL1) resetLevel(Level.LEVEL2); // Move to Level 2 if all asteroids are gone
+            if(previousNumHit == asteroids.length) {
+                if(level == Level.LEVEL1) resetLevel(Level.LEVEL2); // Move to Level 2 if all asteroids are gone
                 else { // Game is won, player got past 2nd level
                     animationThread.interrupt(); // Kill the animation thread
-                    gameWon = true;
+                    gameState = GameState.WON;
                 }
             }
         }
@@ -269,27 +244,29 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     }
 
     public void keyPressed(KeyEvent e) {
-        if (e.getKeyCode() == 38){ //Up Arrow
-            if(player.getY() > 0) player.move(0, -5);
-        } else if (e.getKeyCode() == 40){ //Down Arrow
-            if(player.getY() < (600 - player.getHeight())) player.move(0, 5);
-        } else if(e.getKeyCode() == 32) { // Spacebar
-            for (int i = 0; i < projectiles.length; i++) {
-                if (!projectiles[i].inMotion()) {
-                    projectiles[i].setMotion(true);
-                    projectiles[i].reset(75, /* Garbage value, overwritten in next statement */400);
-                    projectiles[i].move(0, player.getY() - projectiles[i].getY() + (int) (0.5 * player.getHeight() - 10));
+        switch(e.getKeyCode()) {
+            case 38:                                                // Up Arrow
+                if(player.getY() > 0) player.move(0, -5);
+                break;
+            case 40:                                                // Down Arrow
+                if(player.getY() < (600 - player.getHeight())) player.move(0, 5);
+                break;
+            case 32:                                                // Spacebar
+                for (int i = 0; i < projectiles.length; i++) {
+                    if (!projectiles[i].inMotion()) {
+                        projectiles[i].setMotion(true);
+                        projectiles[i].reset(75, /* Garbage value, overwritten in next statement */400);
+                        projectiles[i].move(0, player.getY() - projectiles[i].getY() + (int) (0.5 * player.getHeight() - 10));
 
-                    playSound("cannon.wav");
+                        playSound("cannon.wav");
 
-                    return; // We've just set off a projectile, don't set them all off!
+                        return; // We've just set off a projectile, don't set them all off!
+                    }
                 }
-            }
+                break;
         }
 
-        if(!gameLost && !gameWon) {
-            repaint();
-        }
+        if(gameState == GameState.InProgress) repaint();
     }
     public void keyTyped(KeyEvent e) { // Cheat key handled here because we don't want to repeat the keypress accidentally
         if(e.getKeyChar() == 'p' && level != Level.LEVEL2) resetLevel(Level.LEVEL2); // Move to level 2 if commanded to

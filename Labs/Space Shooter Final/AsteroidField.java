@@ -38,7 +38,7 @@ class Asteroid {
 }
 
 public class AsteroidField {
-    private ArrayList asteroids = new ArrayList();
+    private ArrayList<Asteroid> asteroids = new ArrayList<>();
 
     public void clearAsteroids() {
         asteroids.clear();
