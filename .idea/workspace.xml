@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Streamline codes and stuffs, make game state use an enum type">
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="More optimizations in final project">
+      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/BalchNeil.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/TestingReport.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +19,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="219" column="39" selection-start-line="219" selection-start-column="39" selection-end-line="219" selection-end-column="39" />
+            <state relative-caret-position="643">
+              <caret line="234" selection-start-line="234" selection-end-line="234" />
               <folding>
                 <element signature="method#playSound#0;class#Screen#0" />
                 <element signature="method#Screen#0;class#Screen#0" />
                 <element signature="method#resetLevel#0;class#Screen#0" />
-                <element signature="e#7284#8545#1" />
+                <element signature="method#paintComponent#0;class#Screen#0" />
                 <element signature="method#keyPressed#0;class#Screen#0" />
                 <element signature="method#keyReleased#0;class#Screen#0" />
                 <element signature="method#actionPerformed#0;class#Screen#0" />
@@ -36,6 +39,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Target.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2346#2347#0" expanded="true" />
+                <element signature="e#2398#2399#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +126,8 @@
         <option value="$PROJECT_DIR$/Q2/12142018/ArrayTest.java" />
         <option value="$PROJECT_DIR$/Q2/12142018/Runner.java" />
         <option value="$PROJECT_DIR$/Labs/Space Shooter Final/README.md" />
-        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" />
         <option value="$PROJECT_DIR$/Labs/Space Shooter Final/AsteroidField.java" />
+        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Target.java" />
         <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java" />
       </list>
     </option>
@@ -159,7 +176,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544986415561" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545077620947" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Q2/12142018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -337,13 +354,6 @@
       <workItem from="1544688987058" duration="40000" />
       <workItem from="1544689132789" duration="613000" />
       <workItem from="1544715521258" duration="15393000" />
-    </task>
-    <task id="LOCAL-00016" summary="Classwork for Sept 17, 2018">
-      <created>1537199738129</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1537199738129</updated>
     </task>
     <task id="LOCAL-00017" summary="Classwork for Sept 18, 2018">
       <created>1537285848699</created>
@@ -681,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544945740171</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="More optimizations in final project">
+      <created>1544986452118</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1544986452118</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -696,7 +713,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269017000" />
+    <option name="totallyTimeSpent" value="273977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,8 +725,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12127894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -818,7 +834,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork from 11/01/2018" />
     <MESSAGE value="Number Slots Lab" />
     <MESSAGE value="Number Slots Lab -- zip and README" />
     <MESSAGE value="Classwork for November 6, 2018" />
@@ -843,7 +858,8 @@
     <MESSAGE value="Functional Space Shooter Final! No bugs???" />
     <MESSAGE value="Tracked down massive memory leak, #JavasMemoryManagement" />
     <MESSAGE value="Streamline codes and stuffs, make game state use an enum type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Streamline codes and stuffs, make game state use an enum type" />
+    <MESSAGE value="More optimizations in final project" />
+    <option name="LAST_COMMIT_MESSAGE" value="More optimizations in final project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Four Seasons Lab/Mountain.java" />
@@ -1098,20 +1114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Target#0;class#Target#0" />
-            <element signature="method#drawMe#0;class#Target#0" />
-            <element signature="method#checkProjectileCollision#0;class#Target#0" />
-            <element signature="method#checkPlayerCollision#0;class#Target#0" />
-            <element signature="method#transpose#0;class#Target#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/AsteroidField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1133,15 +1135,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="219" column="39" selection-start-line="219" selection-start-column="39" selection-end-line="219" selection-end-column="39" />
+        <state relative-caret-position="643">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
           <folding>
             <element signature="method#playSound#0;class#Screen#0" />
             <element signature="method#Screen#0;class#Screen#0" />
             <element signature="method#resetLevel#0;class#Screen#0" />
-            <element signature="e#7284#8545#1" />
+            <element signature="method#paintComponent#0;class#Screen#0" />
             <element signature="method#keyPressed#0;class#Screen#0" />
             <element signature="method#keyReleased#0;class#Screen#0" />
             <element signature="method#actionPerformed#0;class#Screen#0" />

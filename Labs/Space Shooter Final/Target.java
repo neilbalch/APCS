@@ -75,11 +75,11 @@ public class Target {
     }
 
     public void transpose(int d_x, int d_y) {
-        this.location.setSize(this.location.width + d_x, this.location.height + d_y);
+        if(!hit) this.location.setSize(this.location.width + d_x, this.location.height + d_y);
     }
 
     public void move(int x, int y) {
-        this.location.setSize(x, y);
+        if(!hit) this.location.setSize(x, y);
     }
 
     public int getX(){

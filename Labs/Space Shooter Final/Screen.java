@@ -37,7 +37,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     private int lives;
     private boolean deathSoundPlayed;
     private boolean resetting;
-    private double timeScalar = 1; // Makes the game run faster for testing purposes. Ludicrously unplayable if >5.
+    private double timeScalar = 2; // Makes the game run faster for testing purposes. Ludicrously unplayable if >5.
 
     private void playSound(String url) {
         try {
@@ -104,7 +104,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         player = new Player(50, 300);
 
         // Level 1 gets 10 targets, Level 2 gets 20
-        asteroids = new Target[level == Level.LEVEL1 ? 10 : 20];
+        asteroids = new Target[level == Level.LEVEL1 ? 10 : 15];
         for(int i = 0; i < asteroids.length; i++) asteroids[i] = new Target((int)(400 * Math.random() + 400), (int)(500 * Math.random()));
 
         if(lives == 0) lives = 3;
@@ -136,7 +136,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             case WON:
                 g.setColor(Color.BLACK);
                 g.setFont(new Font("Calibri", Font.BOLD, 72));
-                g.drawString(gameState == GameState.WON ? "You Win, Nice Job!" : "You Lose!", 250, 300);
+                g.drawString(gameState == GameState.WON ? "You Win, Nice Job!" : "You Lose!", gameState == GameState.WON ? 100 : 250, 300);
                 g.setFont(new Font("Calibri", Font.PLAIN, 24));
                 g.drawString("Tap \"Reset\" to start anew.", 250, 350);
                 break;
@@ -190,7 +190,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             switch((int)(50 * Math.random())) {
                 case 1: // Move Left
                     // Asteroids move 4px/move faster in level 2
-                    asteroids[i].transpose(level == Level.LEVEL1 ? -6 : -10, 0);
+                    asteroids[i].transpose(level == Level.LEVEL1 ? -6 : -8, 0);
                     break;
                 case 2: // Move Up
                     if(asteroids[i].getY() >= 25)// Jump it if it's near the top edge
@@ -205,8 +205,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             }
 
             // If current asteroid reached the end or if current asteroid has collided with the player...
-            if(asteroids[i].getX() <= 0 && !asteroids[i].hasTriggeredLossOfLife() ||
-               asteroids[i].checkPlayerCollision(player) && !asteroids[i].hasTriggeredLossOfLife()) {
+            if((asteroids[i].getX() <= 0 && !asteroids[i].hasTriggeredLossOfLife()) || (asteroids[i].checkPlayerCollision(player) && !asteroids[i].hasTriggeredLossOfLife())) {
                 if(lives != 0) lives--;
                 livesTakenThisIteration++;
                 asteroids[i].setTriggeredLossOfLife();
@@ -247,8 +246,8 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 if(player.getY() < (600 - player.getHeight())) player.move(0, 5);
                 break;
             case 32:                                                // Spacebar
-                for (int i = 0; i < projectiles.length; i++) {
-                    if (!projectiles[i].inMotion()) {
+                for(int i = 0; i < projectiles.length; i++) {
+                    if(!projectiles[i].inMotion()) {
                         projectiles[i].setMotion(true);
                         projectiles[i].reset(75, /* Garbage value, overwritten in next statement */400);
                         projectiles[i].move(0, player.getY() - projectiles[i].getY() + (int) (0.5 * player.getHeight() - 10));
