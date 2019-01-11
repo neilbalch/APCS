@@ -1,0 +1,16 @@
+Hint for Part A:
+Go through the array. Since we will be checking 3 items at the same time for a peak, go up to length-2 within your for loop.
+	check 3 indexes at the same time (e.g, i, i+1, and i+2)
+	if the left (i) is less than the middle(i+1) and the middle (i+1) greater than the right (i+2)
+		You know that there is peak.
+		return the middle (i+1)
+
+
+Hint for Part B
+For Part B, you can use the given methods isIncreasing and isDecreasing to help you with the solution.
+
+Get the peak location by calling getPeakIndex
+Check to see if it is increasing  to the peak by calling isIncreasing
+Check to see if it is decreasing from the peak by calling isDecreasing
+Based upon the results above, return true or false. 
+
