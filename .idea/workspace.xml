@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from January 14, 2019">
+      <change afterPath="$PROJECT_DIR$/Q3/01222019/01222019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/01222019/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/01222019/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q3/01142018/01142018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Q3/01142019/01142019.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q3/01142018/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q3/01142019/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q3/01142018/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q3/01142019/StringTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +36,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/Q2/11202018/Player.java" />
         <option value="$PROJECT_DIR$/Q2/11202018/Screen.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Q2/11262018/Runner.java" />
@@ -86,6 +85,8 @@
         <option value="$PROJECT_DIR$/Labs/Contacts Manager Lab/Contact.java" />
         <option value="$PROJECT_DIR$/Labs/Contacts Manager Lab/Screen.java" />
         <option value="$PROJECT_DIR$/Labs/Contacts Manager Lab/README.md" />
+        <option value="$PROJECT_DIR$/Q3/01222019/Runner.java" />
+        <option value="$PROJECT_DIR$/Q3/01222019/ArrayTest.java" />
       </list>
     </option>
   </component>
@@ -127,8 +128,8 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547828588782" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labs/Contacts Manager Lab" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548175440975" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q3/01222019" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -160,18 +161,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (1)">
+  <component name="RunManager" selected="Application.Runner (5)">
     <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="Contacts Manager Lab" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="01102019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,6 +181,14 @@
     <configuration name="Runner (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="01142019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="01222019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,20 +263,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Runner (2)" />
       <item itemvalue="Application.Runner (3)" />
       <item itemvalue="Application.Runner (4)" />
       <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Runner (1)" />
       <item itemvalue="Cucumber java.All Features in: 09062018" />
+      <item itemvalue="Application.Runner (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (5)" />
         <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Runner (4)" />
         <item itemvalue="Application.Runner (3)" />
-        <item itemvalue="Application.Runner (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -328,14 +329,7 @@
       <workItem from="1547138843757" duration="5354000" />
       <workItem from="1547481911628" duration="26000" />
       <workItem from="1547482064023" duration="15397000" />
-      <workItem from="1547920009863" duration="1886000" />
-    </task>
-    <task id="LOCAL-00025" summary="Classwork for Oct 1, 2018">
-      <created>1538409286178</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1538409286178</updated>
+      <workItem from="1547920009863" duration="4113000" />
     </task>
     <task id="LOCAL-00026" summary="Classwork for Oct 2, 2018">
       <created>1538495942569</created>
@@ -673,7 +667,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547757326605</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="oops! AGAIN!">
+      <created>1548173200814</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1548173200815</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -688,7 +689,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304282000" />
+    <option name="totallyTimeSpent" value="306509000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -711,7 +712,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.2793354" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.2793354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29491174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -809,7 +810,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork for November 19, 2018" />
     <MESSAGE value="Full Four-Seasons Lab" />
     <MESSAGE value="VSCode stuffs..." />
     <MESSAGE value="Repo reorganisation" />
@@ -834,23 +834,10 @@
     <MESSAGE value="AAAAAAAAAHHHHHHHH 2018/2019 date syndrome" />
     <MESSAGE value="Classwork from January 17, 2019" />
     <MESSAGE value="Classwork from January 14, 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork from January 14, 2019" />
+    <MESSAGE value="oops! AGAIN!" />
+    <option name="LAST_COMMIT_MESSAGE" value="oops! AGAIN!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Projectile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1244,6 +1231,20 @@
             <element signature="e#4733#4734#0" expanded="true" />
             <element signature="class#4988:5412" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/01222019/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/01222019/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
