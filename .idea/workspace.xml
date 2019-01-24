@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from January 14, 2019">
-      <change afterPath="$PROJECT_DIR$/Q3/01222019/01222019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3/01222019/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3/01222019/Runner.java" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from January 22, 2019">
+      <change afterPath="$PROJECT_DIR$/Labs/Blackjack Version 1/Blackjack Version 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Blackjack Version 1/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Blackjack Version 1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Blackjack Version 1/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/01242019/01242019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/01242019/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/01242019/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -15,7 +19,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 1/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 1/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 1/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,12 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Q2/11202018/Screen.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Q2/11262018/Runner.java" />
-        <option value="$PROJECT_DIR$/Q2/11262018/Ship.java" />
-        <option value="$PROJECT_DIR$/Q2/11262018/Projectile.java" />
-        <option value="$PROJECT_DIR$/Q2/11262018/Enemy.java" />
         <option value="$PROJECT_DIR$/Labs/Projectile Lab/Runner.java" />
         <option value="$PROJECT_DIR$/Q2/11262018/Screen.java" />
         <option value="$PROJECT_DIR$/Labs/Projectile Lab/Player.java" />
@@ -87,6 +119,12 @@
         <option value="$PROJECT_DIR$/Labs/Contacts Manager Lab/README.md" />
         <option value="$PROJECT_DIR$/Q3/01222019/Runner.java" />
         <option value="$PROJECT_DIR$/Q3/01222019/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/Q3/01242019/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/Q3/01242019/Runner.java" />
+        <option value="$PROJECT_DIR$/Labs/Blackjack Version 1/Screen.java" />
+        <option value="$PROJECT_DIR$/Labs/Blackjack Version 1/Runner.java" />
+        <option value="$PROJECT_DIR$/Labs/Blackjack Version 1/Card.java" />
+        <option value="$PROJECT_DIR$/Labs/Blackjack Version 1/Table.java" />
       </list>
     </option>
   </component>
@@ -104,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -115,21 +154,37 @@
             <path>
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APCS" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Blackjack Version 1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APCS" type="462c0819:PsiDirectoryNode" />
               <item name="Q3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APCS" type="462c0819:PsiDirectoryNode" />
+              <item name="Q3" type="462c0819:PsiDirectoryNode" />
+              <item name="01242019" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548175440975" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q3/01222019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548351221782" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labs/Blackjack Version 1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -161,34 +216,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (5)">
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="Contacts Manager Lab" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="01112019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="01142019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="01222019" />
+      <module name="01172019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,8 +227,8 @@
     </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="01172019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="Blackjack Version 1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -263,20 +294,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Runner (3)" />
-      <item itemvalue="Application.Runner (4)" />
       <item itemvalue="Application.Runner" />
-      <item itemvalue="Application.Runner (1)" />
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.Runner (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner (5)" />
-        <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.Runner (4)" />
-        <item itemvalue="Application.Runner (3)" />
+        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -329,14 +353,8 @@
       <workItem from="1547138843757" duration="5354000" />
       <workItem from="1547481911628" duration="26000" />
       <workItem from="1547482064023" duration="15397000" />
-      <workItem from="1547920009863" duration="4113000" />
-    </task>
-    <task id="LOCAL-00026" summary="Classwork for Oct 2, 2018">
-      <created>1538495942569</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1538495942569</updated>
+      <workItem from="1547920009863" duration="4729000" />
+      <workItem from="1548344497232" duration="5581000" />
     </task>
     <task id="LOCAL-00027" summary="Classwork for Oct 4, 2018 and Classwork part of Scenery Lab">
       <created>1538671936035</created>
@@ -674,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548173200815</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Classwork from January 22, 2019">
+      <created>1548183951604</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1548183951605</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -689,7 +714,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306509000" />
+    <option name="totallyTimeSpent" value="312706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,8 +727,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1493936" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15104741" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -712,12 +738,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.2793354" />
+      <window_info active="true" anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.2793354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29491174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.2689512" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.2689512" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3281412" />
@@ -810,7 +836,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Full Four-Seasons Lab" />
     <MESSAGE value="VSCode stuffs..." />
     <MESSAGE value="Repo reorganisation" />
     <MESSAGE value="Update README" />
@@ -835,38 +860,10 @@
     <MESSAGE value="Classwork from January 17, 2019" />
     <MESSAGE value="Classwork from January 14, 2019" />
     <MESSAGE value="oops! AGAIN!" />
-    <option name="LAST_COMMIT_MESSAGE" value="oops! AGAIN!" />
+    <MESSAGE value="Classwork from January 22, 2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork from January 22, 2019" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="102" selection-start-line="23" selection-start-column="102" selection-end-line="23" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Sound.java" />
-    <entry file="file://$PROJECT_DIR$/Labs/Graphical Formulas Lab/FormulasGraphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Projectile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q2/12072018/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1216,24 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Contacts Manager Lab/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Screen#0;class#Screen#0" />
-            <element signature="class#4381:4493" />
-            <element signature="e#4466#4467#0" expanded="true" />
-            <element signature="e#4487#4488#0" expanded="true" />
-            <element signature="class#4627:4739" />
-            <element signature="e#4712#4713#0" expanded="true" />
-            <element signature="e#4733#4734#0" expanded="true" />
-            <element signature="class#4988:5412" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q3/01222019/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1245,6 +1224,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Contacts Manager Lab/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Screen#0;class#Screen#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/01242019/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 1/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/01242019/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 1/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 1/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
