@@ -31,10 +31,44 @@ public class Card {
 
             g.setFont(new Font("Arial", Font.PLAIN, 36));
             if(suit.equals("H")) {
-                g.drawString(value + "♥", root.width + 35, root.height + 95);
+                String valueString;
+                if(value > 10 || value == 0) {
+                    switch(value) {
+                        case 11:
+                            valueString = "J";
+                            break;
+                        case 12:
+                            valueString = "Q";
+                            break;
+                        case 13:
+                            valueString = "K";
+                            break;
+                        default: // Value must be 0 b POE.
+                            valueString = "A";
+                            break;
+                    }
+                } else valueString = Integer.toString(value);
+                g.drawString(valueString + "♥", root.width + 35, root.height + 95);
                 g.drawString("♥", root.width + label_offset_x, root.height + label_offset_y);
             } else {
-                g.drawString(value + "♦", root.width + 35, root.height + 95);
+                String valueString;
+                if(value > 10 || value == 0) {
+                    switch(value) {
+                        case 11:
+                            valueString = "J";
+                            break;
+                        case 12:
+                            valueString = "Q";
+                            break;
+                        case 13:
+                            valueString = "K";
+                            break;
+                        default: // Value must be 0 b POE.
+                            valueString = "A";
+                            break;
+                    }
+                } else valueString = Integer.toString(value);
+                g.drawString(valueString + "♦", root.width + 35, root.height + 95);
                 g.drawString("♦", root.width + label_offset_x, root.height + label_offset_y);
             }
         } else if(suit.equals("C") || suit.equals("S")) {
@@ -42,10 +76,44 @@ public class Card {
 
             g.setFont(new Font("Arial", Font.PLAIN, 36));
             if(suit.equals("C")) {
-                g.drawString(value + "♣", root.width + 35, root.height + 95);
+                String valueString;
+                if(value > 10 || value == 0) {
+                    switch(value) {
+                        case 11:
+                            valueString = "J";
+                            break;
+                        case 12:
+                            valueString = "Q";
+                            break;
+                        case 13:
+                            valueString = "K";
+                            break;
+                        default: // Value must be 0 b POE.
+                            valueString = "A";
+                            break;
+                    }
+                } else valueString = Integer.toString(value);
+                g.drawString(valueString + "♣", root.width + 35, root.height + 95);
                 g.drawString("♣", root.width + label_offset_x, root.height + label_offset_y);
             } else {
-                g.drawString(value + "♠", root.width + 35, root.height + 95);
+                String valueString;
+                if(value > 10 || value == 0) {
+                    switch(value) {
+                        case 11:
+                            valueString = "J";
+                            break;
+                        case 12:
+                            valueString = "Q";
+                            break;
+                        case 13:
+                            valueString = "K";
+                            break;
+                        default: // Value must be 0 b POE.
+                            valueString = "A";
+                            break;
+                    }
+                } else valueString = Integer.toString(value);
+                g.drawString(valueString + "♠", root.width + 35, root.height + 95);
                 g.drawString("♠", root.width + label_offset_x, root.height + label_offset_y);
             }
         }
