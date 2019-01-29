@@ -14,7 +14,8 @@ public class Table extends JPanel implements ActionListener {
     private JButton hitButton;
     private JButton standButton;
     private JButton newGameButton;
-    private boolean gameLost;
+    private enum GameState {LOST, INPLAY, WON};
+    private GameState gameState;
 
     public Table(){
         setLayout(null);
@@ -50,7 +51,7 @@ public class Table extends JPanel implements ActionListener {
         shuffle();
 
         if(!preservePoints) points = 20;
-        gameLost = false;
+        gameState = GameState.INPLAY;
         playerIndex = 2;
     }
 
@@ -59,13 +60,22 @@ public class Table extends JPanel implements ActionListener {
         return new Dimension(1000,600);
     }
 
+    private int getPlayerScore() {
+        int score = 0;
+
+        for(int i = 0; i < playerIndex; i++) {
+            if(deck[i].getValue() < 10) score += deck[i].getValue();
+            else score += 10;
+        }
+
+        return score;
+    }
+
     public void paintComponent(Graphics g){
         super.paintComponent(g);
 
         g.setColor(Color.green);
         g.fillRect(0,0,1000,600);
-
-        int score = 0;
 
         int x_pos = 100;
         int y_pos = 100;
@@ -76,23 +86,23 @@ public class Table extends JPanel implements ActionListener {
                 x_pos = 100;
                 y_pos += 175;
             }
-
-            if(deck[i].getValue() < 10) score += deck[i].getValue();
-            else score += 10;
         }
+
+        int score = getPlayerScore();
+        if(score > 21) {
+            gameState = GameState.LOST;
+            add(newGameButton);
+        } else if(score == 21) {
+            points += 5;
+            g.setFont(new Font("Arial", Font.PLAIN, 72));
+            add(newGameButton);
+        }
+        g.drawString("You Win!", 300, 100);
 
         g.setFont(new Font("Arial", Font.PLAIN, 28));
         g.setColor(Color.BLACK);
         g.drawString("Score: " + score, 10, 30);
         g.drawString("Points: " + points, 150, 30);
-
-        if(score > 21) {
-            gameLost = true;
-            add(newGameButton);
-        } else if(score == 21) {
-
-        }
-
     }
 
     private void shuffle(){
@@ -108,18 +118,38 @@ public class Table extends JPanel implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == hitButton) {
-            if(!gameLost) {
+            if(gameState == GameState.INPLAY) {
                 playerIndex++;
-                repaint();
             }
         } else if(e.getSource() == standButton) {
+            int score = getPlayerScore();
+            if(score <= 15) {
+                // player gets no points
+            } else if(score <= 18) { // score >= 16 is implied from previous statement
+                System.out.println("one point added");
+                gameState = GameState.WON;
+                points += 1;
+            } else if(score == 19) {
+                System.out.println("two points added");
+                gameState = GameState.WON;
+                points += 2;
+            } else if(score == 20) {
+                System.out.println("three points added");
+                gameState = GameState.WON;
+                points += 3;
+            }
 
+            // New game is started, follow same protocol
+            points--;
+            reset(true);
         } else if(e.getSource() == newGameButton) {
             // complete reset...
             points--;
             reset(true);
             remove(newGameButton);
-            repaint();
         }
+
+        // No matter what, must repaint
+        repaint();
     }
 }
