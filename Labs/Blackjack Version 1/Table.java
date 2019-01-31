@@ -11,6 +11,7 @@ public class Table extends JPanel implements ActionListener {
     private Card[] deck;
     private int playerIndex; // Now many cards the player has dealt out.
     private int points;
+    private int lastPayout;
     private JButton hitButton;
     private JButton standButton;
     private JButton newGameButton;
@@ -32,7 +33,7 @@ public class Table extends JPanel implements ActionListener {
         newGameButton = new JButton("Start New Game");
         newGameButton.setBounds(350, 50, 150, 30);
         newGameButton.addActionListener(this);
-        add(newGameButton);
+//        add(newGameButton); // Only add when game is lost
 
         reset(false);
     }
@@ -41,16 +42,22 @@ public class Table extends JPanel implements ActionListener {
         deck = new Card[52];
         for(int i = 0; i < 4; i++) {
             for(int j = 0; j < 13; j++) {
-                if(i == 0) deck[13 * i + j] = new Card(j + 1, "C");
-                else if(i == 1) deck[13 * i + j] = new Card(j + 1, "D");
-                else if(i == 2) deck[13 * i + j] = new Card(j + 1, "H");
-                else deck[13 * i + j] = new Card(j + 1, "S");
+                String suit;
+                if(i == 0) suit = "C";
+                else if(i == 1) suit = "D";
+                else if(i == 2) suit = "H";
+                else suit = "S";
+
+                deck[13 * i + j] = new Card(j + 2, suit);
             }
         }
 
         shuffle();
 
-        if(!preservePoints) points = 20;
+        if(!preservePoints) {
+            points = 20;
+            lastPayout = 0;
+        }
         gameState = GameState.INPLAY;
         playerIndex = 2;
     }
@@ -62,11 +69,19 @@ public class Table extends JPanel implements ActionListener {
 
     private int getPlayerScore() {
         int score = 0;
+        int numAces = 0;
 
         for(int i = 0; i < playerIndex; i++) {
             if(deck[i].getValue() < 10) score += deck[i].getValue();
-            else score += 10;
+            else if(deck[i].getValue() == 14) {
+                // it's an ace
+                score += 11;
+                numAces++;
+            } else score += 10;
         }
+
+        // If the score is big, then Aces will effectively equal 1 score point
+        if(score > 21) score -= (numAces * 10);
 
         return score;
     }
@@ -91,18 +106,19 @@ public class Table extends JPanel implements ActionListener {
         int score = getPlayerScore();
         if(score > 21) {
             gameState = GameState.LOST;
-            add(newGameButton);
-        } else if(score == 21) {
-            points += 5;
-            g.setFont(new Font("Arial", Font.PLAIN, 72));
+            lastPayout = 0;
+            g.setColor(Color.RED);
+            g.setFont(new Font("Arial", Font.PLAIN, 36));
+            g.drawString("You Lose! Start a new game.", 450, 35);
             add(newGameButton);
         }
-        g.drawString("You Win!", 300, 100);
 
         g.setFont(new Font("Arial", Font.PLAIN, 28));
         g.setColor(Color.BLACK);
         g.drawString("Score: " + score, 10, 30);
         g.drawString("Points: " + points, 150, 30);
+
+        if(lastPayout != 0) { g.drawString("Payout: " + lastPayout, 325, 30); }
     }
 
     private void shuffle(){
@@ -116,33 +132,41 @@ public class Table extends JPanel implements ActionListener {
         }
     }
 
-    public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == hitButton) {
-            if(gameState == GameState.INPLAY) {
-                playerIndex++;
-            }
-        } else if(e.getSource() == standButton) {
-            int score = getPlayerScore();
-            if(score <= 15) {
-                // player gets no points
-            } else if(score <= 18) { // score >= 16 is implied from previous statement
-                System.out.println("one point added");
-                gameState = GameState.WON;
-                points += 1;
-            } else if(score == 19) {
-                System.out.println("two points added");
-                gameState = GameState.WON;
-                points += 2;
-            } else if(score == 20) {
-                System.out.println("three points added");
-                gameState = GameState.WON;
-                points += 3;
-            }
+    private void handleStand(int score) {
+        // Decide on final score bump
+        if(score <= 15) { // player gets no points
+        } else if(score <= 18) { // score >= 16 is implied from previous statement
+            gameState = GameState.WON;
+            points += 1;
+            lastPayout = 1;
+        } else if(score == 19) {
+            gameState = GameState.WON;
+            points += 2;
+            lastPayout = 2;
+        } else if(score == 20) {
+            gameState = GameState.WON;
+            points += 3;
+            lastPayout = 3;
+        } else if(score == 21) {
+            gameState = GameState.WON;
+            points += 5;
+            lastPayout = 5;
+        }
 
-            // New game is started, follow same protocol
-            points--;
-            reset(true);
-        } else if(e.getSource() == newGameButton) {
+        // New game is started, follow same protocol
+        points--;
+        reset(true);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        if(e.getSource() == hitButton && gameState == GameState.INPLAY) {
+            playerIndex++;
+            if(getPlayerScore() == 21) handleStand(21);
+        } else if(e.getSource() == standButton && gameState == GameState.INPLAY) {
+            if(points > 0) {
+                handleStand(getPlayerScore());
+            } else add(newGameButton);
+        } else if(e.getSource() == newGameButton && points > 0) {
             // complete reset...
             points--;
             reset(true);
