@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from Jan 31, 2019">
-      <change afterPath="$PROJECT_DIR$/Labs/Blackjack Version 2/Blackjack Version 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Blackjack Version 2/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Blackjack Version 2/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Blackjack Version 2/Table.java" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="First stuffs from Blackjack Lab v2">
+      <change afterPath="$PROJECT_DIR$/Labs/Blackjack Version 2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/02042019/02042019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/02042019/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/02042019/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 2/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="173" column="42" selection-start-line="173" selection-start-column="42" selection-end-line="173" selection-end-column="42" />
+            <state relative-caret-position="357">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#GameState#0" />
@@ -88,9 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Projectile.java" />
-        <option value="$PROJECT_DIR$/Labs/Space Shooter Final/Player.java" />
-        <option value="$PROJECT_DIR$/Q2/12072018/Runner.java" />
         <option value="$PROJECT_DIR$/Q2/12072018/ArrayTest.java" />
         <option value="$PROJECT_DIR$/Q2/12142018/ArrayTest.java" />
         <option value="$PROJECT_DIR$/Q2/12142018/Runner.java" />
@@ -139,6 +136,9 @@
         <option value="$PROJECT_DIR$/Q3/01312019/Runner.java" />
         <option value="$PROJECT_DIR$/Labs/Blackjack Version 2/Card.java" />
         <option value="$PROJECT_DIR$/Labs/Blackjack Version 2/Table.java" />
+        <option value="$PROJECT_DIR$/Labs/Blackjack Version 2/README.md" />
+        <option value="$PROJECT_DIR$/Q3/02042019/Card.java" />
+        <option value="$PROJECT_DIR$/Q3/02042019/Runner.java" />
       </list>
     </option>
   </component>
@@ -176,6 +176,11 @@
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="Blackjack Version 2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APCS" type="462c0819:PsiDirectoryNode" />
+              <item name="Q3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,8 +191,8 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548956676289" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labs/Blackjack Version 2" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549328054988" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q3/02042019" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -220,15 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (4)">
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="01282019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Runner (5)">
     <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="01292019" />
@@ -248,6 +245,14 @@
     <configuration name="Runner (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="Blackjack Version 2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="02042019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,18 +337,18 @@
     <list>
       <item itemvalue="Application.Runner" />
       <item itemvalue="Cucumber java.All Features in: 09062018" />
-      <item itemvalue="Application.Runner (1)" />
       <item itemvalue="Application.Runner (2)" />
       <item itemvalue="Application.Runner (3)" />
       <item itemvalue="Application.Runner (4)" />
+      <item itemvalue="Application.Runner (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (5)" />
         <item itemvalue="Application.Runner (4)" />
         <item itemvalue="Application.Runner (3)" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Runner (2)" />
-        <item itemvalue="Application.Runner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -397,14 +402,7 @@
       <workItem from="1547481911628" duration="26000" />
       <workItem from="1547482064023" duration="15397000" />
       <workItem from="1547920009863" duration="4729000" />
-      <workItem from="1548344497232" duration="27488000" />
-    </task>
-    <task id="LOCAL-00033" summary="Classwork for Oct. 18 2018 and Bank Lab">
-      <created>1539890859022</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1539890859022</updated>
+      <workItem from="1548344497232" duration="32349000" />
     </task>
     <task id="LOCAL-00034" summary="Classwork for Oct. 19 2018 and rest of Bank Lab comments">
       <created>1539963932556</created>
@@ -742,7 +740,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548951859792</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="First stuffs from Blackjack Lab v2">
+      <created>1548956748940</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1548956748940</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -757,7 +762,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334613000" />
+    <option name="totallyTimeSpent" value="339474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,9 +775,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15104741" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15104741" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -781,12 +785,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.2793354" />
+      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.2793354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29491174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.2689512" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.2689512" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.25129804" />
@@ -881,7 +885,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Projectile Lab final parts" />
     <MESSAGE value="Classwork for December 7, 2018 and first parts of Final Project" />
     <MESSAGE value="Classwork for December 7, 2018 and first parts of Final Project -- image files" />
     <MESSAGE value="More work on final project... not completely done yet, but functional." />
@@ -906,46 +909,10 @@
     <MESSAGE value="Classwork from January 29, 2019" />
     <MESSAGE value="Final Blackjack lab" />
     <MESSAGE value="Classwork from Jan 31, 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork from Jan 31, 2019" />
+    <MESSAGE value="First stuffs from Blackjack Lab v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="First stuffs from Blackjack Lab v2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/AsteroidField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Asteroid#0;class#Asteroid#0" />
-            <element signature="method#animateAsteroid#0;class#Asteroid#0" />
-            <element signature="method#isPastScreenEdge#0;class#Asteroid#0" />
-            <element signature="method#drawAsteroids#0;class#AsteroidField#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
-          <folding>
-            <element signature="method#playSound#0;class#Screen#0" />
-            <element signature="method#Screen#0;class#Screen#0" />
-            <element signature="method#resetLevel#0;class#Screen#0" />
-            <element signature="method#paintComponent#0;class#Screen#0" />
-            <element signature="method#keyPressed#0;class#Screen#0" />
-            <element signature="method#keyReleased#0;class#Screen#0" />
-            <element signature="method#actionPerformed#0;class#Screen#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Space Shooter Final/Target.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="881">
@@ -1309,6 +1276,41 @@
     <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 2/Runner.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/02042019/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/02042019/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="e#140#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 2/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1332,8 +1334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 2/Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="173" column="42" selection-start-line="173" selection-start-column="42" selection-end-line="173" selection-end-column="42" />
+        <state relative-caret-position="357">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#GameState#0" />
