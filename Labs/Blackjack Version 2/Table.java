@@ -9,10 +9,22 @@ class GameState {
     public ArrayList<Card> playerHand;
     public ArrayList<Card> dealerHand;
 
+    public enum State {INPLAY, LOST, WON, TIED};
+    public State state;
+
+    public int playerWins;
+    public int dealerWins;
+
+    public boolean working;
+
     public GameState() {
         deck = new ArrayList<Card>();
         playerHand = new ArrayList<Card>();
         dealerHand = new ArrayList<Card>();
+        state = State.INPLAY;
+        playerWins = 0;
+        dealerWins = 0;
+        working = false;
     }
 
     // Calculate the score of the player's hand
@@ -57,7 +69,7 @@ class GameState {
 }
 
 public class Table extends JPanel implements ActionListener {
-    private GameState previousState;
+//    private GameState previousState;
     private GameState state;
 
     private JButton hitButton;
@@ -79,7 +91,7 @@ public class Table extends JPanel implements ActionListener {
         setLayout(null);
 
         // Initialize state variables
-        previousState = new GameState();
+//        previousState = new GameState();
         state = new GameState();
 
         // Fill deck with cards of incrementing suit and size and shuffle them
@@ -102,7 +114,7 @@ public class Table extends JPanel implements ActionListener {
         state.dealerHand.clear();
 
         // Initialize previousState as the current state to start with
-        previousState = state;
+//        previousState = state;
 
         // Get all the buttons configured
         Dimension root = new Dimension(15, 15);
@@ -111,11 +123,13 @@ public class Table extends JPanel implements ActionListener {
         hitButton.setBounds(root.width, root.height, 75, 30);
         hitButton.addActionListener(this);
         add(hitButton);
+        hitButton.setEnabled(false);
 
         standButton = new JButton("Stand");
         standButton.setBounds(root.width + 85, root.height, 75, 30);
         standButton.addActionListener(this);
         add(standButton);
+        standButton.setEnabled(false);
 
         newGameButton = new JButton("New Game");
         newGameButton.setBounds(root.width + 170, root.height, 100, 30);
@@ -129,6 +143,8 @@ public class Table extends JPanel implements ActionListener {
     }
 
     public void paintComponent(Graphics g){
+        while(state.working) {}
+
         super.paintComponent(g);
 
         // Set the scene... literally
@@ -137,7 +153,7 @@ public class Table extends JPanel implements ActionListener {
 
         g.setColor(Color.BLACK);
         g.setFont(new Font("Arial", Font.PLAIN, 18));
-        g.drawString("Dealer's Hand Score: " + state.getDealerScore(), 25, 70);
+        g.drawString("Dealer's Hand Score: " + state.getDealerScore() + "   Wins: " + state.dealerWins, 25, 70);
         { // Empty scope allows me to redefine x_pos and y_pos later
             int x_pos = 25;
             int y_pos = 85;
@@ -153,7 +169,7 @@ public class Table extends JPanel implements ActionListener {
 
         g.setColor(Color.BLACK);
         g.setFont(new Font("Arial", Font.PLAIN, 18));
-        g.drawString("Player's Hand Score: " + state.getPlayerScore(), 25, 275);
+        g.drawString("Player's Hand Score: " + state.getPlayerScore() + "   Wins: " + state.playerWins, 25, 275);
         {
             int x_pos = 25;
             int y_pos = 290;
@@ -166,10 +182,48 @@ public class Table extends JPanel implements ActionListener {
                 }
             }
         }
+
+        g.setColor(Color.BLACK);
+        g.setFont(new Font("Arial", Font.PLAIN, 28));
+        String toPrint = "";
+        switch(state.state) {
+            case WON:
+                toPrint = "Congratulations, you won!";
+                state.playerWins++;
+                break;
+            case LOST:
+                toPrint = "Wah, Wah. You lost.";
+                state.dealerWins++;
+                break;
+            case TIED:
+                toPrint = "Well, looks like a Mexican Standoff";
+                break;
+            case INPLAY:
+                break;
+        }
+        g.drawString(toPrint, 300, 550);
+    }
+
+    private void handleStand() {
+        // Make the dealer's card visible
+        state.dealerHand.get(0).setFlipped(false);
+
+        // Dealer gets new cards
+        state.dealerHand.clear();
+        while(state.getDealerScore() < 17) {
+            state.dealerHand.add(state.deck.get(0));
+            state.deck.remove(0);
+        }
+
+        if(state.getDealerScore() > 21) { state.state = GameState.State.WON; }
+        else if(state.getPlayerScore() == state.getDealerScore()) { state.state = GameState.State.TIED; }
+        else if(state.getPlayerScore() > state.getDealerScore()) { state.state = GameState.State.WON; }
+        else { state.state = GameState.State.LOST; }
     }
 
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == hitButton) {
+        state.working = true;
+        if(e.getSource() == hitButton && state.state == GameState.State.INPLAY) {
             state.playerHand.add(state.deck.get(0));
             state.deck.remove(0);
 
@@ -177,13 +231,19 @@ public class Table extends JPanel implements ActionListener {
             if(state.getPlayerScore() <= 21) {
                 state.dealerHand.add(state.deck.get(0));
                 state.deck.remove(0);
+            }else if(state.getPlayerScore() == 21) {
+                handleStand();
+            } else { // Player Loses
+                state.state = GameState.State.LOST;
             }
-
         } else if(e.getSource() == standButton) {
             // Make the button clickable
             newGameButton.setEnabled(true);
-
+            handleStand();
         } else if(e.getSource() == newGameButton) {
+            state.playerHand.clear();
+            state.dealerHand.clear();
+
             // Add the first two cards in the deck to the player's hand
             state.playerHand.add(state.deck.get(0));
             state.deck.remove(0);
@@ -198,11 +258,21 @@ public class Table extends JPanel implements ActionListener {
             // Flip the first card in the dealer's hand
             state.dealerHand.get(0).setFlipped(true);
 
-            // Make the button unclickable
+            state.state = GameState.State.INPLAY;
+        }
+
+        if(state.state != GameState.State.INPLAY) {
+            newGameButton.setEnabled(true);
+            hitButton.setEnabled(false);
+            standButton.setEnabled(false);
+        } else {
             newGameButton.setEnabled(false);
+            hitButton.setEnabled(true);
+            standButton.setEnabled(true);
         }
 
         // No matter what, must repaint
+        state.working = false;
         repaint();
     }
 }
