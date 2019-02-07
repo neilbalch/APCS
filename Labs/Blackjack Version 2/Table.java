@@ -15,8 +15,6 @@ class GameState {
     public int playerWins;
     public int dealerWins;
 
-    public boolean working;
-
     public GameState() {
         deck = new ArrayList<Card>();
         playerHand = new ArrayList<Card>();
@@ -24,7 +22,6 @@ class GameState {
         state = State.INPLAY;
         playerWins = 0;
         dealerWins = 0;
-        working = false;
     }
 
     // Calculate the score of the player's hand
@@ -77,23 +74,7 @@ public class Table extends JPanel implements ActionListener {
     private JButton newGameButton;
 
     // Shuffle the deck
-    private void shuffle(){
-        for(int i = 0; i < state.deck.size(); i++) {
-            int index2 = (int)(state.deck.size() * Math.random());
-
-            Card temp = state.deck.get(i);
-            state.deck.set(i, state.deck.get(index2));
-            state.deck.set(index2, temp);
-        }
-    }
-
-    public Table(){
-        setLayout(null);
-
-        // Initialize state variables
-//        previousState = new GameState();
-        state = new GameState();
-
+    private void dealAndShuffle(){
         // Fill deck with cards of incrementing suit and size and shuffle them
         state.deck.clear();
         for(int i = 0; i < 4; i++) {
@@ -107,14 +88,27 @@ public class Table extends JPanel implements ActionListener {
                 state.deck.add(new Card(j + 2, suit, false));
             }
         }
-        shuffle();
+
+        for(int i = 0; i < state.deck.size(); i++) {
+            int index2 = (int)(state.deck.size() * Math.random());
+
+            Card temp = state.deck.get(i);
+            state.deck.set(i, state.deck.get(index2));
+            state.deck.set(index2, temp);
+        }
+    }
+
+    public Table(){
+        setLayout(null);
+
+        // Initialize state variables
+        state = new GameState();
+
+        dealAndShuffle();
 
         // Clear dealer and player hands
         state.playerHand.clear();
         state.dealerHand.clear();
-
-        // Initialize previousState as the current state to start with
-//        previousState = state;
 
         // Get all the buttons configured
         Dimension root = new Dimension(15, 15);
@@ -143,14 +137,13 @@ public class Table extends JPanel implements ActionListener {
     }
 
     public void paintComponent(Graphics g){
-        while(state.working) {}
-
         super.paintComponent(g);
 
         // Set the scene... literally
         g.setColor(Color.green);
         g.fillRect(0,0,1000,600);
 
+        // Show Dealer's hand
         g.setColor(Color.BLACK);
         g.setFont(new Font("Arial", Font.PLAIN, 18));
         g.drawString("Dealer's Hand Score: " + state.getDealerScore() + "   Wins: " + state.dealerWins, 25, 70);
@@ -167,14 +160,16 @@ public class Table extends JPanel implements ActionListener {
             }
         }
 
+        // Show player's hand
         g.setColor(Color.BLACK);
         g.setFont(new Font("Arial", Font.PLAIN, 18));
         g.drawString("Player's Hand Score: " + state.getPlayerScore() + "   Wins: " + state.playerWins, 25, 275);
         {
             int x_pos = 25;
             int y_pos = 290;
-            for (int i = 0; i < state.dealerHand.size(); i++) {
+            for (int i = 0; i < state.playerHand.size(); i++) {
                 state.playerHand.get(i).drawMe(g, new Dimension(x_pos, y_pos));
+
                 if (x_pos < 650) x_pos += 85;
                 else {
                     x_pos = 25;
@@ -183,6 +178,7 @@ public class Table extends JPanel implements ActionListener {
             }
         }
 
+        // Display game status... won, lost, tied...
         g.setColor(Color.BLACK);
         g.setFont(new Font("Arial", Font.PLAIN, 28));
         String toPrint = "";
@@ -209,7 +205,6 @@ public class Table extends JPanel implements ActionListener {
         state.dealerHand.get(0).setFlipped(false);
 
         // Dealer gets new cards
-        state.dealerHand.clear();
         while(state.getDealerScore() < 17) {
             state.dealerHand.add(state.deck.get(0));
             state.deck.remove(0);
@@ -222,18 +217,13 @@ public class Table extends JPanel implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        state.working = true;
         if(e.getSource() == hitButton && state.state == GameState.State.INPLAY) {
             state.playerHand.add(state.deck.get(0));
             state.deck.remove(0);
 
-            // The dealer doesn't play if the player busts
-            if(state.getPlayerScore() <= 21) {
-                state.dealerHand.add(state.deck.get(0));
-                state.deck.remove(0);
-            }else if(state.getPlayerScore() == 21) {
+            if(state.getPlayerScore() == 21) {
                 handleStand();
-            } else { // Player Loses
+            } else if(state.getPlayerScore() > 21) { // Player Loses
                 state.state = GameState.State.LOST;
             }
         } else if(e.getSource() == standButton) {
@@ -243,6 +233,8 @@ public class Table extends JPanel implements ActionListener {
         } else if(e.getSource() == newGameButton) {
             state.playerHand.clear();
             state.dealerHand.clear();
+
+            dealAndShuffle();
 
             // Add the first two cards in the deck to the player's hand
             state.playerHand.add(state.deck.get(0));
@@ -261,6 +253,7 @@ public class Table extends JPanel implements ActionListener {
             state.state = GameState.State.INPLAY;
         }
 
+        // Show/hide buttons according to game state
         if(state.state != GameState.State.INPLAY) {
             newGameButton.setEnabled(true);
             hitButton.setEnabled(false);
@@ -272,7 +265,6 @@ public class Table extends JPanel implements ActionListener {
         }
 
         // No matter what, must repaint
-        state.working = false;
         repaint();
     }
 }
