@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from February 12, 2019">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3/02152019/02152019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3/02152019/CookieOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3/02152019/MasterOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3/02152019/Runner.java" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from February 15, 2019">
+      <change afterPath="$PROJECT_DIR$/Q3/02262019/02262019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/02262019/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/02262019/WarmUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -17,7 +15,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Q3/02262019/WarmUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Q3/02262019/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,9 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Q3/01082018/Bank/Account.java" />
-        <option value="$PROJECT_DIR$/Q3/01082018/Bank/AccountManager.java" />
-        <option value="$PROJECT_DIR$/Q3/01082018/BankRunner.java" />
         <option value="$PROJECT_DIR$/Q3/01102018/Review.java" />
         <option value="$PROJECT_DIR$/Q3/01102018/StringTest.java" />
         <option value="$PROJECT_DIR$/Q3/01102018/Runner.java" />
@@ -89,6 +103,9 @@
         <option value="$PROJECT_DIR$/Q3/02152019/Runner.java" />
         <option value="$PROJECT_DIR$/Q3/02152019/MasterOrder.java" />
         <option value="$PROJECT_DIR$/Q3/02152019/CookieOrder.java" />
+        <option value="$PROJECT_DIR$/Q3/02262019/Meh.java" />
+        <option value="$PROJECT_DIR$/Q3/02262019/Runner.java" />
+        <option value="$PROJECT_DIR$/Q3/02262019/WarmUp.java" />
       </list>
     </option>
   </component>
@@ -122,22 +139,22 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
               <item name="Q3" type="462c0819:PsiDirectoryNode" />
-              <item name="02152019" type="462c0819:PsiDirectoryNode" />
+              <item name="02262019" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550248913093" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q3/02152019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551197675861" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q3/02262019" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -146,15 +163,15 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Labs\Blackjack Version 2" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Formulas Lab" />
       <recent name="C:\Users\neilb\Documents\GitHub\APCS" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Formulas Lab" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Labs\Blackjack Version 2" />
       <recent name="C:\Users\neilb\Documents\GitHub\APCS" />
     </key>
   </component>
@@ -170,10 +187,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (3)">
-    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Runner (1)">
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="02072019" />
+      <module name="02262019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,14 +208,6 @@
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="Blackjack Version 2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="Space Shooter Final" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,21 +273,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Runner (4)" />
-      <item itemvalue="Application.Runner (2)" />
       <item itemvalue="Application.Runner1" />
       <item itemvalue="Application.Runner2" />
       <item itemvalue="Application.Runner (3)" />
       <item itemvalue="Cucumber java.All Features in: 09062018" />
+      <item itemvalue="Application.Runner (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.Runner (3)" />
         <item itemvalue="Application.Runner2" />
         <item itemvalue="Application.Runner1" />
         <item itemvalue="Application.Runner (4)" />
-        <item itemvalue="Application.Runner (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -338,13 +346,9 @@
       <workItem from="1549683427230" duration="4547000" />
       <workItem from="1550158835088" duration="420000" />
       <workItem from="1550247053098" duration="2455000" />
-    </task>
-    <task id="LOCAL-00039" summary="Classwork from 10/30/2018">
-      <created>1541171733267</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1541171733268</updated>
+      <workItem from="1550641390910" duration="2463000" />
+      <workItem from="1551196822744" duration="10000" />
+      <workItem from="1551196857736" duration="812000" />
     </task>
     <task id="LOCAL-00040" summary="Classwork from 11/01/2018">
       <created>1541171757386</created>
@@ -682,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549989796853</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Classwork from February 15, 2019">
+      <created>1550641436153</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1550641436154</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -697,7 +708,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360349000" />
+    <option name="totallyTimeSpent" value="363634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,8 +721,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12624036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12954795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -720,12 +732,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.34060228" />
+      <window_info active="true" anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.34060228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29491174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.24922119" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.24922119" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.25129804" />
@@ -820,7 +832,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Functional Space Shooter Final! No bugs???" />
     <MESSAGE value="Tracked down massive memory leak, #JavasMemoryManagement" />
     <MESSAGE value="Streamline codes and stuffs, make game state use an enum type" />
     <MESSAGE value="More optimizations in final project" />
@@ -845,23 +856,10 @@
     <MESSAGE value="Finall stuffs from Blackjack Lab v2" />
     <MESSAGE value="Classwork from February 7, 2019" />
     <MESSAGE value="Classwork from February 12, 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork from February 12, 2019" />
+    <MESSAGE value="Classwork from February 15, 2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork from February 15, 2019" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Q3/01102019/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q3/01102019/StringTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q3/01112019/StringReview.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1294,6 +1292,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/02262019/WarmUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/02262019/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
