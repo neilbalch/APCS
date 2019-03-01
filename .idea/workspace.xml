@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from February 26, 2019">
-      <change afterPath="$PROJECT_DIR$/Labs/Tic Tac Toe Lab/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Tic Tac Toe Lab/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Tic Tac Toe Lab/Tic Tac Toe Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3/02282019/02282019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3/02282019/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3/02282019/Warmup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="First parts of Tic Tac Toe lab">
+      <change afterPath="$PROJECT_DIR$/Labs/Tic Tac Toe Lab/tie.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Tic Tac Toe Lab/win.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Tic Tac Toe Lab/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Tic Tac Toe Lab/Game.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,32 +41,36 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Tic Tac Toe Lab/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="156" column="29" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+            <state relative-caret-position="1292">
+              <caret line="215" column="88" selection-start-line="215" selection-start-column="88" selection-end-line="215" selection-end-column="88" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#printTable#0;class#GameState#0" />
                 <element signature="method#insertXO#0;class#GameState#0" />
                 <element signature="method#checkFull#0;class#GameState#0" />
                 <element signature="method#checkTicTackToe#0;class#GameState#0" />
                 <element signature="method#Game#0;class#Game#0" />
                 <element signature="method#getPreferredSize#0;class#Game#0" />
+                <element signature="method#playSound#0;class#Game#0" />
+                <element signature="e#3877#3960#1" />
+                <element signature="e#4974#5469#1" />
+                <element signature="e#7351#7381#1" />
+                <element signature="method#actionPerformed#0;class#Game#0" />
+                <element signature="method#coordsWithin#0;class#Game#0" />
+                <element signature="method#mouseClicked#0;class#Game#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 2/Table.java">
+        <entry file="file://$PROJECT_DIR$/Labs/Number Slots Lab/SlotMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="147" column="27" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#GameState#0" />
-                <element signature="method#getPlayerScore#0;class#GameState#0" />
-                <element signature="method#getDealerScore#0;class#GameState#0" />
-                <element signature="method#getPreferredSize#0;class#Table#0" />
+                <element signature="method#drawMe#0;class#SlotMachine#0" />
+                <element signature="method#bet#0;class#SlotMachine#0" />
+                <element signature="method#play#0;class#SlotMachine#0" />
               </folding>
             </state>
           </provider>
@@ -97,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Q3/01112018/StringReview.java" />
         <option value="$PROJECT_DIR$/Q3/01112018/Runner.java" />
         <option value="$PROJECT_DIR$/Q3/01112018/warmup_Runner.java" />
         <option value="$PROJECT_DIR$/Q3/01112018/Mountain.java" />
@@ -147,6 +146,7 @@
         <option value="$PROJECT_DIR$/Q3/02282019/Warmup.java" />
         <option value="$PROJECT_DIR$/Q3/02282019/Runner.java" />
         <option value="$PROJECT_DIR$/Labs/Tic Tac Toe Lab/Runner.java" />
+        <option value="$PROJECT_DIR$/Labs/Number Slots Lab/SlotMachine.java" />
         <option value="$PROJECT_DIR$/Labs/Tic Tac Toe Lab/Game.java" />
       </list>
     </option>
@@ -187,7 +187,7 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="Blackjack Version 2" type="462c0819:PsiDirectoryNode" />
+              <item name="Tic Tac Toe Lab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,7 +201,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551409042220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551459026815" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Labs/Tic Tac Toe Lab" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -265,7 +265,7 @@
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="Tic Tac Toe Lab" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -322,9 +322,9 @@
       <item itemvalue="Application.Runner2" />
       <item itemvalue="Application.Runner (3)" />
       <item itemvalue="Application.Runner (1)" />
-      <item itemvalue="Cucumber java.All Features in: 09062018" />
       <item itemvalue="Application.Runner (2)" />
       <item itemvalue="Application.Runner" />
+      <item itemvalue="Cucumber java.All Features in: 09062018" />
     </list>
     <recent_temporary>
       <list>
@@ -396,14 +396,7 @@
       <workItem from="1551196822744" duration="10000" />
       <workItem from="1551196857736" duration="1569000" />
       <workItem from="1551370254698" duration="34000" />
-      <workItem from="1551370481474" duration="7029000" />
-    </task>
-    <task id="LOCAL-00041" summary="Number Slots Lab">
-      <created>1541171819704</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1541171819704</updated>
+      <workItem from="1551370481474" duration="9836000" />
     </task>
     <task id="LOCAL-00042" summary="Number Slots Lab -- zip and README">
       <created>1541172003797</created>
@@ -741,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551197698340</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="First parts of Tic Tac Toe lab">
+      <created>1551411183287</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1551411183291</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -756,7 +756,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371454000" />
+    <option name="totallyTimeSpent" value="374261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -879,7 +879,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Streamline codes and stuffs, make game state use an enum type" />
     <MESSAGE value="More optimizations in final project" />
     <MESSAGE value="Final final project commit. :)" />
     <MESSAGE value="Classwork from January 8, 2019" />
@@ -904,31 +903,14 @@
     <MESSAGE value="Classwork from February 12, 2019" />
     <MESSAGE value="Classwork from February 15, 2019" />
     <MESSAGE value="Classwork from February 26, 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork from February 26, 2019" />
+    <MESSAGE value="First parts of Tic Tac Toe lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="First parts of Tic Tac Toe lab" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Q3/01112019/AnswerOutput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q3/01142019/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q3/01142019/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1347,18 +1329,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Number Slots Lab/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Number Slots Lab/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="method#drawMe#0;class#SlotMachine#0" />
+            <element signature="method#bet#0;class#SlotMachine#0" />
+            <element signature="method#play#0;class#SlotMachine#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Tic Tac Toe Lab/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="156" column="29" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+        <state relative-caret-position="1292">
+          <caret line="215" column="88" selection-start-line="215" selection-start-column="88" selection-end-line="215" selection-end-column="88" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#printTable#0;class#GameState#0" />
             <element signature="method#insertXO#0;class#GameState#0" />
             <element signature="method#checkFull#0;class#GameState#0" />
             <element signature="method#checkTicTackToe#0;class#GameState#0" />
             <element signature="method#Game#0;class#Game#0" />
             <element signature="method#getPreferredSize#0;class#Game#0" />
+            <element signature="method#playSound#0;class#Game#0" />
+            <element signature="e#3877#3960#1" />
+            <element signature="e#4974#5469#1" />
+            <element signature="e#7351#7381#1" />
+            <element signature="method#actionPerformed#0;class#Game#0" />
+            <element signature="method#coordsWithin#0;class#Game#0" />
+            <element signature="method#mouseClicked#0;class#Game#0" />
           </folding>
         </state>
       </provider>
