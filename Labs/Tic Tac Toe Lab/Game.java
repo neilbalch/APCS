@@ -5,6 +5,17 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
+// For sound
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.UnsupportedAudioFileException;
+import java.io.IOException;
+import java.net.URL;
+// END for sound
+
+
 class GameState {
     public enum State {START, TURN1, TURN2, OVER};
     public State state;
@@ -85,9 +96,11 @@ class GameState {
 public class Game extends JPanel implements ActionListener, MouseListener {
 //    private GameState previousState;
     private GameState state;
-    private JButton newGame;
+    private JButton newPvPGame;
+    private JButton newCompGame;
     private int player1wins;
     private int player2wins;
+    private boolean playCompleted = false;
 
     public Game(){
         setLayout(null);
@@ -96,10 +109,15 @@ public class Game extends JPanel implements ActionListener, MouseListener {
         state = new GameState();
         addMouseListener(this);
 
-        newGame = new JButton("New Game");
-        newGame.setBounds(25, 25, 100, 30);
-        newGame.addActionListener(this);
-        add(newGame);
+        newPvPGame = new JButton("New Game: PvP");
+        newPvPGame.setBounds(25, 25, 125, 30);
+        newPvPGame.addActionListener(this);
+        add(newPvPGame);
+
+        newCompGame = new JButton("New Game: vs. Computer");
+        newCompGame.setBounds(160, 25, 200, 30);
+        newCompGame.addActionListener(this);
+        add(newCompGame);
 
         player1wins = 0;
         player2wins = 0;
@@ -108,6 +126,37 @@ public class Game extends JPanel implements ActionListener, MouseListener {
     public Dimension getPreferredSize() {
         //Sets the size of the panel
         return new Dimension(800, 600);
+    }
+
+    private void playSound(String soundFile) {
+        while(playCompleted) {
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException ie) {
+                //
+            }
+        }
+        playCompleted = true;
+
+        try {
+            // Open an audio input stream.
+            URL url = this.getClass().getClassLoader().getResource(soundFile);
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+            // Get a sound clip resource.
+            Clip clip = AudioSystem.getClip();
+            // Open audio clip and load samples from the audio input stream.
+            clip.open(audioIn);
+            clip.start();
+
+        } catch (UnsupportedAudioFileException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (LineUnavailableException e) {
+            e.printStackTrace();
+        }
+
+        playCompleted = false;
     }
 
     public void paintComponent(Graphics g){
@@ -137,8 +186,8 @@ public class Game extends JPanel implements ActionListener, MouseListener {
 
         // Display turns
         g.setFont(new Font("Arial", Font.PLAIN, 24));
-        if(state.state == GameState.State.TURN1) g.drawString("Player 1's Turn", 250, 50);
-        if(state.state == GameState.State.TURN2) g.drawString("Player 2's Turn", 250, 50);
+        if(state.state == GameState.State.TURN1) g.drawString("Player 1's Turn", 400, 50);
+        if(state.state == GameState.State.TURN2) g.drawString("Player 2's Turn", 400, 50);
 
         // Display wins
         g.drawString("Player 1 Wins: " + player1wins, 500, 250);
@@ -149,29 +198,62 @@ public class Game extends JPanel implements ActionListener, MouseListener {
             // Who won?
             g.setFont(new Font("Arial", Font.PLAIN, 36));
             g.setColor(Color.RED);
-            if(state.checkTicTackToe() == 0) g.drawString("TIE!", 100, 500);
-            else if(state.checkTicTackToe() == 1) {
+            if(state.checkTicTackToe() == 0) {
+                playSound("tie.wav");
+                g.drawString("TIE!", 100, 500);
+            } else if(state.checkTicTackToe() == 1) {
+                playSound("win.wav");
                 player1wins++;
                 g.drawString("Player 1 wins!", 100, 500);
             } else if(state.checkTicTackToe() == 2) {
+                playSound("win.wav");
                 player2wins++;
                 g.drawString(state.mode == GameState.Mode.PvP ? "Player 2 wins!" : "Computer Wins!", 100, 500);
             }
         }
+
+        // Handle AI stuffs
+        if(state.mode == GameState.Mode.PvComp && state.state == GameState.State.TURN2) {
+            Point selection = new Point(1,1);
+            // Select a random empty box
+            while(state.board[selection.x][selection.y] != 0) {
+                selection.x = (int)(3 * Math.random());
+                selection.y = (int)(3 * Math.random());
+            }
+            // Take it
+            state.insertXO(selection.x, selection.y);
+
+            // Check to see if the game is over
+            if(state.checkFull() || state.checkTicTackToe() != 0) {
+                state.state = GameState.State.OVER;
+                newPvPGame.setEnabled(true);
+                newCompGame.setEnabled(true);
+            }
+
+            repaint();
+        }
     }
 
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == newGame) {
+        if(e.getSource() == newPvPGame) {
             state = new GameState();
             state.state = GameState.State.TURN1;
-            newGame.setEnabled(false);
+            newPvPGame.setEnabled(false);
+            newCompGame.setEnabled(false);
+        } if(e.getSource() == newCompGame) {
+            state = new GameState();
+            state.state = GameState.State.TURN1;
+            state.mode = GameState.Mode.PvComp;
+            newPvPGame.setEnabled(false);
+            newCompGame.setEnabled(false);
         }
 
         // No matter what, must repaint
         repaint();
     }
 
-    boolean coordsWithin(Point location, Point topLeft, Point bottomRight) {
+    // Returns whether or not the provided location is within the bounding box provided
+    private boolean coordsWithin(Point location, Point topLeft, Point bottomRight) {
         if(location.x > topLeft.x && location.x < bottomRight.x &&
            location.y > topLeft.y && location.y < bottomRight.y) return true;
         else return false;
@@ -203,7 +285,8 @@ public class Game extends JPanel implements ActionListener, MouseListener {
         // Check to see if the game is over
         if(state.checkFull() || state.checkTicTackToe() != 0) {
             state.state = GameState.State.OVER;
-            newGame.setEnabled(true);
+            newPvPGame.setEnabled(true);
+            newCompGame.setEnabled(true);
         }
 
         // No matter what, must repaint
