@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from March 8, 2019">
-      <change afterPath="$PROJECT_DIR$/Labs/Pixel Art Lab/BalchNeil.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Pixel Art Lab/README.md" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Final parts to Pixel Art Lab">
+      <change afterPath="$PROJECT_DIR$/Q3/03112019/03112019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/03112019/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/03112019/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/03112019/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/03112019/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Pixel Art Lab/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Pixel Art Lab/Game.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,36 +31,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Labs/Pixel Art Lab/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="203" column="35" selection-start-line="203" selection-start-column="35" selection-end-line="203" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#GameState#0;class#GameState#0" />
-                <element signature="method#Game#0;class#Game#0" />
-                <element signature="e#2193#3727#1" />
-                <element signature="e#3761#5521#1" />
-                <element signature="method#exportImage#0;class#Game#0" />
-                <element signature="method#actionPerformed#0;class#Game#0" />
-                <element signature="method#coordsWithin#0;class#Game#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/Pixel Art Lab/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,10 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Labs/Contacts Manager Lab/Runner.java" />
-        <option value="$PROJECT_DIR$/Labs/Contacts Manager Lab/Contact.java" />
-        <option value="$PROJECT_DIR$/Labs/Contacts Manager Lab/Screen.java" />
-        <option value="$PROJECT_DIR$/Labs/Contacts Manager Lab/README.md" />
         <option value="$PROJECT_DIR$/Q3/01222019/Runner.java" />
         <option value="$PROJECT_DIR$/Q3/01222019/ArrayTest.java" />
         <option value="$PROJECT_DIR$/Q3/01242019/ArrayTest.java" />
@@ -129,6 +99,10 @@
         <option value="$PROJECT_DIR$/Q3/03082019/WarmUp.java" />
         <option value="$PROJECT_DIR$/Labs/Pixel Art Lab/README.md" />
         <option value="$PROJECT_DIR$/Labs/Pixel Art Lab/Game.java" />
+        <option value="$PROJECT_DIR$/Q3/03112019/Animal.java" />
+        <option value="$PROJECT_DIR$/Q3/03112019/Dog.java" />
+        <option value="$PROJECT_DIR$/Q3/03112019/Cat.java" />
+        <option value="$PROJECT_DIR$/Q3/03112019/Runner.java" />
       </list>
     </option>
   </component>
@@ -152,17 +126,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
@@ -174,15 +144,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552068660875" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q3/03082019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552323423971" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q3/03112019" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -218,7 +187,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.Runner (1)">
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="03112019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="Tic Tac Toe Lab" />
@@ -278,9 +255,11 @@
     <list>
       <item itemvalue="Application.Runner" />
       <item itemvalue="Cucumber java.All Features in: 09062018" />
+      <item itemvalue="Application.Runner (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Runner" />
       </list>
@@ -348,14 +327,8 @@
       <workItem from="1551370254698" duration="34000" />
       <workItem from="1551370481474" duration="10476000" />
       <workItem from="1551715690446" duration="608000" />
-      <workItem from="1551975070806" duration="11041000" />
-    </task>
-    <task id="LOCAL-00047" summary="Classwork for November 15, 2018">
-      <created>1542646323157</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1542646323157</updated>
+      <workItem from="1551975070806" duration="11269000" />
+      <workItem from="1552317309424" duration="1832000" />
     </task>
     <task id="LOCAL-00048" summary="Classwork for November 19, 2018">
       <created>1542646338590</created>
@@ -693,7 +666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552062897137</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Final parts to Pixel Art Lab">
+      <created>1552068748715</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1552068748716</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -708,7 +688,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386550000" />
+    <option name="totallyTimeSpent" value="388610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,7 +702,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1339581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13506064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -736,7 +716,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32952183" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.23987539" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.23987539" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.25129804" />
@@ -831,7 +811,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork from January 11, 2019" />
     <MESSAGE value="AAAAAAAAAHHHHHHHH 2018/2019 date syndrome" />
     <MESSAGE value="Classwork from January 17, 2019" />
     <MESSAGE value="Classwork from January 14, 2019" />
@@ -856,44 +835,14 @@
     <MESSAGE value="Classwork for March 7, 2019" />
     <MESSAGE value="Preliminary files for Pixel Art Lab" />
     <MESSAGE value="Classwork from March 8, 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork from March 8, 2019" />
+    <MESSAGE value="Final parts to Pixel Art Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final parts to Pixel Art Lab" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="3341" selection-start-line="3341" selection-end-line="3341" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/java/awt/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4965" selection-start-line="4965" selection-end-line="4965" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Contacts Manager Lab/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q3/01222019/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q3/01222019/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1300,16 +1249,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Pixel Art Lab/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Pixel Art Lab/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
+        <state relative-caret-position="1207">
           <caret line="203" column="35" selection-start-line="203" selection-start-column="35" selection-end-line="203" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1321,6 +1263,49 @@
             <element signature="method#actionPerformed#0;class#Game#0" />
             <element signature="method#coordsWithin#0;class#Game#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Pixel Art Lab/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/03112019/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/03112019/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/03112019/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/03112019/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
