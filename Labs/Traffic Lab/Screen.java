@@ -7,22 +7,40 @@ import java.util.ArrayList;
 
 public class Screen extends JPanel{
 	private ArrayList<Automobile> vehicles;
+	private int simTimeScalar = 1;
 
 	public Screen(){
 		vehicles = new ArrayList<Automobile>();
 
 		// Add Sedans
-//		vehicles.add(new Automobile(Color.BLUE, new Point(50, 50)));
-        vehicles.add(new MediumCar(Color.RED, new Point(300, 250)));
+        vehicles.add(new Sedan(Color.RED, new Point(800, 110)));
 
 		// Add Sports Cars
-//		vehicles.add(new Automobile(Color.BLUE, new Point(50, 50)));
+		vehicles.add(new SportsCar(Color.BLUE, new Point(800, 340)));
 
 		// Add SUVs
-//		vehicles.add(new Automobile(Color.BLUE, new Point(50, 50)));
+		vehicles.add(new BigCar(Color.BLUE, new Point(850, 330)));
 
 		// Add Trucks
 //		vehicles.add(new Automobile(Color.BLUE, new Point(50, 50)));
+
+		// Animation thread
+		Thread worker = new Thread(new Runnable() {
+			@Override
+			public void run() {
+				while(true) {
+					repaint();
+
+					// Sleep for 50ms
+					try {
+						Thread.sleep((int)(50 / simTimeScalar));
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+		});
+		worker.start();
 	}
 
 	public Dimension getPreferredSize(){
@@ -52,7 +70,11 @@ public class Screen extends JPanel{
 		g.setColor(Color.WHITE);
 		for(int x = 10; x < 800; x += 30) g.fillRect(x, 300 + 12 + 20, 20, 5);
 
-		// Draw Vehicles
-		for(int i = 0; i < vehicles.size(); i++) vehicles.get(i).drawMe(g);
+		// Move and draw Vehicles
+		for(int i = 0; i < vehicles.size(); i++) {
+			vehicles.get(i).moveBy();
+			if(vehicles.get(i).getPosition().x < 0) vehicles.get(i).moveBy(new Dimension(800, 0));
+			vehicles.get(i).drawMe(g);
+		}
 	}
 }

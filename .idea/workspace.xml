@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from March 14, 2019">
-      <change afterPath="$PROJECT_DIR$/Labs/Traffic Lab/Automobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Traffic Lab/MediumCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Traffic Lab/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Traffic Lab/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Traffic Lab/SportsCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Traffic Lab/Traffic Lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="First part of traffic lab">
+      <change afterPath="$PROJECT_DIR$/Labs/Traffic Lab/BigCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Traffic Lab/Sedan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Traffic Lab/Automobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Traffic Lab/Automobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Traffic Lab/MediumCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Traffic Lab/MediumCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Traffic Lab/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Traffic Lab/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Traffic Lab/SportsCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Traffic Lab/SportsCar.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,19 +35,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="357">
+              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="class#722:784" />
                 <element signature="e#396#397#0" expanded="true" />
                 <element signature="e#432#433#0" expanded="true" />
               </folding>
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Automobile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+            <state relative-caret-position="170">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/MediumCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/BigCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -80,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/SportsCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="340">
+              <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -107,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Q3/01312019/Runner.java" />
-        <option value="$PROJECT_DIR$/Labs/Blackjack Version 2/Card.java" />
         <option value="$PROJECT_DIR$/Labs/Blackjack Version 2/README.md" />
         <option value="$PROJECT_DIR$/Q3/02042019/Card.java" />
         <option value="$PROJECT_DIR$/Q3/02042019/Runner.java" />
@@ -154,10 +161,12 @@
         <option value="$PROJECT_DIR$/Labs/Traffic Lab/Runner.java" />
         <option value="$PROJECT_DIR$/Labs/Traffic Lab/SmallCar.java" />
         <option value="$PROJECT_DIR$/Labs/Traffic Lab/SmallSportsCar.java" />
+        <option value="$PROJECT_DIR$/Labs/Traffic Lab/MediumCar.java" />
+        <option value="$PROJECT_DIR$/Labs/Traffic Lab/Sedan.java" />
         <option value="$PROJECT_DIR$/Labs/Traffic Lab/Automobile.java" />
         <option value="$PROJECT_DIR$/Labs/Traffic Lab/SportsCar.java" />
+        <option value="$PROJECT_DIR$/Labs/Traffic Lab/BigCar.java" />
         <option value="$PROJECT_DIR$/Labs/Traffic Lab/Screen.java" />
-        <option value="$PROJECT_DIR$/Labs/Traffic Lab/MediumCar.java" />
       </list>
     </option>
   </component>
@@ -182,20 +191,6 @@
     </navigator>
     <panes>
       <pane id="Scope">
-        <subPane subId="Scope 'Default'; set:Default; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Labs/Traffic Lab" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
             <path>
@@ -240,7 +235,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552581987201" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552665598153" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Labs/Traffic Lab" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -251,17 +246,17 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Formulas Lab" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Labs\Pixel Art Lab" />
+      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Labs\Tic Tac Toe Lab" />
+      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Labs\Blackjack Version 2" />
       <recent name="C:\Users\neilb\Documents\GitHub\APCS" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Labs\Pixel Art Lab" />
-      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Labs\Tic Tac Toe Lab" />
-      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Labs\Blackjack Version 2" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\neilb\Documents\GitHub\APCS\Formulas Lab" />
       <recent name="C:\Users\neilb\Documents\GitHub\APCS" />
     </key>
   </component>
@@ -448,14 +443,7 @@
       <workItem from="1551715690446" duration="608000" />
       <workItem from="1551975070806" duration="11269000" />
       <workItem from="1552317309424" duration="3713000" />
-      <workItem from="1552576063471" duration="5702000" />
-    </task>
-    <task id="LOCAL-00051" summary="Repo reorganisation">
-      <created>1542732750776</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1542732750776</updated>
+      <workItem from="1552576063471" duration="8988000" />
     </task>
     <task id="LOCAL-00052" summary="Update README">
       <created>1542732911229</created>
@@ -793,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552576995642</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="First part of traffic lab">
+      <created>1552582008308</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1552582008308</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -808,7 +803,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396193000" />
+    <option name="totallyTimeSpent" value="399479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,7 +827,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.34060228" />
+      <window_info active="true" anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" visible="true" weight="0.24299066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29491174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -932,7 +927,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="oops! AGAIN!" />
     <MESSAGE value="Classwork from January 22, 2019" />
     <MESSAGE value="Classwork from January 24, 2019 and beginning of Blackjack lab" />
     <MESSAGE value="More work on Blackjack lab" />
@@ -957,58 +951,14 @@
     <MESSAGE value="Classwork from March 11, 2019" />
     <MESSAGE value="Classwork from March 12, 2019" />
     <MESSAGE value="Classwork from March 14, 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork from March 14, 2019" />
+    <MESSAGE value="First part of traffic lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="First part of traffic lab" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Q3/01312019/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#71#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Blackjack Version 2/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q3/02042019/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#71#72#0" expanded="true" />
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q3/02042019/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#140#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q3/02052019/ArrayListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1380,46 +1330,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Runner.java">
+    <entry file="file://$PROJECT_DIR$/Labs/Projectile Lab/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="-1674">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Screen.java">
+    <entry file="file://$PROJECT_DIR$/Labs/Four Seasons Lab/Scenery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Automobile.java">
+    <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Sedan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/SportsCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="340">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/BigCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/MediumCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Automobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Traffic Lab/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#722:784" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -29,7 +29,7 @@ public class Automobile {
 	}
 
 
-	public void moveBy() { moveBy(new Dimension(speed, 0)); }
+	public void moveBy() { moveBy(new Dimension(-speed, 0)); }
 	public void moveBy(Dimension displacement) {
 		position.x += displacement.width;
 		position.y += displacement.height;
