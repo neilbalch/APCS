@@ -3,7 +3,7 @@ import java.awt.*;
 public class SportsCar extends MediumCar {
     public SportsCar(Color bodyColor, Point position) {
         super(bodyColor, position);
-        setSpeed(3);
+        setSpeed(5);
     }
 
     @Override

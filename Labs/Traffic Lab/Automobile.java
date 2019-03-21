@@ -10,11 +10,15 @@ public class Automobile {
 	private Dimension size;
 	private int speed;
 
+	// For frontage road
+	public enum MoveDirection {UP, DOWN, NOTONFRONTAGEROAD}
+	private MoveDirection direction;
+
 	public Automobile(Color bodyColor, Point position) {
 		this.bodyColor = bodyColor;
 		this.size = new Dimension(70, 20);
 		this.position = position;
-		this.speed = 2;
+		this.speed = 3;
 	}
 
 	public void drawMe(Graphics g) {
@@ -42,4 +46,6 @@ public class Automobile {
 	public void setPosition(Point position) { this.position = position; }
 	public Dimension getSize() { return size; }
 	public void setDimensions(Dimension size) { this.size = size; }
+	public MoveDirection getDirection() { return direction; }
+	public void setDirection(MoveDirection direction) { this.direction = direction; }
 }
