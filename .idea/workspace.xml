@@ -1,393 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from March 28, 2019">
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/AP_CompSciA_Elevens_Lab_Student_Guide.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity1 Starter Code/Activity1 Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity1 Starter Code/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity1 Starter Code/CardTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/Activity10  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/CardGameGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/ElevensBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/ElevensGUIRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/10clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/10clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/10diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/10diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/10hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/10heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/10spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/10spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/2clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/2clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/2diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/2diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/2hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/2heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/2spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/2spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/3clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/3clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/3diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/3diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/3hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/3heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/3spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/3spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/4clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/4clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/4diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/4diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/4hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/4heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/4spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/4spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/5clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/5clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/5diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/5diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/5hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/5heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/5spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/5spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/6clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/6clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/6diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/6diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/6hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/6heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/6spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/6spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/7clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/7clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/7diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/7diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/7hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/7heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/7spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/7spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/8clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/8clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/8diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/8diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/8hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/8heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/8spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/8spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/9clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/9clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/9diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/9diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/9hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/9heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/9spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/9spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/JO.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/JOS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/aceclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/aceclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/acediamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/acediamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/acehearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/aceheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/acespades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/acespadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/back1.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/jackclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/jackclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/jackdiamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/jackdiamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/jackhearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/jackheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/jackspades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/jackspadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/kingclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/kingclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/kingdiamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/kingdiamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/kinghearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/kingheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/kingspades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/kingspadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/queenclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/queenclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/queendiamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/queendiamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/queenhearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/queenheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/queenspades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity10  Starter Code/cards/queenspadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/Activity11  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/CardGameGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/ElevensBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/ElevensGUIRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/ElevensSimulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/ThirteensBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/ThirteensGUIRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/ThirteensSimulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/10clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/10clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/10diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/10diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/10hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/10heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/10spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/10spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/2clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/2clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/2diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/2diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/2hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/2heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/2spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/2spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/3clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/3clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/3diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/3diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/3hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/3heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/3spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/3spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/4clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/4clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/4diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/4diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/4hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/4heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/4spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/4spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/5clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/5clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/5diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/5diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/5hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/5heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/5spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/5spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/6clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/6clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/6diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/6diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/6hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/6heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/6spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/6spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/7clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/7clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/7diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/7diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/7hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/7heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/7spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/7spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/8clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/8clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/8diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/8diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/8hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/8heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/8spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/8spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/9clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/9clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/9diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/9diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/9hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/9heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/9spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/9spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/JO.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/JOS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/aceclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/aceclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/acediamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/acediamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/acehearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/aceheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/acespades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/acespadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/back1.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/jackclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/jackclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/jackdiamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/jackdiamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/jackhearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/jackheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/jackspades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/jackspadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/kingclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/kingclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/kingdiamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/kingdiamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/kinghearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/kingheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/kingspades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/kingspadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/queenclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/queenclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/queendiamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/queendiamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/queenhearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/queenheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/queenspades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code/cards/queenspadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity2  Starter Code/Activity2  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity2  Starter Code/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity2  Starter Code/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity2  Starter Code/DeckTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity3  Starter Code/Activity3  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity3  Starter Code/Shuffler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity4  Starter Code/Activity4  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity4  Starter Code/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity4  Starter Code/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity4  Starter Code/DeckTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Activity5  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy1/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy1/DeckTester.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy1/DeckTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy2/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy2/DeckTester.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy2/DeckTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy3/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy3/DeckTester.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy3/DeckTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy4/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy4/DeckTester.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy4/DeckTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy5/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy5/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy5/DeckTester.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity5  Starter Code/Buggy5/DeckTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity6  Starter Code/Activity6  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity6  Starter Code/Elevens.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity7  Starter Code/Activity7  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity7  Starter Code/ElevensBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity8  Starter Code/Activity8  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity8  Starter Code/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity8  Starter Code/ElevensBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/Activity9  Starter Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/CardGameGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/ElevensBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/ElevensGUIRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/10clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/10clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/10diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/10diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/10hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/10heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/10spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/10spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/2clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/2clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/2diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/2diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/2hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/2heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/2spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/2spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/3clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/3clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/3diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/3diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/3hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/3heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/3spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/3spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/4clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/4clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/4diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/4diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/4hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/4heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/4spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/4spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/5clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/5clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/5diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/5diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/5hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/5heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/5spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/5spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/6clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/6clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/6diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/6diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/6hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/6heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/6spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/6spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/7clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/7clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/7diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/7diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/7hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/7heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/7spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/7spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/8clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/8clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/8diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/8diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/8hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/8heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/8spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/8spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/9clubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/9clubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/9diamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/9diamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/9hearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/9heartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/9spades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/9spadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/JO.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/JOS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/aceclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/aceclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/acediamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/acediamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/acehearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/aceheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/acespades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/acespadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/back1.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/jackclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/jackclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/jackdiamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/jackdiamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/jackhearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/jackheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/jackspades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/jackspadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/kingclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/kingclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/kingdiamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/kingdiamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/kinghearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/kingheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/kingspades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/kingspadesS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/queenclubs.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/queenclubsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/queendiamonds.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/queendiamondsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/queenhearts.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/queenheartsS.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/queenspades.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/cards/queenspadesS.GIF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Classwork from March 29, 2019: &quot;Lab&quot; files and terminado&#10;&#10;&quot;You leave me no choice, Jonathan, but to declare you Excomunicado.&quot; -- Winston 2017">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/ElevensBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/ElevensBoard.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -431,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Q3/03072019/Runner.java" />
         <option value="$PROJECT_DIR$/Q3/03072019/WarmUp.java" />
         <option value="$PROJECT_DIR$/Labs/Pixel Art Lab/Runner.java" />
         <option value="$PROJECT_DIR$/Q3/03082019/Runner.java" />
@@ -482,6 +97,7 @@
         <option value="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity3  Starter Code/Shuffler.java" />
         <option value="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity4  Starter Code/DeckTester.java" />
         <option value="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity4  Starter Code/Deck.java" />
+        <option value="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/ElevensBoard.java" />
       </list>
     </option>
   </component>
@@ -533,27 +149,6 @@
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="Elevens Lab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="Elevens Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Activity Starter Code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="Elevens Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Activity Starter Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Activity6  Starter Code" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -565,7 +160,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/neilb/Documents/GitHub/APCS/Graphical Formulas Lab/FormulasGraphics.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553815773912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553874904415" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity11  Starter Code" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -775,14 +370,7 @@
       <workItem from="1552317309424" duration="3713000" />
       <workItem from="1552576063471" duration="17758000" />
       <workItem from="1553299498598" duration="2394000" />
-      <workItem from="1553556622317" duration="10396000" />
-    </task>
-    <task id="LOCAL-00058" summary="Classwork for December 7, 2018 and first parts of Final Project -- image files">
-      <created>1544199269942</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1544199269942</updated>
+      <workItem from="1553556622317" duration="13098000" />
     </task>
     <task id="LOCAL-00059" summary="More work on final project... not completely done yet, but functional.">
       <created>1544460429986</created>
@@ -1120,7 +708,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553786611348</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Classwork from March 28, 2019: &quot;Lab&quot; files">
+      <created>1553837975738</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1553837975740</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1135,7 +730,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="421039000" />
+    <option name="totallyTimeSpent" value="423741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1258,7 +853,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork from Jan 31, 2019" />
     <MESSAGE value="First stuffs from Blackjack Lab v2" />
     <MESSAGE value="Classwork from February 5, 2019" />
     <MESSAGE value="More stuffs from Blackjack Lab v2" />
@@ -1283,66 +877,14 @@
     <MESSAGE value="Classwork from March 25, 2019" />
     <MESSAGE value="Classwork from March 26, 2019" />
     <MESSAGE value="Classwork from March 28, 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classwork from March 28, 2019" />
+    <MESSAGE value="Classwork from March 28, 2019: &quot;Lab&quot; files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork from March 28, 2019: &quot;Lab&quot; files" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Q3/03082019/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Pixel Art Lab/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q3/03112019/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q3/03112019/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q3/03112019/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q3/03112019/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Pixel Art Lab/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1706,6 +1248,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity7  Starter Code/ElevensBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="174" column="4" selection-start-line="174" selection-start-column="4" selection-end-line="174" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity8  Starter Code/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity8  Starter Code/ElevensBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/ElevensBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+          <folding>
+            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity9  Starter Code/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2172">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
