@@ -24,10 +24,10 @@
       <module fileurl="file://$PROJECT_DIR$/Q3/03112019/03112019.iml" filepath="$PROJECT_DIR$/Q3/03112019/03112019.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q3/03122019/03122019.iml" filepath="$PROJECT_DIR$/Q3/03122019/03122019.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q3/03142019/03142019.iml" filepath="$PROJECT_DIR$/Q3/03142019/03142019.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Q3/03212019/03212019.iml" filepath="$PROJECT_DIR$/Q3/03212019/03212019.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Q3/03252019/03252019.iml" filepath="$PROJECT_DIR$/Q3/03252019/03252019.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Q3/03262019/03262019.iml" filepath="$PROJECT_DIR$/Q3/03262019/03262019.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Q3/03282019/03282019.iml" filepath="$PROJECT_DIR$/Q3/03282019/03282019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q4/03212019/03212019.iml" filepath="$PROJECT_DIR$/Q4/03212019/03212019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q4/03252019/03252019.iml" filepath="$PROJECT_DIR$/Q4/03252019/03252019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q4/03262019/03262019.iml" filepath="$PROJECT_DIR$/Q4/03262019/03262019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q4/03282019/03282019.iml" filepath="$PROJECT_DIR$/Q4/03282019/03282019.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q4/04022019/04022019.iml" filepath="$PROJECT_DIR$/Q4/04022019/04022019.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q1/08212018/08212018.iml" filepath="$PROJECT_DIR$/Q1/08212018/08212018.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q1/08232018/08232018.iml" filepath="$PROJECT_DIR$/Q1/08232018/08232018.iml" />
@@ -105,6 +105,7 @@
       <module fileurl="file://$PROJECT_DIR$/Labs/Traffic Lab/Traffic Lab.iml" filepath="$PROJECT_DIR$/Labs/Traffic Lab/Traffic Lab.iml" />
       <module fileurl="file://$PROJECT_DIR$/Labs/Trivia Lab/Trivia Lab.iml" filepath="$PROJECT_DIR$/Labs/Trivia Lab/Trivia Lab.iml" />
       <module fileurl="file://$PROJECT_DIR$/Labs/Variable Lab/Variable Lab.iml" filepath="$PROJECT_DIR$/Labs/Variable Lab/Variable Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Pictures Lab/classes/classes.iml" filepath="$PROJECT_DIR$/Labs/Pictures Lab/classes/classes.iml" />
     </modules>
   </component>
 </project>
