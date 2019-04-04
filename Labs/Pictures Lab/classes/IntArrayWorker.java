@@ -2,7 +2,35 @@ public class IntArrayWorker
 {
   /** two dimensional matrix */
   private int[][] matrix = null;
-  
+
+  public int getCount(int query) {
+    int count = 0;
+    for(int r = 0; r < matrix.length; r++) {
+      for(int c = 0; c < matrix[r].length; c++) {
+        count += matrix[r][c] == query ? 1 : 0;
+      }
+    }
+
+    return count;
+  }
+
+  public int getLargest() {
+    int largest = 0;
+    for(int r = 0; r < matrix.length; r++) {
+      for(int c = 0; c < matrix[r].length; c++) {
+        if(matrix[r][c] > largest) largest = matrix[r][c];
+      }
+    }
+
+    return largest;
+  }
+
+  public int getColTotal(int col) {
+    int sum = 0;
+    for(int r = 0; r < matrix.length; r++) sum += matrix[r][col];
+    return sum;
+  }
+
   /** set the matrix to the passed one
     * @param theMatrix the one to use
     */
@@ -10,9 +38,9 @@ public class IntArrayWorker
   {
     matrix = theMatrix;
   }
-  
+
   /**
-   * Method to return the total 
+   * Method to return the total
    * @return the total of the values in the array
    */
   public int getTotal()
@@ -27,7 +55,7 @@ public class IntArrayWorker
     }
     return total;
   }
-  
+
   /**
    * Method to return the total using a nested for-each loop
    * @return the total of the values in the array
@@ -44,7 +72,7 @@ public class IntArrayWorker
     }
     return total;
   }
-  
+
   /**
    * Method to fill with an increasing count
    */
@@ -61,7 +89,7 @@ public class IntArrayWorker
       }
     }
   }
-  
+
   /**
    * print the values in the array in rows and columns
    */
@@ -77,16 +105,16 @@ public class IntArrayWorker
     }
     System.out.println();
   }
-  
-  
-  /** 
+
+
+  /**
    * fill the array with a pattern
    */
   public void fillPattern1()
   {
     for (int row = 0; row < matrix.length; row++)
     {
-      for (int col = 0; col < matrix[0].length; 
+      for (int col = 0; col < matrix[0].length;
            col++)
       {
         if (row < col)
@@ -98,5 +126,5 @@ public class IntArrayWorker
       }
     }
   }
- 
+
 }
