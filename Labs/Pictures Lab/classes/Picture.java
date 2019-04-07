@@ -280,9 +280,19 @@ public class Picture extends SimplePicture
     }
   }
 
+  public void copy(Picture fromPic, int pasteBeginRow, int pasteBeginCol, int copyBeginRow, int copyBeginCol, int copyEndRow, int copyEndCol) {
+    Pixel[][] toPixels = this.getPixels2D();
+    Pixel[][] fromPixels = fromPic.getPixels2D();
+
+    for(int row = 0; row <= copyEndRow - copyBeginRow; row++) {
+      for(int col = 0; col <= copyEndCol - copyBeginCol; col++) {
+        toPixels[row + pasteBeginRow][col + pasteBeginCol].setColor(fromPixels[row + copyBeginRow][col + copyBeginCol].getColor());
+      }
+    }
+  }
+
   /** Method to create a collage of several pictures */
-  public void createCollage()
-  {
+  public void createCollage() {
     Picture flower1 = new Picture("flower1.jpg");
     Picture flower2 = new Picture("flower2.jpg");
     this.copy(flower1,0,0);
@@ -297,6 +307,18 @@ public class Picture extends SimplePicture
     this.write("collage.jpg");
   }
 
+  public void myCollage() {
+    Picture robot = new Picture("robot.jpg");
+    Picture water = new Picture("water.jpg");
+    Picture moon = new Picture("moon-surface.jpg");
+    this.copy(robot,0,0);
+    this.copy(water,100,0);
+    this.copy(robot,200,0);
+    this.copy(moon,250,400);
+    this.copy(robot,400,0);
+    this.copy(water,500,0);
+    this.write("collage.jpg");
+  }
 
   /** Method to show large changes in color
     * @param edgeDist the distance for finding edges
@@ -324,6 +346,18 @@ public class Picture extends SimplePicture
     }
   }
 
+  public void edgeDetectionBetterer(int edgeDist) {
+    Pixel[][] pixels = this.getPixels2D();
+
+    for(int row = 0; row < pixels.length; row++) {
+      for(int col = 0; col < pixels[0].length - 1; col++) {
+        if (pixels[row][col].colorDistance(pixels[row][col + 1].getColor()) > edgeDist || pixels[row][col].colorDistance(pixels[row + 1][col].getColor()) > edgeDist)
+          pixels[row][col].setColor(Color.BLACK);
+        else
+          pixels[row][col].setColor(Color.WHITE);
+      }
+    }
+  }
 
   /* Main method for testing - each class in Java can have a main
    * method
