@@ -12,27 +12,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class Screen extends JPanel implements KeyListener, ActionListener {
-//    private Player player;
-//    private Target[] asteroids;
-//    private Projectile[] projectiles;
-//    private AsteroidField asteroidField;
-//    private Runnable animationContents;
-//    private Thread animationThread;
 //    private Button reset;
 //    private BufferedImage bgL1;
 //    private BufferedImage bgL2;
-//
-//    // Game State enum Types
-//    private enum Level {LEVEL1, LEVEL2}
-//    private Level level;
-//    private enum GameState {InProgress, WON, LOST}
-//    private GameState gameState;
-//
-//    // State variables
-//    private int lastNumHit;
-//    private int lives;
-//    private boolean deathSoundPlayed;
-//    private boolean resetting;
 
     // State variables
     private Point currentStage;
@@ -53,8 +35,8 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     }
 
     public Screen() {
-        setLayout(null);
         System.out.println("Hi! Why are you looking at the console output? You should be grading!");
+        setLayout(null);
         setFocusable(true);
         addKeyListener(this);
 
@@ -91,7 +73,6 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         g.drawString("\"Right Arrow\": Move player rightward", 75, 300);
         g.drawString("\"Spacebar\": Interact with NPC or portal", 75, 340);
     }
-
     private void drawPlayer(Graphics g, Point playerPosition) {
         // Draw Body
         g.setColor(Color.RED);
@@ -113,7 +94,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             drawHelpMenu(g);
             g.setColor(new Color(0, 0, 0, opacity));
             g.fillRect(0, 0, 800, 600);
-            opacity--;
+            opacity-= 5;
 
             try {
                 Thread.sleep(10);
@@ -121,15 +102,15 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 e.printStackTrace();
             }
             repaint();
-        } else if(showHelp) { // Show the help menu?
-            drawHelpMenu(g);
         } else {
             drawPlayer(g, playerPosition);
+
+            if(showHelp) drawHelpMenu(g); // Show the help menu?
         }
     }
 
     public void keyPressed(KeyEvent e) {
-        int moveMagnitude = 5;
+        int moveMagnitude = 10;
 
         switch(e.getKeyCode()) {
             case 37:    // Left Arrow
@@ -146,6 +127,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 break;
             case 32:    // Spacebar
                 Point portal = map[currentStage.x][currentStage.y].portalEntered(playerPosition);
+                System.out.println(portal.x + " : " + portal.y);
                 if(portal.x != 0 || portal.y != 0) { // Which direction did the player want to move?
                    if(portal.x == 1) playerPosition.setLocation(playerPosition.getX() + 1, playerPosition.getY());
                    else if(portal.x == -1) playerPosition.setLocation(playerPosition.getX() - 1, playerPosition.getY());
@@ -158,13 +140,12 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         repaint();
     }
     public void keyTyped(KeyEvent e) { // Cheat key handled here because we don't want to repeat the keypress accidentally
-        //TODO(Neil): Delete this one?
+        //TODO(Neil): Make this one progress through quests
         if(e.getKeyChar() == 'p') {} // Move to level 2 if commanded to
         else if(e.getKeyChar() == 'h') showHelp = !showHelp;
 
         repaint();
     }
     public void keyReleased(KeyEvent e) {}
-    public void actionPerformed(ActionEvent e) { // Handle reset button presses
-    }
+    public void actionPerformed(ActionEvent e) { /* Handle reset button presses */ }
 }
