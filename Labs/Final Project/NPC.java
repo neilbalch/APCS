@@ -2,6 +2,7 @@ import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 
 public class NPC {
     private String message;
@@ -42,10 +43,28 @@ public class NPC {
 
         // Are we being talked to?
         if(interactedWith) {
-            //TODO(NEil): write this
+            int maxCharsPerLine = 30;
+            int linesRequired = message.length() / maxCharsPerLine;
+            if(message.length() % maxCharsPerLine != 0) linesRequired++;
+
+            // Draw bounding box around speech
+            g.setColor(Color.WHITE);
+            g.fillRoundRect(position.x + 10, position.y - 15, 180, linesRequired * 20, 15, 15);
+
+            // Draw test in place
+            g.setColor(Color.BLACK);
+            g.setFont(new Font("Calibri", Font.BOLD, 14));
+            int textY = position.y;
+            for(int i = 0; i < linesRequired; i++) {
+                if(i < linesRequired - 1) g.drawString(message.substring(i * maxCharsPerLine, (i + 1) * maxCharsPerLine), position.x + 15, textY);
+                else g.drawString(message.substring(i * maxCharsPerLine), position.x + 15, textY); // Don't provide and endpoint to substring if  it's the last line
+                textY += 20;
+            }
+
+            // Reset the interactedWith flag
+            interactedWith = false;
         }
     }
 
-    public void interact() { this.interactedWith = true;
-        System.out.println("Interacted with");}
+    public void interact() { this.interactedWith = true; }
 }

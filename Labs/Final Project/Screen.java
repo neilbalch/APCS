@@ -47,10 +47,10 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         map[0][2] = null;
         map[1][0] = null;
         map[1][1] = new LandingPoint(true, true, true, true);
-        map[1][2] = null;
+        map[1][2] = new Beach(true, true,true, false);
         map[2][0] = null;
-        map[2][1] = null;
-        map[2][2] = null;
+        map[2][1] = new Beach(true, false, true, true);
+        map[2][2] = new Ocean(true, false, true, false);
         opacity = 255;
         showHelp = true;
         playerPosition = new Point(400, 300);
@@ -127,14 +127,19 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 break;
             case 32:    // Spacebar
                 Point portal = map[currentStage.x][currentStage.y].portalEntered(playerPosition);
-                System.out.println(portal.x + " : " + portal.y);
                 if(portal.x != 0 || portal.y != 0) { // Which direction did the player want to move?
-                   if(portal.x == 1) playerPosition.setLocation(playerPosition.getX() + 1, playerPosition.getY());
-                   else if(portal.x == -1) playerPosition.setLocation(playerPosition.getX() - 1, playerPosition.getY());
-                   else if(portal.y == 1) playerPosition.setLocation(playerPosition.getX(), playerPosition.getY() + 1);
-                   else if(portal.y == -1) playerPosition.setLocation(playerPosition.getX(), playerPosition.getY() - 1);
+                   if(portal.x == 1) {          // Moving down
+                       currentStage.x += 1;
+                   } else if(portal.x == -1) {  // Moving up
+                       currentStage.x -= 1;
+                   } else if(portal.y == 1) {   // Moving right
+                       currentStage.y += 1;
+                   } else if(portal.y == -1) {  // Moving left
+                       currentStage.y -= 1;
+                   }
                 } else map[currentStage.x][currentStage.y].interactWithNPCs(playerPosition);
                 break;
+                //TODO(Neil): Teleport the player to the corresponding portal.
         }
 
         repaint();

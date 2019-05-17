@@ -25,11 +25,10 @@ public abstract class Stage {
         this.items = new ArrayList<Item>();
     }
 
+    // Draw in basic stage functionality
     public void drawMe(Graphics g) {
         // Draw in NPCs
-        for(NPC npc : npcs) {
-            npc.drawMe(g);
-        }
+        for(NPC npc : npcs) { npc.drawMe(g); }
 
         // Draw Portals
         g.setColor(new Color(154, 196, 216, 133));
@@ -46,6 +45,7 @@ public abstract class Stage {
         else return false;
     }
 
+    // Inform the NPC that the player is within interaction distance with
     public void interactWithNPCs(Point playerLocation) {
         int boundingBoxRadius = 35;
 
@@ -56,15 +56,21 @@ public abstract class Stage {
         }
     }
 
+    // Returns whether or not the player has entered a portal, and if so, where they have decided to go.
+    // Point(0, o) indicates that no portal was entered.
     public Point portalEntered(Point playerLocation) {
-        if(coordsWithin(playerLocation, new Point(400 - 50, 0), new Point(400 + 50, 100))) {
-            return new Point(0, -1);
-        } else if(coordsWithin(playerLocation, new Point(400 - 50, 500), new Point(400 + 50, 600))) {
-            return new Point(0, 1);
-        } else if(coordsWithin(playerLocation, new Point(0, 300 - 50), new Point(100, 300 + 50))) {
+        if(coordsWithin(playerLocation, new Point(400 - 50, 0), new Point(400 + 50, 100))) { // Top
+            System.out.println("top");
             return new Point(-1, 0);
-        } else if(coordsWithin(playerLocation, new Point(700, 300 - 50), new Point(800, 300 + 50))) {
-            return new Point (1, 0);
+        } else if(coordsWithin(playerLocation, new Point(400 - 50, 500), new Point(400 + 50, 600))) { // Bottom
+            System.out.println("bottom");
+            return new Point(1, 0);
+        } else if(coordsWithin(playerLocation, new Point(0, 300 - 50), new Point(100, 300 + 50))) { // Left
+            System.out.println("left");
+            return new Point(0, -1);
+        } else if(coordsWithin(playerLocation, new Point(700, 300 - 50), new Point(800, 300 + 50))) { // Right
+            System.out.println("right");
+            return new Point (0, 1);
         } else return new Point(0, 0);
     }
 }
