@@ -19,13 +19,13 @@
 - Pick up two emeralds and exchange them with the villager for boots
 - Locate a helmet and chest plate and pick it up, then defeat the Lizard King
 
-## Map
+## Map Layout
 
-| x | x | x |
-|---|---|---|
-|   |   |   |
-| Forrest  | Landing | Beach |
-| Beach  | Beach | Ocean |
+|     x     |     x     |     x     |
+|-----------|-----------|-----------|
+| Desert    | Savannah  | Forrest   |
+| Forrest   | Landing   | Beach     |
+| Beach     | Beach     | Ocean     |
 
 
 ## Entities list
