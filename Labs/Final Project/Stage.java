@@ -30,6 +30,9 @@ public abstract class Stage {
         // Draw in NPCs
         for(NPC npc : npcs) { npc.drawMe(g); }
 
+        // Draw in Items
+        for(Item item : items) { item.drawMe(g); }
+
         // Draw Portals
         g.setColor(new Color(154, 196, 216, 133));
         if(topPortal) g.fillRect(400 - 50, 0, 100, 100);
@@ -37,6 +40,15 @@ public abstract class Stage {
         if(leftPortal) g.fillRect(0, 300 - 50, 100, 100);
         if(rightPortal) g.fillRect(700, 300 - 50, 100, 100);
     }
+
+    // Add an NPC to the stage
+    public void addNPC(NPC npc) { npcs.add(npc); }
+
+    // Add an NPC to the stage
+    public void addNPCItem(int i, Item npcItem) { npcs.get(i).addItem(npcItem); }
+
+    // Add an Item to the stage
+    public void addItem(Item item) { items.add(item); }
 
     // Returns whether or not the provided location is within the bounding box provided
     private boolean coordsWithin(Point location, Point topLeft, Point bottomRight) {
@@ -56,20 +68,32 @@ public abstract class Stage {
         }
     }
 
+    // Returns the item to place in the player's inventory, or null if there is none to add
+    public Item interactWithItems(Point playerLocation) {
+        int boundingBoxRadius = 25;
+
+        for(int i = 0; i < items.size(); i++) {
+            Point itemPos = items.get(i).getPosition();
+            if(coordsWithin(playerLocation, new Point(itemPos.x - boundingBoxRadius, itemPos.y - boundingBoxRadius), new Point(itemPos.x + boundingBoxRadius, itemPos.y + boundingBoxRadius))) {
+                Item temp = items.get(i);
+                items.remove(i);
+                return temp;
+            }
+        }
+
+        return null;
+    }
+
     // Returns whether or not the player has entered a portal, and if so, where they have decided to go.
     // Point(0, o) indicates that no portal was entered.
     public Point portalEntered(Point playerLocation) {
         if(coordsWithin(playerLocation, new Point(400 - 50, 0), new Point(400 + 50, 100))) { // Top
-            System.out.println("top");
             return new Point(-1, 0);
         } else if(coordsWithin(playerLocation, new Point(400 - 50, 500), new Point(400 + 50, 600))) { // Bottom
-            System.out.println("bottom");
             return new Point(1, 0);
         } else if(coordsWithin(playerLocation, new Point(0, 300 - 50), new Point(100, 300 + 50))) { // Left
-            System.out.println("left");
             return new Point(0, -1);
         } else if(coordsWithin(playerLocation, new Point(700, 300 - 50), new Point(800, 300 + 50))) { // Right
-            System.out.println("right");
             return new Point (0, 1);
         } else return new Point(0, 0);
     }

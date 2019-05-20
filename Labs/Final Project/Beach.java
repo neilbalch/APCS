@@ -4,11 +4,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 
 public class Beach extends Stage {
-    public Beach(boolean top, boolean bottom, boolean left, boolean right) {
-        super(top, bottom, left, right);
-
-        npcs.add(new NPC(new Point(350, 400), "Hello! I'm an NPC. I have a lot to say, and you're going to have to listen to it."));
-    }
+    public Beach(boolean top, boolean bottom, boolean left, boolean right) { super(top, bottom, left, right); }
 
     @Override
     public void drawMe(Graphics g) {

@@ -10,18 +10,23 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.util.ArrayList;
+import java.awt.BasicStroke;
 
 public class Screen extends JPanel implements KeyListener, ActionListener {
-//    private Button reset;
-//    private BufferedImage bgL1;
-//    private BufferedImage bgL2;
-
     // State variables
     private Point currentStage;
     private Stage[][] map;
     private int opacity;
     private boolean showHelp;
     private Point playerPosition;
+
+    // Inventory elements
+    private ArrayList<Item> inventory;
+    private int selectedInventoryItem;
+    // Quest elements
+    private String[] quests;
+    private int currentQuest;
 
     private void playSound(String url) {
         try {
@@ -42,36 +47,57 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
         currentStage = new Point(1, 1);
         map = new Stage[3][3];
-        map[0][0] = null;
-        map[0][1] = null;
-        map[0][2] = null;
-        map[1][0] = null;
+        map[0][0] = new LandingPoint(false, true, false, true);
+        map[0][1] = new LandingPoint(false, true, true, true);
+        map[0][2] = new LandingPoint(false, true, true, false);
+        map[1][0] = new LandingPoint(true, true, false, true);
         map[1][1] = new LandingPoint(true, true, true, true);
         map[1][2] = new Beach(true, true,true, false);
-        map[2][0] = null;
+        map[2][0] = new LandingPoint(true, false, false, true);
         map[2][1] = new Beach(true, false, true, true);
         map[2][2] = new Ocean(true, false, true, false);
         opacity = 255;
         showHelp = true;
         playerPosition = new Point(400, 300);
+
+        inventory = new ArrayList<Item>();
+        selectedInventoryItem = 0;
+
+        quests = new String[4];
+        quests[0] = "Talk to an NPC and obtain a sword and shield.";
+        quests[1] = "Pick up two emeralds and exchange them with the villager for boots.";
+        quests[2] = "Locate a helmet and chest plate and pick it up, then defeat the Lizard King.";
+        quests[3] = "END SCREEN";
+        currentQuest = 0;
+
+        // Randomly place emeralds on the map
+        for(int i = 0; i < 7; i++) {
+            Point stage = new Point((int)(Math.random() * 3), (int)(Math.random() * 3));
+            Point location = new Point((int)(Math.random() * 600) + 200, (int)(Math.random() * 400) + 200);
+
+            map[stage.x][stage.y].addItem(new Emerald(location));
+        }
+
+        map[1][1].addNPC(new NPC(new Point((int)(Math.random() * 400) + 200, (int)(Math.random() * 400) + 200), "Hello! I'm an NPC. I have a lot to say, and after you read this, I have some stuff to give you, traveller!"));
+        map[1][1].addNPCItem(0, new Emerald(new Point(0, 0)));
     }
 
-    //Sets the size of the panel
-    public Dimension getPreferredSize() {
-        return new Dimension(800, 600);
-    }
+    // Sets the size of the panel
+    public Dimension getPreferredSize() { return new Dimension(800, 600); }
 
     private void drawHelpMenu(Graphics g) {
         g.setColor(Color.BLACK);
         g.setFont(new Font("Calibri", Font.BOLD, 60));
         g.drawString("Help Menu:", 75, 100);
         g.setFont(new Font("Calibri", Font.BOLD, 36));
-        g.drawString("\"h\": Show help menu (this screen)", 75, 140);
+        g.drawString("\"h\": Toggle help menu (this screen)", 75, 140);
         g.drawString("\"Up Arrow\": Move player upward", 75, 180);
         g.drawString("\"Down Arrow\": Move player downward", 75, 220);
         g.drawString("\"Left Arrow\": Move player leftward", 75, 260);
         g.drawString("\"Right Arrow\": Move player rightward", 75, 300);
         g.drawString("\"Spacebar\": Interact with NPC or portal", 75, 340);
+        g.drawString("\"e\": Pick up item, from NPC or the ground", 75, 380);
+        g.drawString("\"Nums 1-7\": Select item in inventory", 75, 420);
     }
     private void drawPlayer(Graphics g, Point playerPosition) {
         // Draw Body
@@ -107,10 +133,40 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
             if(showHelp) drawHelpMenu(g); // Show the help menu?
         }
+
+        // Draw in inventory
+        g.setColor(new Color(122, 122, 122, 174));
+        g.fillRect(0, 600 - 46, 43 * 7 + 3, 46);
+        g.setColor(Color.BLACK);
+        // Draw in vertical lines
+        for(int i = 0; i < 8; i++) g.fillRect(i * 43, 600 - 46, 3, 46);
+        // Draw in horizontal lines
+        g.fillRect(0, 600 - 46, 43 * 7 + 3, 3);
+        g.fillRect(0, 600 - 3, 43 * 7 + 3, 3);
+
+        // Fill inventory slots with the items
+        for(int i = 0; i < inventory.size(); i++) inventory.get(i).drawMe(g, new Point(i * 43 + 23, 600 - 23));
+
+        // Draw in selected inventory slot
+        g.setColor(new Color(180, 180, 180));
+        g.fillRect(43 * selectedInventoryItem, 600 - 46, 3, 46);
+        g.fillRect(43 * selectedInventoryItem + 43, 600 - 46, 3, 46);
+        g.fillRect(43 * selectedInventoryItem, 600 - 46, 46, 3);
+        g.fillRect(43 * selectedInventoryItem, 600 - 3, 46, 3);
+
+        // Draw in quests display
+        g.setColor(new Color(64, 64, 64, 177));
+        g.fillRect(0, 0, 800, 40);
+        g.setColor(Color.WHITE);
+        g.setFont(new Font("Cambria", Font.PLAIN, 20));
+        g.drawString("Current Quest: " + quests[currentQuest], 10, 30);
     }
 
     public void keyPressed(KeyEvent e) {
         int moveMagnitude = 10;
+
+        // Don't accept any actions while the game is loading in
+        if(opacity > 0) return;
 
         switch(e.getKeyCode()) {
             case 37:    // Left Arrow
@@ -130,23 +186,48 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 if(portal.x != 0 || portal.y != 0) { // Which direction did the player want to move?
                    if(portal.x == 1) {          // Moving down
                        currentStage.x += 1;
+                       playerPosition.y = 600 - playerPosition.y; // Teleport the player to the portal where they came from.
                    } else if(portal.x == -1) {  // Moving up
                        currentStage.x -= 1;
+                       playerPosition.y = 600 - playerPosition.y; // Teleport the player to the portal where they came from.
                    } else if(portal.y == 1) {   // Moving right
                        currentStage.y += 1;
+                       playerPosition.x = 800 - playerPosition.x; // Teleport the player to the portal where they came from.
                    } else if(portal.y == -1) {  // Moving left
                        currentStage.y -= 1;
+                       playerPosition.x = 800 - playerPosition.x; // Teleport the player to the portal where they came from.
                    }
                 } else map[currentStage.x][currentStage.y].interactWithNPCs(playerPosition);
                 break;
-                //TODO(Neil): Teleport the player to the corresponding portal.
+            case 69:    // E key
+                Item transferToInventory = map[currentStage.x][currentStage.y].interactWithItems(playerPosition);
+                if(transferToInventory != null) inventory.add(transferToInventory);
+                else { // If there were no item interactions, then interact with the NPC
+                    for(int i = 0; i < map[currentStage.x][currentStage.y].npcs.size(); i++) {
+                        if(map[currentStage.x][currentStage.y].npcs.get(i).isInteractedWith()) {
+                            Item temp = map[currentStage.x][currentStage.y].npcs.get(i).removeFirstItem();
+                            if(temp != null) inventory.add(temp);
+                            break;
+                        }
+                    }
+
+                }
+                break;
+        }
+
+        // If key pressed is 1-7...
+        if(e.getKeyCode() >= 49 && e.getKeyCode() <= 55) selectedInventoryItem = e.getKeyCode() - 49;
+
+        // If the player moved, reset any interactions with NPCs
+        int key = e.getKeyCode();
+        if(key >= 37 && key <= 40) {
+            for(int i = 0; i < map[currentStage.x][currentStage.y].npcs.size(); i++) map[currentStage.x][currentStage.y].npcs.get(i).resetInteract();
         }
 
         repaint();
     }
     public void keyTyped(KeyEvent e) { // Cheat key handled here because we don't want to repeat the keypress accidentally
-        //TODO(Neil): Make this one progress through quests
-        if(e.getKeyChar() == 'p') {} // Move to level 2 if commanded to
+        if(e.getKeyChar() == 'p' && currentQuest < quests.length - 1) currentQuest++; // Move to level 2 if commanded to
         else if(e.getKeyChar() == 'h') showHelp = !showHelp;
 
         repaint();

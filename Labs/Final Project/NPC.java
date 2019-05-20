@@ -3,6 +3,7 @@ import java.awt.Point;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.util.ArrayList;
 
 public class NPC {
     private String message;
@@ -11,6 +12,8 @@ public class NPC {
 
     private Color[] colors;
     private int npcColor;
+
+    private ArrayList<Item> items;
 
     public NPC(Point position, String message) {
         this.position = position;
@@ -27,19 +30,29 @@ public class NPC {
         this.colors[6] = Color.YELLOW;
 
         npcColor = (int)(colors.length * Math.random());
+
+        items = new ArrayList<Item>();
     }
 
-    public Point getPosition() { return position; }
+    // Add an Item to the stage
+    public void addItem(Item item) { this.items.add(item); }
+    public Item removeFirstItem() {
+        if(items.size() > 0) return this.items.remove(0);
+        else return null;
+    }
+    public Point getPosition() { return this.position; }
+    public void interact() { this.interactedWith = true; }
+    public void resetInteract() { this.interactedWith = false; }
+    public boolean isInteractedWith() { return interactedWith; }
 
     public void drawMe(Graphics g) {
-        // Draw NPC
         // Draw body
         g.setColor(colors[npcColor]);
         g.fillRect(position.x - 3, position.y, 6, 15);
 
         // Draw Head
         g.setColor(new Color(203, 174, 108));
-        g.fillOval(position.x - 15/2, position.y - 10, 15, 15);
+        g.fillOval(position.x - 15/2 - 1, position.y - 10, 15, 15);
 
         // Are we being talked to?
         if(interactedWith) {
@@ -49,7 +62,7 @@ public class NPC {
 
             // Draw bounding box around speech
             g.setColor(Color.WHITE);
-            g.fillRoundRect(position.x + 10, position.y - 15, 180, linesRequired * 20, 15, 15);
+            g.fillRoundRect(position.x + 10, position.y - 15, 180, ((linesRequired * 20) + (items.size() > 0 ? 50 : 0)), 15, 15);
 
             // Draw test in place
             g.setColor(Color.BLACK);
@@ -61,10 +74,11 @@ public class NPC {
                 textY += 20;
             }
 
+            // Draw items
+            for(int i = 0; i < items.size(); i++) items.get(i).drawMe(g, new Point(position.x + 25 + i * 40, textY + 10));
+
             // Reset the interactedWith flag
-            interactedWith = false;
+//            interactedWith = false;
         }
     }
-
-    public void interact() { this.interactedWith = true; }
 }
