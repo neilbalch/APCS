@@ -7,6 +7,7 @@ import java.util.ArrayList;
 
 public class NPC {
     private String message;
+    private String name;
     private Point position;
     private boolean interactedWith;
 
@@ -15,9 +16,10 @@ public class NPC {
 
     private ArrayList<Item> items;
 
-    public NPC(Point position, String message) {
+    public NPC(Point position, String message, String name) {
         this.position = position;
         this.message = message;
+        this.name = name;
         this.interactedWith = false;
 
         this.colors = new Color[7];
@@ -40,10 +42,12 @@ public class NPC {
         if(items.size() > 0) return this.items.remove(0);
         else return null;
     }
+    public boolean noMoreItems() { return this.items.size() == 0; }
     public Point getPosition() { return this.position; }
     public void interact() { this.interactedWith = true; }
     public void resetInteract() { this.interactedWith = false; }
     public boolean isInteractedWith() { return interactedWith; }
+    public String getName() { return name; }
 
     public void drawMe(Graphics g) {
         // Draw body
@@ -76,9 +80,6 @@ public class NPC {
 
             // Draw items
             for(int i = 0; i < items.size(); i++) items.get(i).drawMe(g, new Point(position.x + 25 + i * 40, textY + 10));
-
-            // Reset the interactedWith flag
-//            interactedWith = false;
         }
     }
 }

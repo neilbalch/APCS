@@ -27,6 +27,12 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     // Quest elements
     private String[] quests;
     private int currentQuest;
+    private boolean showEndScreen;
+
+    // Quest status vars
+    // Quest 1
+    private boolean npcTalkedTo;
+    private boolean npcGaveItems;
 
     private void playSound(String url) {
         try {
@@ -78,8 +84,16 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             map[stage.x][stage.y].addItem(new Emerald(location));
         }
 
-        map[1][1].addNPC(new NPC(new Point((int)(Math.random() * 400) + 200, (int)(Math.random() * 400) + 200), "Hello! I'm an NPC. I have a lot to say, and after you read this, I have some stuff to give you, traveller!"));
+        map[1][1].addNPC(new NPC(new Point((int)(Math.random() * 400) + 200, (int)(Math.random() * 400) + 200), "Hello! I'm an NPC. I have a lot to say, and after you read this, I have some stuff to give you, traveller!", "1"));
         map[1][1].addNPCItem(0, new Emerald(new Point(0, 0)));
+
+        map[1][1].addItem(new Helmet(new Point(400, 400)));
+        map[1][1].addItem(new Sword(new Point(440, 400)));
+        map[1][1].addItem(new Sheild(new Point(490, 400)));
+
+        showEndScreen = false;
+        npcTalkedTo = false;
+        npcGaveItems = false;
     }
 
     // Sets the size of the panel
@@ -113,6 +127,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
+
         // Draw the stage as a background
         map[currentStage.x][currentStage.y].drawMe(g);
 
@@ -135,31 +150,36 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         }
 
         // Draw in inventory
-        g.setColor(new Color(122, 122, 122, 174));
-        g.fillRect(0, 600 - 46, 43 * 7 + 3, 46);
-        g.setColor(Color.BLACK);
-        // Draw in vertical lines
-        for(int i = 0; i < 8; i++) g.fillRect(i * 43, 600 - 46, 3, 46);
-        // Draw in horizontal lines
-        g.fillRect(0, 600 - 46, 43 * 7 + 3, 3);
-        g.fillRect(0, 600 - 3, 43 * 7 + 3, 3);
+        {
+            g.setColor(new Color(122, 122, 122, 174));
+            g.fillRect(0, 600 - 46, 43 * 7 + 3, 46);
+            g.setColor(Color.BLACK);
+            // Draw in vertical lines
+            for (int i = 0; i < 8; i++) g.fillRect(i * 43, 600 - 46, 3, 46);
+            // Draw in horizontal lines
+            g.fillRect(0, 600 - 46, 43 * 7 + 3, 3);
+            g.fillRect(0, 600 - 3, 43 * 7 + 3, 3);
 
-        // Fill inventory slots with the items
-        for(int i = 0; i < inventory.size(); i++) inventory.get(i).drawMe(g, new Point(i * 43 + 23, 600 - 23));
+            // Fill inventory slots with the items
+            for (int i = 0; i < inventory.size(); i++)
+                inventory.get(i).drawMe(g, new Point(i * 43 + 23, 600 - 23));
 
-        // Draw in selected inventory slot
-        g.setColor(new Color(180, 180, 180));
-        g.fillRect(43 * selectedInventoryItem, 600 - 46, 3, 46);
-        g.fillRect(43 * selectedInventoryItem + 43, 600 - 46, 3, 46);
-        g.fillRect(43 * selectedInventoryItem, 600 - 46, 46, 3);
-        g.fillRect(43 * selectedInventoryItem, 600 - 3, 46, 3);
+            // Draw in selected inventory slot
+            g.setColor(new Color(180, 180, 180));
+            g.fillRect(43 * selectedInventoryItem, 600 - 46, 3, 46);
+            g.fillRect(43 * selectedInventoryItem + 43, 600 - 46, 3, 46);
+            g.fillRect(43 * selectedInventoryItem, 600 - 46, 46, 3);
+            g.fillRect(43 * selectedInventoryItem, 600 - 3, 46, 3);
+        }
 
         // Draw in quests display
-        g.setColor(new Color(64, 64, 64, 177));
-        g.fillRect(0, 0, 800, 40);
-        g.setColor(Color.WHITE);
-        g.setFont(new Font("Cambria", Font.PLAIN, 20));
-        g.drawString("Current Quest: " + quests[currentQuest], 10, 30);
+        {
+            g.setColor(new Color(64, 64, 64, 177));
+            g.fillRect(0, 0, 800, 40);
+            g.setColor(Color.WHITE);
+            g.setFont(new Font("Cambria", Font.PLAIN, 20));
+            g.drawString("Current Quest: " + quests[currentQuest], 10, 30);
+        }
     }
 
     public void keyPressed(KeyEvent e) {
@@ -224,10 +244,33 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             for(int i = 0; i < map[currentStage.x][currentStage.y].npcs.size(); i++) map[currentStage.x][currentStage.y].npcs.get(i).resetInteract();
         }
 
+        // Check quest status
+        // TODO(Neil): Fix this
+        switch(currentQuest) {
+            case 0: // Quest 1
+                for(int i = 0; i < map[1][1].npcs.size(); i++) {
+                    if(map[1][1].npcs.get(i).getName().equals("1") && map[1][1].npcs.get(i).isInteractedWith()) npcTalkedTo = true;
+                    if(map[1][1].npcs.get(i).getName().equals("1") && map[1][1].npcs.get(i).noMoreItems()) npcGaveItems = true;
+                }
+
+                if(npcTalkedTo && npcGaveItems) {
+                    currentQuest++;
+                    System.out.println("quest 2 now");
+                }
+                break;
+            case 1: // Quest 2
+                break;
+            case 2: // Quest 3
+                break;
+            case 3: // End Screen
+                showEndScreen = true;
+                break;
+        }
+
         repaint();
     }
     public void keyTyped(KeyEvent e) { // Cheat key handled here because we don't want to repeat the keypress accidentally
-        if(e.getKeyChar() == 'p' && currentQuest < quests.length - 1) currentQuest++; // Move to level 2 if commanded to
+        if(e.getKeyChar() == 'p' && currentQuest < quests.length - 1) currentQuest++; // Move up quests if commanded to
         else if(e.getKeyChar() == 'h') showHelp = !showHelp;
 
         repaint();

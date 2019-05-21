@@ -7,6 +7,8 @@
 - ~~NPC messages to player~~
 - ~~Quests~~
 - Completing quests will advance the quest counter
+- Make all of he necessary items
+- Make all of the necessary map elements
 - Fill in rest of map:
     - Savannah biome
     - Desert biome
@@ -34,7 +36,7 @@
     - Sword
     - Shield
     - Boots
-    - Helmet
+    - ~~Helmet~~
     - Chestplate
 - NPCs
     - First meeting
