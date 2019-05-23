@@ -26,7 +26,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     // Quest elements
     private String[] quests;
     private int currentQuest;
-    private boolean showEndScreen;
+//    private boolean showEndScreen;
 
     // Quest status vars
     // Quest 1
@@ -129,7 +129,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         }
 
         // Quest detection variables
-        showEndScreen = false;
+//        showEndScreen = false;
         npcTalkedTo = false;
         npcGaveItems = false;
     }
@@ -273,7 +273,10 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                     for(int i = 0; i < map[currentStage.x][currentStage.y].npcs.size(); i++) {
                         if(map[currentStage.x][currentStage.y].npcs.get(i).isInteractedWith()) {
                             Item temp = map[currentStage.x][currentStage.y].npcs.get(i).removeFirstItem(inventory);
-                            if(temp != null) inventory.add(temp);
+                            if(temp != null) {
+                                inventory.add(temp);
+                                playSound("itemPickedUp.wav");
+                            }
                             break;
                         }
                     }
@@ -302,18 +305,22 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
                 if(npcTalkedTo && npcGaveItems) {
                     currentQuest++;
+                    playSound("questCompleted.wav");
                     System.out.println("quest 2 now");
                 }
                 break;
             case 1: // Quest 2
                 for(Item i : inventory) {
-                    if(i.getName().equals("boots")) currentQuest++;
+                    if(i.getName().equals("boots")) {
+                        currentQuest++;
+                        playSound("questCompleted.wav");
+                    }
                 }
                 break;
             case 2: // Quest 3
                 break;
             case 3: // End Screen
-                showEndScreen = true;
+//                showEndScreen = true;
                 break;
         }
 
