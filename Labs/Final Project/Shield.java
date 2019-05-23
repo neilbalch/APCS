@@ -1,7 +1,7 @@
 import java.awt.*;
 
-public class Sheild extends Item {
-    public Sheild(Point position) { super(position); }
+public class Shield extends Item {
+    public Shield(Point position) { super(position, "shield"); }
 
     public void drawMe(Graphics g, Point position) {
         int x = (int)position.getX();

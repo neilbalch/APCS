@@ -11,7 +11,6 @@ import javax.sound.sampled.Clip;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
-import java.awt.BasicStroke;
 
 public class Screen extends JPanel implements KeyListener, ActionListener {
     // State variables
@@ -51,17 +50,20 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         setFocusable(true);
         addKeyListener(this);
 
-        currentStage = new Point(1, 1);
-        map = new Stage[3][3];
-        map[0][0] = new LandingPoint(false, true, false, true);
-        map[0][1] = new LandingPoint(false, true, true, true);
-        map[0][2] = new LandingPoint(false, true, true, false);
-        map[1][0] = new LandingPoint(true, true, false, true);
-        map[1][1] = new LandingPoint(true, true, true, true);
-        map[1][2] = new Beach(true, true,true, false);
-        map[2][0] = new LandingPoint(true, false, false, true);
-        map[2][1] = new Beach(true, false, true, true);
-        map[2][2] = new Ocean(true, false, true, false);
+        // Set map elements
+        {
+            currentStage = new Point(1, 1);
+            map = new Stage[3][3];
+            map[0][0] = new Desert(false, true, false, true);
+            map[0][1] = new Savannah(false, true, true, true);
+            map[0][2] = new Forrest(false, true, true, false);
+            map[1][0] = new Forrest(true, true, false, true);
+            map[1][1] = new LandingPoint(true, true, true, true);
+            map[1][2] = new Beach(true, true, true, false);
+            map[2][0] = new LandingPoint(true, false, false, true);
+            map[2][1] = new Beach(true, false, true, true);
+            map[2][2] = new Ocean(true, false, true, false);
+        }
         opacity = 255;
         showHelp = true;
         playerPosition = new Point(400, 300);
@@ -69,12 +71,15 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         inventory = new ArrayList<Item>();
         selectedInventoryItem = 0;
 
-        quests = new String[4];
-        quests[0] = "Talk to an NPC and obtain a sword and shield.";
-        quests[1] = "Pick up two emeralds and exchange them with the villager for boots.";
-        quests[2] = "Locate a helmet and chest plate and pick it up, then defeat the Lizard King.";
-        quests[3] = "END SCREEN";
-        currentQuest = 0;
+        // Set up quests
+        {
+            quests = new String[4];
+            quests[0] = "Talk to an NPC and obtain a sword and shield.";
+            quests[1] = "Pick up two emeralds and exchange them with the villager for boots.";
+            quests[2] = "Locate a helmet and chest plate, then defeat the Lizard King.";
+            quests[3] = "END SCREEN";
+            currentQuest = 0;
+        }
 
         // Randomly place emeralds on the map
         for(int i = 0; i < 7; i++) {
@@ -84,13 +89,46 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             map[stage.x][stage.y].addItem(new Emerald(location));
         }
 
-        map[1][1].addNPC(new NPC(new Point((int)(Math.random() * 400) + 200, (int)(Math.random() * 400) + 200), "Hello! I'm an NPC. I have a lot to say, and after you read this, I have some stuff to give you, traveller!", "1"));
-        map[1][1].addNPCItem(0, new Emerald(new Point(0, 0)));
+        map[1][1].addNPC(new NPC(new Point((int)(Math.random() * 400) + 200, (int)(Math.random() * 400) + 100), "Hello! I'm an NPC. I have a lot to say, and after you read this, I have some stuff to give you, traveller!", "1"));
+        map[1][1].addNPCItem(0, new Sword(new Point(0, 0)));
+        map[1][1].addNPCItem(0, new Shield(new Point(0, 0)));
 
-        map[1][1].addItem(new Helmet(new Point(400, 400)));
-        map[1][1].addItem(new Sword(new Point(440, 400)));
-        map[1][1].addItem(new Sheild(new Point(490, 400)));
+        // Randomly place the villager
+        {
+            Point mapLocation;
+            do {
+                mapLocation = new Point((int)(Math.random() * 3), (int)(Math.random() * 3));
+            } while((mapLocation.x == 1 && mapLocation.y == 1) || (mapLocation.x == 0 && mapLocation.y == 0));
+            Point location = new Point((int)(Math.random() * 400) + 200, (int)(Math.random() * 400) + 100);
+            map[mapLocation.x][mapLocation.y].addNPC(new NPC(location, "Hi! I'm a villager! Do you want to trade? I'll do boots for two emeralds. Do you have those?", "villager"));
+            for(int i = 0; i < map[mapLocation.x][mapLocation.y].npcs.size(); i++) {
+                if(map[mapLocation.x][mapLocation.y].npcs.get(i).getName().equals("villager")) {
+                    map[mapLocation.x][mapLocation.y].npcs.get(i).addItem(new Boots(new Point(0, 0)));
+                }
+            }
+        }
 
+        // Randomly place Helmet
+        {
+            Point mapLocation;
+            do {
+                mapLocation = new Point((int) (Math.random() * 3), (int) (Math.random() * 3));
+            } while ((mapLocation.x == 1 && mapLocation.y == 1) || (mapLocation.x == 0 && mapLocation.y == 0));
+            Point location = new Point((int) (Math.random() * 400) + 200, (int) (Math.random() * 400) + 100);
+            map[mapLocation.x][mapLocation.y].addItem(new Helmet(location));
+        }
+
+        // Randomly place Chestplate
+        {
+            Point mapLocation;
+            do {
+                mapLocation = new Point((int) (Math.random() * 3), (int) (Math.random() * 3));
+            } while ((mapLocation.x == 1 && mapLocation.y == 1) || (mapLocation.x == 0 && mapLocation.y == 0));
+            Point location = new Point((int) (Math.random() * 400) + 200, (int) (Math.random() * 400) + 100);
+            map[mapLocation.x][mapLocation.y].addItem(new Chestplate(location));
+        }
+
+        // Quest detection variables
         showEndScreen = false;
         npcTalkedTo = false;
         npcGaveItems = false;
@@ -127,6 +165,15 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
+
+        //TODO(Neil): Implement the end screen
+        if(currentQuest == 3) {
+            g.setColor(Color.BLACK);
+            g.fillRect(0, 0, 800, 600);
+
+            // End the loop, the game is done
+            return;
+        }
 
         // Draw the stage as a background
         map[currentStage.x][currentStage.y].drawMe(g);
@@ -178,7 +225,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             g.fillRect(0, 0, 800, 40);
             g.setColor(Color.WHITE);
             g.setFont(new Font("Cambria", Font.PLAIN, 20));
-            g.drawString("Current Quest: " + quests[currentQuest], 10, 30);
+            g.drawString("Current Quest: " + quests[currentQuest] + " (" + (currentQuest + 1) + "/3)", 10, 30);
         }
     }
 
@@ -225,7 +272,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 else { // If there were no item interactions, then interact with the NPC
                     for(int i = 0; i < map[currentStage.x][currentStage.y].npcs.size(); i++) {
                         if(map[currentStage.x][currentStage.y].npcs.get(i).isInteractedWith()) {
-                            Item temp = map[currentStage.x][currentStage.y].npcs.get(i).removeFirstItem();
+                            Item temp = map[currentStage.x][currentStage.y].npcs.get(i).removeFirstItem(inventory);
                             if(temp != null) inventory.add(temp);
                             break;
                         }
@@ -259,6 +306,9 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 }
                 break;
             case 1: // Quest 2
+                for(Item i : inventory) {
+                    if(i.getName().equals("boots")) currentQuest++;
+                }
                 break;
             case 2: // Quest 3
                 break;

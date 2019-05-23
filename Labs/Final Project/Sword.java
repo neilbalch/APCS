@@ -1,7 +1,7 @@
 import java.awt.*;
 
 public class Sword extends Item {
-    public Sword(Point position) { super(position); }
+    public Sword(Point position) { super(position, "sword"); }
 
     public void drawMe(Graphics g, Point position) {
         g.setColor(new Color(135, 187, 187));

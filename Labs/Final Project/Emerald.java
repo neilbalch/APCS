@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 
 public class Emerald extends Item {
-    public Emerald(Point position) { super(position); }
+    public Emerald(Point position) { super(position, "emerald"); }
 
     public void drawMe(Graphics g, Point position) {
         g.setColor(new Color(15, 124, 0));

@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 
 public class Helmet extends Item {
-    public Helmet(Point position) { super(position); }
+    public Helmet(Point position) { super(position, "helmet"); }
 
     public void drawMe(Graphics g, Point position) {
         int x = (int)position.getX();

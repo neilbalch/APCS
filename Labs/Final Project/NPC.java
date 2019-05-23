@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.util.ArrayList;
+import java.util.jar.Attributes;
 
 public class NPC {
     private String message;
@@ -38,8 +39,29 @@ public class NPC {
 
     // Add an Item to the stage
     public void addItem(Item item) { this.items.add(item); }
-    public Item removeFirstItem() {
-        if(items.size() > 0) return this.items.remove(0);
+    public Item removeFirstItem(ArrayList<Item> inventory) {
+        // If a villager, we have a special routine to exchange items
+        if(name.equals("villager")) {
+            // Count the player's emeralds. We need 2 to perform this exchange
+            int numEmeralds = 0;
+            for(Item i : inventory) {
+                if(i.getName().equals("emerald")) numEmeralds++;
+            }
+            if(numEmeralds < 2) return null;
+            else {
+                // Remove two emeralds from the player's inventory
+                int count = 0;
+                for(int i = 0; i < inventory.size() && count < 2; i++) {
+                     if(inventory.get(i).getName().equals("emerald")) {
+                         inventory.remove(i);
+                         i--;
+                         count++;
+                     }
+                }
+                return this.items.remove(0);
+           }
+        }
+        else if(items.size() > 0) return this.items.remove(0);
         else return null;
     }
     public boolean noMoreItems() { return this.items.size() == 0; }
@@ -66,7 +88,7 @@ public class NPC {
 
             // Draw bounding box around speech
             g.setColor(Color.WHITE);
-            g.fillRoundRect(position.x + 10, position.y - 15, 180, ((linesRequired * 20) + (items.size() > 0 ? 50 : 0)), 15, 15);
+            g.fillRoundRect(position.x + 10, position.y - 15, 200, ((linesRequired * 20) + (items.size() > 0 ? 50 : 0)), 15, 15);
 
             // Draw test in place
             g.setColor(Color.BLACK);
@@ -79,7 +101,7 @@ public class NPC {
             }
 
             // Draw items
-            for(int i = 0; i < items.size(); i++) items.get(i).drawMe(g, new Point(position.x + 25 + i * 40, textY + 10));
+            for(int i = 0; i < items.size(); i++) items.get(i).drawMe(g, new Point(position.x + 30 + i * 40, textY + 10));
         }
     }
 }
