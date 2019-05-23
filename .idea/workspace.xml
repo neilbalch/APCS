@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Second quest is complete!!">
-      <change afterPath="$PROJECT_DIR$/Labs/Final Project/questCompleted.wav" afterDir="false" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Add SFX for in-game actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Final Project/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Final Project/Screen.java" afterDir="false" />
     </list>
@@ -46,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Final Project/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="443">
+              <caret line="319" column="29" selection-start-line="319" selection-start-column="29" selection-end-line="319" selection-end-column="29" />
               <folding>
                 <element signature="method#playSound#0;class#Screen#0" />
                 <element signature="e#1596#2251#1" />
@@ -60,6 +59,8 @@
                 <element signature="method#drawPlayer#0;class#Screen#0" />
                 <element signature="e#5837#6814#1" />
                 <element signature="e#6858#7133#1" />
+                <element signature="e#8198#9213#1" />
+                <element signature="e#11767#12374#1" />
                 <element signature="method#keyTyped#0;class#Screen#0" />
               </folding>
             </state>
@@ -467,21 +468,7 @@
       <workItem from="1555945452034" duration="127000" />
       <workItem from="1557760182224" duration="1799000" />
       <workItem from="1557876688655" duration="32546000" />
-      <workItem from="1558584567090" duration="6624000" />
-    </task>
-    <task id="LOCAL-00076" summary="Classwork from January 24, 2019 and beginning of Blackjack lab">
-      <created>1548351332820</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1548351332821</updated>
-    </task>
-    <task id="LOCAL-00077" summary="More work on Blackjack lab">
-      <created>1548435048847</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1548435048847</updated>
+      <workItem from="1558584567090" duration="6963000" />
     </task>
     <task id="LOCAL-00078" summary="Classwork from January 29, 2019 and more work on Blackjack lab">
       <created>1548778091827</created>
@@ -812,7 +799,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558628711761</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Add SFX for in-game actions">
+      <created>1558629256316</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1558629256316</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Add SFX for in-game actions">
+      <created>1558629483964</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1558629483964</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -827,7 +828,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="480251000" />
+    <option name="totallyTimeSpent" value="480590000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -840,9 +841,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15490629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15490629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -855,8 +855,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29491174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" visible="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26168224" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.26168224" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.25129804" />
@@ -951,7 +951,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="First part of traffic lab" />
     <MESSAGE value="More work on traffic lab" />
     <MESSAGE value="Classwork from March 21, 2019" />
     <MESSAGE value="Rest of the work on the Traffic Lab" />
@@ -976,7 +975,8 @@
     <MESSAGE value="More items...." />
     <MESSAGE value="More items..." />
     <MESSAGE value="Second quest is complete!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second quest is complete!!" />
+    <MESSAGE value="Add SFX for in-game actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SFX for in-game actions" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1364,8 +1364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Final Project/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="443">
+          <caret line="319" column="29" selection-start-line="319" selection-start-column="29" selection-end-line="319" selection-end-column="29" />
           <folding>
             <element signature="method#playSound#0;class#Screen#0" />
             <element signature="e#1596#2251#1" />
@@ -1378,6 +1378,8 @@
             <element signature="method#drawPlayer#0;class#Screen#0" />
             <element signature="e#5837#6814#1" />
             <element signature="e#6858#7133#1" />
+            <element signature="e#8198#9213#1" />
+            <element signature="e#11767#12374#1" />
             <element signature="method#keyTyped#0;class#Screen#0" />
           </folding>
         </state>

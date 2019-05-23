@@ -298,6 +298,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         // TODO(Neil): Fix this
         switch(currentQuest) {
             case 0: // Quest 1
+                // Check for quest completion
                 for(int i = 0; i < map[1][1].npcs.size(); i++) {
                     if(map[1][1].npcs.get(i).getName().equals("1") && map[1][1].npcs.get(i).isInteractedWith()) npcTalkedTo = true;
                     if(map[1][1].npcs.get(i).getName().equals("1") && map[1][1].npcs.get(i).noMoreItems()) npcGaveItems = true;
@@ -306,7 +307,6 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 if(npcTalkedTo && npcGaveItems) {
                     currentQuest++;
                     playSound("questCompleted.wav");
-                    System.out.println("quest 2 now");
                 }
                 break;
             case 1: // Quest 2
