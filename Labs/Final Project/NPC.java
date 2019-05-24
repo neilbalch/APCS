@@ -70,6 +70,7 @@ public class NPC {
     public void resetInteract() { this.interactedWith = false; }
     public boolean isInteractedWith() { return interactedWith; }
     public String getName() { return name; }
+    public void changePosition(Dimension delta) { position.setLocation(position.x + delta.width, position.y + delta.height); }
 
     public void drawMe(Graphics g) {
         // Draw body

@@ -26,10 +26,10 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     // Quest elements
     private String[] quests;
     private int currentQuest;
+    private Thread bossAnimator;
 //    private boolean showEndScreen;
 
     // Quest status vars
-    // Quest 1
     private boolean npcTalkedTo;
     private boolean npcGaveItems;
 
@@ -128,10 +128,37 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             map[mapLocation.x][mapLocation.y].addItem(new Chestplate(location));
         }
 
+        map[0][0].addNPC(new LizardKing(new Point(100, 100), "", "lizardking"));
+
         // Quest detection variables
 //        showEndScreen = false;
         npcTalkedTo = false;
         npcGaveItems = false;
+
+        // Animation thread
+        bossAnimator = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                int time = 0;
+
+                while(((LizardKing)map[0][0].npcs.get(0)).isAlive()) {
+                    if(time <= 50 && time > 0) map[0][0].npcs.get(0).changePosition(new Dimension(5, 0));
+                    if(time <= 100 && time > 50) map[0][0].npcs.get(0).changePosition(new Dimension(0, 5));
+                    if(time <= 150 && time > 100) map[0][0].npcs.get(0).changePosition(new Dimension(-5, 0));
+                    if(time <= 200 && time > 150) map[0][0].npcs.get(0).changePosition(new Dimension(0, -5));
+                    time++;
+                    if(time == 200) time = 0;
+
+                    try {
+                        repaint();
+                        Thread.sleep(1000/30);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        });
+        bossAnimator.start();
     }
 
     // Sets the size of the panel
@@ -295,7 +322,6 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         }
 
         // Check quest status
-        // TODO(Neil): Fix this
         switch(currentQuest) {
             case 0: // Quest 1
                 // Check for quest completion
@@ -318,6 +344,17 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 }
                 break;
             case 2: // Quest 3
+                boolean containsHelmet = false;
+                boolean containsChest = false;
+                for(Item i : inventory) {
+                    if(i.getName().equals("helmet")) containsHelmet = true;
+                    if(i.getName().equals("chestplate")) containsChest = true;
+                }
+
+                // If both exist, then continue and evaluate if the Lizard King has died.
+                if(containsChest && containsHelmet) {
+                    //TODO(Neil): Fix this
+                }
                 break;
             case 3: // End Screen
 //                showEndScreen = true;
