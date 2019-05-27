@@ -27,7 +27,6 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     private String[] quests;
     private int currentQuest;
     private Thread bossAnimator;
-//    private boolean showEndScreen;
 
     // Quest status vars
     private boolean npcTalkedTo;
@@ -131,30 +130,26 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         map[0][0].addNPC(new LizardKing(new Point(100, 100), "", "lizardking"));
 
         // Quest detection variables
-//        showEndScreen = false;
         npcTalkedTo = false;
         npcGaveItems = false;
 
         // Animation thread
-        bossAnimator = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                int time = 0;
+        bossAnimator = new Thread(() -> {
+            int time = 0;
 
-                while(((LizardKing)map[0][0].npcs.get(0)).isAlive()) {
-                    if(time <= 50 && time > 0) map[0][0].npcs.get(0).changePosition(new Dimension(5, 0));
-                    if(time <= 100 && time > 50) map[0][0].npcs.get(0).changePosition(new Dimension(0, 5));
-                    if(time <= 150 && time > 100) map[0][0].npcs.get(0).changePosition(new Dimension(-5, 0));
-                    if(time <= 200 && time > 150) map[0][0].npcs.get(0).changePosition(new Dimension(0, -5));
-                    time++;
-                    if(time == 200) time = 0;
+            while(((LizardKing)map[0][0].npcs.get(0)).isAlive()) {
+                if(time <= 50 && time > 0) map[0][0].npcs.get(0).changePosition(new Dimension(5, 0));
+                if(time <= 100 && time > 50) map[0][0].npcs.get(0).changePosition(new Dimension(0, 5));
+                if(time <= 150 && time > 100) map[0][0].npcs.get(0).changePosition(new Dimension(-5, 0));
+                if(time <= 200 && time > 150) map[0][0].npcs.get(0).changePosition(new Dimension(0, -5));
+                time++;
+                if(time == 200) time = 0;
 
-                    try {
-                        repaint();
-                        Thread.sleep(1000/30);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+                try {
+                    repaint();
+                    Thread.sleep(1000/30);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         });
@@ -357,7 +352,6 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 }
                 break;
             case 3: // End Screen
-//                showEndScreen = true;
                 break;
         }
 
