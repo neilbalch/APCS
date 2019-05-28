@@ -14,14 +14,14 @@
     - ~~Desert biome~~
     - ~~Forest biome~~
 - ~~Players teleport to the respective portal~~
-- End screen
-- Sound effects for picking up an item and completing a quest
+- ~~End screen~~
+- ~~Sound effects for picking up an item and completing a quest~~
 
 ## Quests
 
 - ~~Talk to an NPC and obtain a sword and shield~~
 - ~~Pick up two emeralds and exchange them with the villager for boots~~
-- Locate a helmet and chest plate, then defeat the Lizard King
+- ~~Locate a helmet and chest plate, then defeat the Lizard King~~
 
 ## Map Layout
 
@@ -36,4 +36,4 @@
 - NPCs
     - ~~First meeting~~
     - ~~Villager~~
-    - Lizard King
+    - ~~Lizard King~~

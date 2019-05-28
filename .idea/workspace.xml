@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Replace runnable with lambda expression">
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Completed the final project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Final Project/LizardKing.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Final Project/LizardKing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Final Project/NPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Final Project/NPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Final Project/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Final Project/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Final Project/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Final Project/TODO.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,25 +30,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Final Project/TODO.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="267">
-                <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <first_editor relative-caret-position="323">
+                <caret line="19" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labs/Final Project/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="854">
               <caret line="264" column="19" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="19" />
               <folding>
                 <element signature="method#playSound#0;class#Screen#0" />
+                <element signature="method#Screen#0;class#Screen#0" />
                 <element signature="e#2442#2814#1" />
                 <element signature="e#2897#3172#1" />
                 <element signature="e#3574#4443#1" />
@@ -185,12 +184,12 @@
         <option value="$PROJECT_DIR$/Labs/Final Project/Forrest.java" />
         <option value="$PROJECT_DIR$/Labs/Final Project/Savannah.java" />
         <option value="$PROJECT_DIR$/Labs/Final Project/Item.java" />
-        <option value="$PROJECT_DIR$/Labs/Final Project/TODO.md" />
         <option value="$PROJECT_DIR$/Labs/Final Project/Boots.java" />
         <option value="$PROJECT_DIR$/Labs/Final Project/Chestplate.java" />
         <option value="$PROJECT_DIR$/Labs/Final Project/NPC.java" />
         <option value="$PROJECT_DIR$/Labs/Final Project/LizardKing.java" />
         <option value="$PROJECT_DIR$/Labs/Final Project/Screen.java" />
+        <option value="$PROJECT_DIR$/Labs/Final Project/TODO.md" />
       </list>
     </option>
   </component>
@@ -477,14 +476,7 @@
       <workItem from="1557760182224" duration="1799000" />
       <workItem from="1557876688655" duration="32546000" />
       <workItem from="1558584567090" duration="12762000" />
-      <workItem from="1559028412336" duration="3183000" />
-    </task>
-    <task id="LOCAL-00081" summary="Classwork from Jan 31, 2019">
-      <created>1548951859792</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1548951859792</updated>
+      <workItem from="1559028412336" duration="3799000" />
     </task>
     <task id="LOCAL-00082" summary="First stuffs from Blackjack Lab v2">
       <created>1548956748940</created>
@@ -822,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558938371275</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Completed the final project">
+      <created>1559059211430</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1559059211431</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -837,7 +836,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489572000" />
+    <option name="totallyTimeSpent" value="490188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,7 +849,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1565601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -862,11 +860,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.30010384" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29491174" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29491174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32917964" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26168224" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.26168224" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.25129804" />
@@ -961,7 +959,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork from March 25, 2019" />
     <MESSAGE value="Classwork from March 26, 2019" />
     <MESSAGE value="Classwork from March 28, 2019" />
     <MESSAGE value="Classwork from March 28, 2019: &quot;Lab&quot; files" />
@@ -986,7 +983,8 @@
     <MESSAGE value="Comment a bit more" />
     <MESSAGE value="More work on lab. Boss is added." />
     <MESSAGE value="Replace runnable with lambda expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace runnable with lambda expression" />
+    <MESSAGE value="Completed the final project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the final project" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1345,16 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Final Project/TODO.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="267">
-            <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Final Project/LizardKing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1375,10 +1363,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Final Project/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
+        <state relative-caret-position="854">
           <caret line="264" column="19" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="19" />
           <folding>
             <element signature="method#playSound#0;class#Screen#0" />
+            <element signature="method#Screen#0;class#Screen#0" />
             <element signature="e#2442#2814#1" />
             <element signature="e#2897#3172#1" />
             <element signature="e#3574#4443#1" />
@@ -1389,6 +1378,16 @@
             <element signature="method#drawPlayer#0;class#Screen#0" />
             <element signature="method#keyTyped#0;class#Screen#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Final Project/TODO.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
