@@ -27,6 +27,8 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     private String[] quests;
     private int currentQuest;
     private Thread bossAnimator;
+    private boolean fadingToBlack;
+    private int blackTransparancy;
 
     // Quest status vars
     private boolean npcTalkedTo;
@@ -69,6 +71,8 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
 
         inventory = new ArrayList<Item>();
         selectedInventoryItem = 0;
+        fadingToBlack = true;
+        blackTransparancy = 0;
 
         // Set up quests
         {
@@ -138,10 +142,10 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             int time = 0;
 
             while(((LizardKing)map[0][0].npcs.get(0)).isAlive()) {
-                if(time <= 50 && time > 0) map[0][0].npcs.get(0).changePosition(new Dimension(5, 0));
-                if(time <= 100 && time > 50) map[0][0].npcs.get(0).changePosition(new Dimension(0, 5));
-                if(time <= 150 && time > 100) map[0][0].npcs.get(0).changePosition(new Dimension(-5, 0));
-                if(time <= 200 && time > 150) map[0][0].npcs.get(0).changePosition(new Dimension(0, -5));
+                if(time <= 50 && time > 0) map[0][0].npcs.get(0).changePosition(new Dimension(3, 0));
+                if(time <= 100 && time > 50) map[0][0].npcs.get(0).changePosition(new Dimension(0, 3));
+                if(time <= 150 && time > 100) map[0][0].npcs.get(0).changePosition(new Dimension(-3, 0));
+                if(time <= 200 && time > 150) map[0][0].npcs.get(0).changePosition(new Dimension(0, -3));
                 time++;
                 if(time == 200) time = 0;
 
@@ -188,12 +192,14 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
-        //TODO(Neil): Implement the end screen
-        if(currentQuest == 3) {
+        // End screen
+        if(currentQuest == 3 && !fadingToBlack) {
             g.setColor(Color.BLACK);
-            g.fillRect(0, 0, 800, 600);
+            g.fillRect(0, 0, 800 , 600);
+            g.setColor(Color.WHITE);
+            g.setFont(new Font("Calibri", Font.BOLD, 60));
+            g.drawString("You've Won!", 225, 300);
 
-            // End the loop, the game is done
             return;
         }
 
@@ -242,20 +248,30 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         }
 
         // Draw in quests display
-        {
+        if(currentQuest != 3) {
             g.setColor(new Color(64, 64, 64, 177));
             g.fillRect(0, 0, 800, 40);
             g.setColor(Color.WHITE);
             g.setFont(new Font("Cambria", Font.PLAIN, 20));
             g.drawString("Current Quest: " + quests[currentQuest] + " (" + (currentQuest + 1) + "/3)", 10, 30);
         }
+
+        if(currentQuest == 3 && fadingToBlack) {
+            g.setColor(new Color(0, 0, 0, blackTransparancy));
+            g.fillRect(0, 0, 800, 600);
+
+            blackTransparancy++;
+            if(blackTransparancy > 255) fadingToBlack = false;
+            repaint();
+        }
+
     }
 
     public void keyPressed(KeyEvent e) {
         int moveMagnitude = 10;
 
-        // Don't accept any actions while the game is loading in
-        if(opacity > 0) return;
+        // Don't accept any actions while the game is loading in and ended
+        if(opacity > 0 && currentQuest == 3) return;
 
         switch(e.getKeyCode()) {
             case 37:    // Left Arrow
@@ -286,7 +302,11 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                        currentStage.y -= 1;
                        playerPosition.x = 800 - playerPosition.x; // Teleport the player to the portal where they came from.
                    }
-                } else map[currentStage.x][currentStage.y].interactWithNPCs(playerPosition);
+                } else {
+                    if(currentStage.equals(new Point(0, 0))) {
+                        ((LizardKing)map[0][0].npcs.get(0)).interact(playerPosition, inventory.get(selectedInventoryItem).getName().equals("sword"));
+                    } else map[currentStage.x][currentStage.y].interactWithNPCs(playerPosition);
+                }
                 break;
             case 69:    // E key
                 Item transferToInventory = map[currentStage.x][currentStage.y].interactWithItems(playerPosition);
@@ -347,9 +367,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 }
 
                 // If both exist, then continue and evaluate if the Lizard King has died.
-                if(containsChest && containsHelmet) {
-                    //TODO(Neil): Fix this
-                }
+                if(containsChest && containsHelmet && ((LizardKing)map[0][0].npcs.get(0)).defeated()) currentQuest++;
                 break;
             case 3: // End Screen
                 break;

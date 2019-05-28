@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="More work on lab. Boss is added.">
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Replace runnable with lambda expression">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Final Project/LizardKing.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Final Project/LizardKing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Final Project/NPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Final Project/NPC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Final Project/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Final Project/Screen.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,22 +47,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Final Project/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+            <state relative-caret-position="547">
+              <caret line="264" column="19" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="19" />
               <folding>
                 <element signature="method#playSound#0;class#Screen#0" />
-                <element signature="e#1596#2251#1" />
-                <element signature="e#2459#2831#1" />
-                <element signature="e#2816#3091#1" />
-                <element signature="e#3591#4426#1" />
-                <element signature="e#4515#5117#1" />
-                <element signature="e#4998#5451#1" />
+                <element signature="e#2442#2814#1" />
+                <element signature="e#2897#3172#1" />
+                <element signature="e#3574#4443#1" />
+                <element signature="e#4486#4939#1" />
+                <element signature="e#4986#5443#1" />
+                <element signature="e#5686#6502#0" />
                 <element signature="method#drawHelpMenu#0;class#Screen#0" />
                 <element signature="method#drawPlayer#0;class#Screen#0" />
-                <element signature="e#5837#6814#1" />
-                <element signature="e#6858#7133#1" />
-                <element signature="e#8198#9213#1" />
-                <element signature="e#11767#12374#1" />
                 <element signature="method#keyTyped#0;class#Screen#0" />
               </folding>
             </state>
@@ -68,30 +66,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/Final Project/LizardKing.java">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="2293" column="23" selection-start-line="2293" selection-start-column="23" selection-end-line="2293" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/Final Project/Stage.java">
+        <entry file="file://$PROJECT_DIR$/Labs/Final Project/LizardKing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="595">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Stage#0;class#Stage#0" />
-                <element signature="method#drawMe#0;class#Stage#0" />
-                <element signature="method#coordsWithin#0;class#Stage#0" />
-                <element signature="method#interactWithNPCs#0;class#Stage#0" />
-                <element signature="method#interactWithItems#0;class#Stage#0" />
-                <element signature="method#portalEntered#0;class#Stage#0" />
+                <element signature="method#coordsWithin#0;class#LizardKing#0" />
               </folding>
             </state>
           </provider>
@@ -100,12 +90,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labs/Final Project/NPC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="72" column="124" selection-start-line="72" selection-start-column="124" selection-end-line="72" selection-end-column="124" />
+            <state relative-caret-position="507">
+              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#NPC#0;class#NPC#0" />
                 <element signature="method#removeFirstItem#0;class#NPC#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/Final Project/Stage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Stage#0;class#Stage#0" />
+                <element signature="method#drawMe#0;class#Stage#0" />
+                <element signature="method#coordsWithin#0;class#Stage#0" />
+                <element signature="method#interactWithNPCs#0;class#Stage#0" />
+                <element signature="method#interactWithItems#0;class#Stage#0" />
+                <element signature="method#portalEntered#0;class#Stage#0" />
               </folding>
             </state>
           </provider>
@@ -468,14 +476,8 @@
       <workItem from="1555945452034" duration="127000" />
       <workItem from="1557760182224" duration="1799000" />
       <workItem from="1557876688655" duration="32546000" />
-      <workItem from="1558584567090" duration="11957000" />
-    </task>
-    <task id="LOCAL-00080" summary="Final Blackjack lab">
-      <created>1548917447901</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1548917447902</updated>
+      <workItem from="1558584567090" duration="12762000" />
+      <workItem from="1559028412336" duration="3183000" />
     </task>
     <task id="LOCAL-00081" summary="Classwork from Jan 31, 2019">
       <created>1548951859792</created>
@@ -813,7 +815,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558713630660</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Replace runnable with lambda expression">
+      <created>1558938371274</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1558938371275</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -828,7 +837,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="485584000" />
+    <option name="totallyTimeSpent" value="489572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -843,7 +852,7 @@
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15490629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1565601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -853,11 +862,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info anchor="bottom" x="122" y="739" width="1814" height="317" id="Run" order="2" sideWeight="0.49889746" weight="0.30010384" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29491174" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29491174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.26168224" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.26168224" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011025" side_tool="true" weight="0.28066528" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.25129804" />
@@ -952,7 +961,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Rest of the work on the Traffic Lab" />
     <MESSAGE value="Classwork from March 25, 2019" />
     <MESSAGE value="Classwork from March 26, 2019" />
     <MESSAGE value="Classwork from March 28, 2019" />
@@ -977,20 +985,14 @@
     <MESSAGE value="Add SFX for in-game actions" />
     <MESSAGE value="Comment a bit more" />
     <MESSAGE value="More work on lab. Boss is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="More work on lab. Boss is added." />
+    <MESSAGE value="Replace runnable with lambda expression" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace runnable with lambda expression" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity8  Starter Code/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Elevens Lab/Activity Starter Code/Activity8  Starter Code/ElevensBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1184,13 +1186,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Final Project/Sword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Final Project/Emerald.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1291,16 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Final Project/TODO.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="267">
-            <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Graphical Formulas Lab/FormulasGraphics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1325,22 +1310,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Final Project/NPC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="72" column="124" selection-start-line="72" selection-start-column="124" selection-end-line="72" selection-end-column="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#NPC#0;class#NPC#0" />
-            <element signature="method#removeFirstItem#0;class#NPC#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Final Project/Stage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        <state relative-caret-position="303">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Stage#0;class#Stage#0" />
@@ -1353,34 +1326,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Final Project/LizardKing.java">
+    <entry file="file://$PROJECT_DIR$/Labs/Final Project/NPC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        <state relative-caret-position="507">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#NPC#0;class#NPC#0" />
+            <element signature="method#removeFirstItem#0;class#NPC#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Final Project/Sword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Final Project/TODO.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="267">
+            <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Final Project/LizardKing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#coordsWithin#0;class#LizardKing#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="2293" column="23" selection-start-line="2293" selection-start-column="23" selection-end-line="2293" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Final Project/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+        <state relative-caret-position="547">
+          <caret line="264" column="19" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="19" />
           <folding>
             <element signature="method#playSound#0;class#Screen#0" />
-            <element signature="e#1596#2251#1" />
-            <element signature="e#2459#2831#1" />
-            <element signature="e#2816#3091#1" />
-            <element signature="e#3591#4426#1" />
-            <element signature="e#4515#5117#1" />
-            <element signature="e#4998#5451#1" />
+            <element signature="e#2442#2814#1" />
+            <element signature="e#2897#3172#1" />
+            <element signature="e#3574#4443#1" />
+            <element signature="e#4486#4939#1" />
+            <element signature="e#4986#5443#1" />
+            <element signature="e#5686#6502#0" />
             <element signature="method#drawHelpMenu#0;class#Screen#0" />
             <element signature="method#drawPlayer#0;class#Screen#0" />
-            <element signature="e#5837#6814#1" />
-            <element signature="e#6858#7133#1" />
-            <element signature="e#8198#9213#1" />
-            <element signature="e#11767#12374#1" />
             <element signature="method#keyTyped#0;class#Screen#0" />
           </folding>
         </state>
