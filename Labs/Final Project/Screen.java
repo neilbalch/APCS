@@ -39,7 +39,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
             Clip clip = AudioSystem.getClip();
             clip.open(AudioSystem.getAudioInputStream(this.getClass().getClassLoader().getResource(url)));
             clip.start();
-            //System.out.println("playing... " + url);
+//            System.out.println("playing... " + url);
         } catch (Exception exc) {
             exc.printStackTrace(System.out);
         }
@@ -310,7 +310,10 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                 break;
             case 69:    // E key
                 Item transferToInventory = map[currentStage.x][currentStage.y].interactWithItems(playerPosition);
-                if(transferToInventory != null) inventory.add(transferToInventory);
+                if(transferToInventory != null) {
+                    inventory.add(transferToInventory);
+                    playSound("itemPickedUp.wav");
+                }
                 else { // If there were no item interactions, then interact with the NPC
                     for(int i = 0; i < map[currentStage.x][currentStage.y].npcs.size(); i++) {
                         if(map[currentStage.x][currentStage.y].npcs.get(i).isInteractedWith()) {
