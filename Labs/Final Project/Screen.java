@@ -28,7 +28,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
     private int currentQuest;
     private Thread bossAnimator;
     private boolean fadingToBlack;
-    private int blackTransparancy;
+    private int blackTransparency;
 
     // Quest status vars
     private boolean npcTalkedTo;
@@ -72,7 +72,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         inventory = new ArrayList<Item>();
         selectedInventoryItem = 0;
         fadingToBlack = true;
-        blackTransparancy = 0;
+        blackTransparency = 0;
 
         // Set up quests
         {
@@ -257,11 +257,11 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         }
 
         if(currentQuest == 3 && fadingToBlack) {
-            g.setColor(new Color(0, 0, 0, blackTransparancy));
+            g.setColor(new Color(0, 0, 0, blackTransparency));
             g.fillRect(0, 0, 800, 600);
 
-            blackTransparancy++;
-            if(blackTransparancy > 255) fadingToBlack = false;
+            blackTransparency++;
+            if(blackTransparency > 255) fadingToBlack = false;
             repaint();
         }
 
