@@ -176,6 +176,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         g.drawString("\"Spacebar\": Interact with NPC or portal", 75, 340);
         g.drawString("\"e\": Pick up item, from NPC or the ground", 75, 380);
         g.drawString("\"Nums 1-7\": Select item in inventory", 75, 420);
+        g.drawString("\"d\": Drop selected item back onto the map", 75, 460);
     }
     private void drawPlayer(Graphics g, Point playerPosition) {
         // Draw Body
@@ -328,6 +329,11 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
                     }
 
                 }
+                break;
+            case 68: // D key
+                Item temp = inventory.remove(selectedInventoryItem);
+                temp.position = new Point(playerPosition.x - 30, playerPosition.y - 30);
+                map[currentStage.x][currentStage.y].addItem(temp);
                 break;
         }
 
