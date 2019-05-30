@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Completed the final project">
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Raise volume of item SFX and correct sound playback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/Final Project/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="-135">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding>
                 <element signature="method#playSound#0;class#Screen#0" />
                 <element signature="method#Screen#0;class#Screen#0" />
@@ -185,22 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Labs/Traffic Lab" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,7 +208,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Labs/Traffic Lab" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,21 +449,8 @@
       <workItem from="1557876688655" duration="32546000" />
       <workItem from="1558584567090" duration="12762000" />
       <workItem from="1559028412336" duration="3799000" />
-      <workItem from="1559064503163" duration="3158000" />
-    </task>
-    <task id="LOCAL-00082" summary="First stuffs from Blackjack Lab v2">
-      <created>1548956748940</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1548956748940</updated>
-    </task>
-    <task id="LOCAL-00083" summary="Classwork from February 5, 2019">
-      <created>1549386304930</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1549386304934</updated>
+      <workItem from="1559064503163" duration="3864000" />
+      <workItem from="1559172657115" duration="627000" />
     </task>
     <task id="LOCAL-00084" summary="More stuffs from Blackjack Lab v2">
       <created>1549440833438</created>
@@ -794,7 +781,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559059211431</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Correct spelling error">
+      <created>1559171874494</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1559171874495</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Raise volume of item SFX and correct sound playback">
+      <created>1559172529095</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1559172529095</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -809,7 +810,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="493346000" />
+    <option name="totallyTimeSpent" value="494679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,9 +823,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1582139" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15986769" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -933,8 +933,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Classwork from March 26, 2019" />
-    <MESSAGE value="Classwork from March 28, 2019" />
     <MESSAGE value="Classwork from March 28, 2019: &quot;Lab&quot; files" />
     <MESSAGE value="Classwork from March 29, 2019: &quot;Lab&quot; files and terminado&#10;&#10;&quot;You leave me no choice, Jonathan, but to declare you Excomunicado.&quot; -- Winston 2017" />
     <MESSAGE value="Classwork from April 2, 2019, refactored to fit with new quarter" />
@@ -958,7 +956,9 @@
     <MESSAGE value="More work on lab. Boss is added." />
     <MESSAGE value="Replace runnable with lambda expression" />
     <MESSAGE value="Completed the final project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the final project" />
+    <MESSAGE value="Correct spelling error" />
+    <MESSAGE value="Raise volume of item SFX and correct sound playback" />
+    <option name="LAST_COMMIT_MESSAGE" value="Raise volume of item SFX and correct sound playback" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1306,6 +1306,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Final Project/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="method#playSound#0;class#Screen#0" />
+            <element signature="method#Screen#0;class#Screen#0" />
+            <element signature="method#drawHelpMenu#0;class#Screen#0" />
+            <element signature="method#drawPlayer#0;class#Screen#0" />
+            <element signature="method#keyTyped#0;class#Screen#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/Final Project/LizardKing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1341,20 +1355,6 @@
             <element signature="method#interactWithNPCs#0;class#Stage#0" />
             <element signature="method#interactWithItems#0;class#Stage#0" />
             <element signature="method#portalEntered#0;class#Stage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Final Project/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="method#playSound#0;class#Screen#0" />
-            <element signature="method#Screen#0;class#Screen#0" />
-            <element signature="method#drawHelpMenu#0;class#Screen#0" />
-            <element signature="method#drawPlayer#0;class#Screen#0" />
-            <element signature="method#keyTyped#0;class#Screen#0" />
           </folding>
         </state>
       </provider>

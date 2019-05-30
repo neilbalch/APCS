@@ -273,6 +273,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener {
         // Don't accept any actions while the game is loading in and ended
         if(opacity > 0 && currentQuest == 3) return;
 
+        // Deal with keyboard actions
         switch(e.getKeyCode()) {
             case 37:    // Left Arrow
                 playerPosition.setLocation(playerPosition.getX() - moveMagnitude, playerPosition.getY());
