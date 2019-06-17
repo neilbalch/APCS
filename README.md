@@ -11,6 +11,7 @@ This is the source code from the 2018-19 Mountain View High School AP Computer S
   - `extensions.json`: Local repo extensions list
   - `launch.json`: Local repo debugger configurations
   - `settings.json`: Local repo settings for vscode
+- `Exams`: Source code from in-class exams and quizzes (*with dates*)
 - `Labs`/`LAB NAME`: In-class labs
 - [`Q1/Q2/Q3/Q4`]/`[MM][DD][YYYY]`: Class lessons with Java files inside
 - `APCS.code-workspace`: vscode workspace for this repo
