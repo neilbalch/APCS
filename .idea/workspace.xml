@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Add testing report to folder" />
+    <list default="true" id="f1d4e8f1-331d-46e5-a70f-1b747b4d80b4" name="Default" comment="Add testing report to folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,6 +123,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Labs/Traffic Lab" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -133,22 +151,6 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="APCS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Traffic Lab" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Labs/Traffic Lab" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -382,6 +384,7 @@
       <workItem from="1559064503163" duration="3864000" />
       <workItem from="1559172657115" duration="627000" />
       <workItem from="1559228846849" duration="4758000" />
+      <workItem from="1561942467632" duration="797000" />
     </task>
     <task id="LOCAL-00088" summary="Classwork from February 15, 2019">
       <created>1550641436153</created>
@@ -741,7 +744,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="499437000" />
+    <option name="totallyTimeSpent" value="500234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -755,7 +758,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1615215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1631753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
